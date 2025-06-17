@@ -1,0 +1,87 @@
+{
+  "03": {
+    "label": "Plaza",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/01.png",
+    "floors": ["3"]
+  },
+  "04": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "05": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "06": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "07": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "08": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "09": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "10": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "11": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "12": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "14": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "15": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "16": {
+    "label": "residences",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/02.png",
+    "floors": ["4", "5", "6", "7", "8", "9", "10", "11", "12", "14", "15", "16"]
+  },
+  "17": {
+    "label": "Estate Homes",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/03.png",
+    "floors": ["16", "17", "18", "19"]
+  },
+  "18": {
+    "label": "Estate Homes",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/03.png",
+    "floors": ["16", "17", "18", "19"]
+  },
+  "19": {
+    "label": "Estate Homes",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/03.png",
+    "floors": ["16", "17", "18", "19"]
+  },
+  "20": {
+    "label": "Penthouses",
+    "image": "/assets/ritz-carlton-sarasota-bay/floorplates/03.png",
+    "floors": ["20"]
+  }
+}

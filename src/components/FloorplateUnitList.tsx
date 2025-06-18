@@ -28,7 +28,7 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
             {/* Header */}
             <div className="border-b border-gray-100 pb-2">
               <h3 className="font-bold text-lg text-gray-900">
-                {unit.Residence || 'Unit Information'}
+                {unit.residence || 'Unit Information'}
               </h3>
               {unit.unit && (
                 <p className="text-sm text-gray-600">Unit {unit.unit}</p>
@@ -107,7 +107,7 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
             <div className="mt-4">
               <img
                 src={getSafeImageSrc(unit.floorplan_thumbnail)}
-                alt={`Floorplan for ${unit.Residence} Unit ${unit.unit}`}
+                alt={`Floorplan for ${unit.roundedesidence} Unit ${unit.unit}`}
                 className="w-full h-32 object-contain rounded border border-gray-200"
                 onError={(e) => (e.currentTarget.src = '/placeholder.svg')}
               />

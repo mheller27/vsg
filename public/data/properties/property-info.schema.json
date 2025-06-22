@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "property_name": { "type": "string" },
+        "profile_image": { "type": "string" },
+        "developer": { "type": "string" },
+        "property_video": { "type": "string" },
+        "estimated_completion_date": { "type": "string" },
+        "imageFolders": { "type": "array", "items": { "type": "string" } },
+        "has_floorplate_viewer": { "type": "boolean" },
+        "property_details": { "type": "array", "items": { "type": "string" } },
+        "amenity_details": { "type": "array", "items": { "type": "string" } },
+        "developer_details": { "type": "array", "items": { "type": "string" } },
+        "architect_details": { "type": "array", "items": { "type": "string" } },
+        "builder_details": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["property_name"]
+    },
+    "floorOptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "value": { "type": "string" }
+        },
+        "required": ["label", "value"]
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "unit_id": { "type": "string" },
+          "Residence": { "type": "string" },
+          "residence": { "type": "string" },
+          "type": { "type": "string" },
+          "unit": { "type": ["string", "number"] },
+          "beds": { "type": "number" },
+          "baths": { "type": "number" },
+          "den": { "type": ["boolean", "string"] },
+          "bonus_room": { "type": ["boolean", "string"] },
+          "interior_sqft": { "type": ["number", "string"] },
+          "exterior_sqft": { "type": ["number", "string"] },
+          "total_sqft": { "type": ["number", "string"] },
+          "availability": { "type": "string" },
+          "price": { "type": "string" },
+          "floorplan_pdf": { "type": "string" },
+          "photos": { "type": ["array", "null"], "items": { "type": "string" } },
+          "video": { "type": ["string", "null"] },
+          "floorplan_thumbnail": { "type": "string" }
+        },
+        "required": ["unit_id"]
+      }
+    }
+  },
+  "required": ["metadata", "floorOptions", "units"]
+} 

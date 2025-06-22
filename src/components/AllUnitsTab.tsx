@@ -99,7 +99,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
             <div className="space-y-3">
               {/* Header */}
               <div className="border-b border-gray-100 pb-2">
-                <h3 className="font-bold text-lg text-gray-900">{unit.Residence || 'Unit Information'}</h3>
+                <h3 className="font-bold text-lg text-gray-900">{unit.residence || 'Unit Information'}</h3>
                 {unit.unit && <p className="text-sm text-gray-600">Unit {unit.unit}</p>}
               </div>
 
@@ -162,7 +162,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
               <div className="mt-4">
                 <img
                   src={unit.floorplan_thumbnail}
-                  alt={`Floorplan for ${unit.Residence} Unit ${unit.unit}`}
+                  alt={`Floorplan for ${unit.residence} Unit ${unit.unit}`}
                   className="w-full h-32 object-contain rounded border border-gray-200"
                 />
               </div>

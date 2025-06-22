@@ -101,7 +101,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
             <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900">
-              {unit.Residence || 'Unit Information'}
+              {unit.residence || 'Unit Information'}
             </h1>
             {unit.unit && (
               <span className="text-base md:text-lg text-gray-600">
@@ -191,9 +191,11 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
             <div className="bg-gray-50 rounded-lg border border-gray-200">
               {unit.floorplan_pdf ? (
                 <iframe
-                  src={unit.floorplan_pdf}
-                  title={`Floorplan for ${unit.Residence} Unit ${unit.unit}`}
+                  src={`${unit.floorplan_pdf}#toolbar=1&navpanes=0`}
+                  title={`Floorplan for ${unit.residence} Unit ${unit.unit}`}
                   className="w-full min-h-[90vh] border-0"
+                  onLoad={() => console.log(`PDF loaded successfully for ${unit.residence} Unit ${unit.unit}`)}
+                  onError={(e) => console.error(`PDF failed to load for ${unit.residence} Unit ${unit.unit}:`, e)}
                 />
               ) : (
                 <div className="h-96 flex items-center justify-center">
@@ -217,7 +219,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
                     <div key={index} className="relative group">
                       <img
                         src={imagePath}
-                        alt={`${unit.Residence} Unit ${unit.unit} - Photo ${index + 1}`}
+                        alt={`${unit.residence} Unit ${unit.unit} - Photo ${index + 1}`}
                         className="w-full h-64 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;
@@ -249,7 +251,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
           <div className="relative w-full" style={{ paddingBottom: '56.25%', height: 0 }}>
             <iframe
               src={`https://www.youtube.com/embed/${youtubeId}`}
-              title={`Video Tour for ${unit.Residence} Unit ${unit.unit}`}
+              title={`Video Tour for ${unit.residence} Unit ${unit.unit}`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

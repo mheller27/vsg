@@ -22,7 +22,7 @@ const UnitHoverCard: React.FC<UnitHoverCardProps> = ({ unit, x, y, hoverCardRef,
         {/* Header */}
         <div className="border-b border-gray-100 pb-2">
           <h3 className="font-bold text-lg text-gray-900">
-            {unit.Residence || 'Unit Information'}
+            {unit.residence || 'Unit Information'}
           </h3>
           {unit.unit && (
             <p className="text-sm text-gray-600">Unit {unit.unit}</p>
@@ -99,7 +99,7 @@ const UnitHoverCard: React.FC<UnitHoverCardProps> = ({ unit, x, y, hoverCardRef,
               <div className="text-xs text-gray-500 mb-2">Floorplan</div>
               <img
                 src={getSafeImageSrc(unit.floorplan_thumbnail)}
-                alt={`Floorplan for ${unit.Residence || 'Residence'} Unit ${unit.unit || ''}`}
+                alt={`Floorplan for ${unit.residence || 'Residence'} Unit ${unit.unit || ''}`}
                 className="w-full max-h-32 object-contain rounded border border-gray-200"
                 onError={(e) => (e.currentTarget.src = '/placeholder.svg')}
               />

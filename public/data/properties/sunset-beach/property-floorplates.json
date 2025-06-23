@@ -1,0 +1,17 @@
+{
+  "02": {
+    "label": "residences",
+    "image": "/assets/sunset-beach/floorplates/01.png",
+    "floors": ["2"]
+  },
+  "03": {
+    "label": "residences", 
+    "image": "/assets/sunset-beach/floorplates/02.png",
+    "floors": ["3"]
+  },
+  "04": {
+    "label": "penthouses",
+    "image": "/assets/sunset-beach/floorplates/03.png",
+    "floors": ["4"]
+  }
+}

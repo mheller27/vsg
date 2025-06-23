@@ -1,0 +1,358 @@
+{
+    "metadata": {
+      "property_name": "Sunset Beach Siesta Key",
+      "profile_image": "/assets/sunset-beach/profile/01.jpg",
+      "developer": "CASTO Group and David Lehrman",
+      "property_video": null,
+      "estimated_completion_date": "2026-04-01",
+      "imageFolders": [
+        "building",
+        "amenities",
+        "residences"
+      ],
+      "has_floorplate_viewer": true,
+      "property_details": [
+        "Introducing Sunset Beach, Siesta Key\u2019s premier boutique condominium offering refined beachfront living with endless Gulf views. This exclusive collection of 11 residences will feature flow-through, open-concept floor plans and expansive walls of glass. The generous terraces and thoughtfully designed great room will provide plenty of areas for gathering, dining with family, entertaining your guests or simply relaxing alone to recharge or read a book. Experience the epitome of waterfront luxury, sophistication, and style, surrounded by nature\u2019s unmatched dazzling beauty. Nestled within a quintessential Siesta Key neighborhood, Sunset Beach will offer the ultimate experience of tropical modern luxury. The property offers an expanse of one hundred and seventy five (175) linear feet of pristine private shoreline on the Gulf of Mexico, Eleven uniquely designed homes by world-renowned architecture firm MHK, Integrated native-inspired landscaping and gardens by DWJA Landscape Architects, Four stories on two and a half Gulf front acres, Secured residential lobby with direct private elevator entry to each residence. Floorplans include three bedrooms plus study residences, ranging from 3780 to 5310 square feet"
+      ],
+      "amenity_details": [
+        "An expanse of one hundred and seventy five (175) linear feet of pristine white quartz sand beach; Beachfront swimming pool, spa, cabanas, and fire pit; Beach amenities including lounge chairs, umbrellas, kayaks, paddle boards, and bikes; State-of-the-art fitness center; Beach front grilling area; Private on-site storage units"
+      ],
+      "developer_details": [
+        "Sunset Beach is being developed through a unique partnership between CASTO Development and local real estate developer David Lehrman. For nearly 100 years, CASTO has been successfully developing and managing commercial, mixed-use and residential real estate focused in Florida, the Carolinas and Ohio. David Lehrman, with over 25 years of experience in luxury real estate development, brings to the partnership his extensive knowledge of the local luxury real estate market and unparalleled experience developing and marketing elite condominium residences on Siesta Key\u2019s stunning beachfront including Ten35 Seaside, Halcyon Siesta Key and the Hyatt Residences on Siesta Key Beach."
+      ],
+      "architect_details": [
+        "MHK ARCHITECTURE was founded in2009 in SWFL by Matthew Kragh. Starting with a simple vision of architectural excellence, the firm has grown into a collaborative of one hundred-plus design professionals, with offices nation-wide, creating some of the most desired architectural works throughout the US and Caribbean. Specializing in the design of single-family and multi-family residential, hospitality, commercial projects, mixed-use developments, and master planned communities, MHK has grown its reputation in the design and construction industry by our commitment to excellent work and desire to exceed clients\u2019 expectations."
+      ],
+      "designer_details": [
+        "Inside-Eye Design is a full-service interior design firm assisting clients with a wide range of challenges including, selection of architectural details and finishes, collaborating with architects and builders, decorating a functional beautiful space with furniture, fabrics, accessories, and creating custom pieces tailor-made for your living space. We specialize in Luxury Vacation Rentals and Private Residential. Heavily influenced by the natural beauty of the Florida Suncoast, Inside-Eye Design was built on the emphasis of quality over quantity and creating spaces that are both innovative and timeless while remaining whole-heartedly home. The brand was founded in 2000 by Founder and Principal designer, Jenifer Dufresne."
+      ],
+      "builder_details": []
+    },
+    "floorOptions": [
+      {
+        "label": "Floor 2",
+        "value": "02"
+      },
+      {
+        "label": "Floor 3",
+        "value": "03"
+      },
+      {
+        "label": "Floor 4",
+        "value": "04"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "sunset-beach__floor-02__residence-001",
+        "residence": "Residence 1",
+        "type": "condo",
+        "unit": 201,
+        "beds": 3,
+        "baths": 4,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3348,
+        "exterior_sqft": 432,
+        "total_sqft": 3780,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg,/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg,/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg,/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg,/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg,/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg,/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg,/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg,/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-02__residence-002",
+        "residence": "Residence 2",
+        "type": "condo",
+        "unit": 202,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3550,
+        "exterior_sqft": 308,
+        "total_sqft": 3858,
+        "availability": "Available",
+        "price": "$7,200,000",
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-02__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-02__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-02__residence-003",
+        "residence": "Residence 3",
+        "type": "condo",
+        "unit": 203,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3627,
+        "exterior_sqft": 485,
+        "total_sqft": 4112,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-02__residence-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-02__residence-003/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-02__residence-004",
+        "residence": "Residence 4",
+        "type": "condo",
+        "unit": 204,
+        "beds": 3,
+        "baths": 4,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 4154,
+        "exterior_sqft": 359,
+        "total_sqft": 4513,
+        "availability": "Available",
+        "price": "$5,900,000",
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-02__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-02__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-03__residence-001",
+        "residence": "Residence 1",
+        "type": "condo",
+        "unit": 301,
+        "beds": 3,
+        "baths": 4,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3348,
+        "exterior_sqft": 432,
+        "total_sqft": 3780,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-03__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-03__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-03__residence-002",
+        "residence": "Residence 2",
+        "type": "condo",
+        "unit": 302,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3550,
+        "exterior_sqft": 308,
+        "total_sqft": 3858,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-03__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-03__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-03__residence-003",
+        "residence": "Residence 3",
+        "type": "condo",
+        "unit": 303,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3627,
+        "exterior_sqft": 485,
+        "total_sqft": 4112,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-03__residence-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-03__residence-003/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-03__residence-004",
+        "residence": "Residence 4",
+        "type": "condo",
+        "unit": 304,
+        "beds": 3,
+        "baths": 4,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 4154,
+        "exterior_sqft": 359,
+        "total_sqft": 4513,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-03__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-03__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-04__penthouse-001",
+        "residence": "Penthouse 1",
+        "type": "condo",
+        "unit": 401,
+        "beds": 3,
+        "baths": 4,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3982,
+        "exterior_sqft": 1103,
+        "total_sqft": 4464,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-04__penthouse-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-04__penthouse-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-04__penthouse-002",
+        "residence": "Penthouse 2",
+        "type": "condo",
+        "unit": 402,
+        "beds": 3,
+        "baths": 4,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 4510,
+        "exterior_sqft": 859,
+        "total_sqft": 5369,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-04__penthouse-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-04__penthouse-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "sunset-beach__floor-04__penthouse-003",
+        "residence": "Penthouse 3",
+        "type": "condo",
+        "unit": 403,
+        "beds": 3,
+        "baths": 4,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3623,
+        "exterior_sqft": 1179,
+        "total_sqft": 4802,
+        "availability": "Available",
+        "price": "Available",
+        "floorplan_pdf": "/assets/sunset-beach/units/sunset-beach__floor-04__penthouse-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/01.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/02.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/03.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/04.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/05.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/06.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/07.jpg",
+          "/assets/sunset-beach/units/sunset-beach__floor-02__residence-001/gallery/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/sunset-beach/units/sunset-beach__floor-04__penthouse-003/floorplan/floorplan-thumbnail.jpg"
+      }
+    ]
+  }

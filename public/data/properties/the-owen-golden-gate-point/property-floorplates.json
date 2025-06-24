@@ -1,0 +1,43 @@
+{
+    "03": {
+      "label": "residences",
+      "image": "/assets/the-owen-golden-gate-point/floorplates/01.png",
+      "floors": ["3"]
+    },
+    "04": {
+      "label": "residences", 
+      "image": "/assets/the-owen-golden-gate-point/floorplates/02.png",
+      "floors": ["4"]
+    },
+    "05": {
+      "label": "residences",
+      "image": "/assets/the-owen-golden-gate-point/floorplates/02.png",
+      "floors": ["5"]
+    },
+    "06": {
+      "label": "residences",
+      "image": "/assets/the-owen-golden-gate-point/floorplates/02.png",
+      "floors": ["6"]
+    },
+    "07": {
+      "label": "residences",
+      "image": "/assets/the-owen-golden-gate-point/floorplates/02.png",
+      "floors": ["7"]
+    },
+    "08": {
+      "label": "residences",
+      "image": "/assets/the-owen-golden-gate-point/floorplates/02.png",
+      "floors": ["8"]
+    },
+    "09": {
+      "label": "residences",
+      "image": "/assets/the-owen-golden-gate-point/floorplates/02.png",
+      "floors": ["9"]
+    },
+    "10": {
+      "label": "residences",
+      "image": "/assets/the-owen-golden-gate-point/floorplates/02.png",
+      "floors": ["10"]
+    }
+  }
+  

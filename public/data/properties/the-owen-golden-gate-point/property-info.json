@@ -1,0 +1,730 @@
+{
+    "metadata": {
+      "property_name": "The Owen Golden Gate Point",
+      "profile_image": "/assets/the-owen-golden-gate-point/profile/01.jpg",
+      "developer": "The Ronto Group",
+      "property_video": null,
+      "estimated_completion_date": "2027-05-31",
+      "imageFolders": [
+        "building",
+        "amenities",
+        "residences"
+      ],
+      "has_floorplate_viewer": true,
+      "property_details": [
+        "An intimate gated community of just 29 residences, The Owen is nestled along the southern point of downtown\u2019s Golden Gate Point. This spectacular residence is located on the amenity level with an expansive 1,260 S.F. outdoor living space that\u2019s hot tub ready for your private use. Interior finishes include a private elevator entry, 10-foot ceilings per plan, Sub-Zero refrigerator, Wolf five-burner gas cooktop, Wolf wall ovens, quartz countertops, Rohl fixtures, contemporary cabinetry, an oversized island, porcelain tile flooring and a built-in outdoor gas grill. Distinctive resort-style spaces are designed for wellness and leisure, including a 1,700 S.F. fitness center with Technogym equipment, dual locker rooms, steam and sauna, owners' social room, conference/work-from-home suites, game room with pool table, shuffleboard, ping pong table, large screen TV, self-serving outdoor bar and grill area, infinity-edge saltwater pool, spa, and cozy fire pit. A walking path encircling the property and a dog park area are the perfect places for you and your furry friend to get a daily run. The two-story grand entry lobby features relaxing spaces, reception desk with concierge, and separate mail and package rooms. Two parking spaces, one with an outlet for an EV charger are included, along with owner storage and bike storage. Easy access to the restaurants, boutiques, and galleries of downtown, St. Armands Circle, and the beaches of Lido and Longboat Keys, personalized homeowner services, and the security of all new construction make life at The Owen carefree and convenient."
+      ],
+      "amenity_details": [
+        "Grand two-story lobby, Reception desk with concierge, Separate mail and package rooms, 24/7 secured access gated community, Semi-private elevators with controlled access, Spacious terrace with built-in stainless steel gas grill and wall hood, Two parking spaces per residence \u2013 one space pre-wired for 40amp power (charger not included), Bicycle / private storage, Saltwater Pool with Infinity Edge, Hot Tub, Fire Pit, Grill Area, Private Deck, Social Room, Games Room, WFH Rooms, Board / Conference Room, Women\u2019s Locker & Facilities, Men\u2019s Locker & Facilities, Steam Room, Sauna, Fitness Area, Managers\u2019 Office, Fenced Dog Park, Park with Meandering Walking Path, Access Controlled Gated Community, Trellis covered guest parking with universal car charger. "
+      ],
+      "developer_details": [
+        "Since 1967, The Ronto Group has been perfecting their skills in real estate development through the creation of residential and commercial projects worldwide. For over thirty years, Ronto has been developing in the Southwest Florida market, creating communities that celebrate the area\u2019s irresistible appeal, from Marco Island to Tampa. The Company has built a solid reputation for imaginative vision, steadfast integrity, and reliable performance. Headquartered in Naples, Ronto\u2019s expertise in condominium and land development has been recognized internationally for communities that are lasting examples of the luxury lifestyle, thoughtful planning, and dedicated craftsmanship."
+      ],
+      "architect_details": [
+        "MHK Architecture & Planning was founded in 2009 by Matthew Kragh, AIA.  The driving principles behind MHK are character, reputation, talent, and hard work.  Strongly committed to excellence, and a desire to exceed client expectations, MHK has created a great amount of respect in the design and construction industry."
+      ],
+      "builder_details": [
+        "National builders, Connor & Gaskins Unlimited has completed a variety of projects in over 40 states. Known for their expertise in project management and disciplined processes, over 90% of their clients use them time and time again because of the quality of workmanship and large team of skilled sub-contractors. The CGU portfolio is expansive. Completed projects include hotels & resorts, condominiums, mixed-use multi-family and retail projects, travel centers, medical & office buildings, as well as restaurants & clubhouses. CGU\u2019s most relevant projects include Ronto\u2019s 24-story Altura Bayshore condominium in Tampa and complete renovation of the Ritz Carlton Hotel, Sarasota."
+      ],
+      "designer_details": []
+    },
+    "floorOptions": [
+      {
+        "label": "Floor 3",
+        "value": "03"
+      },
+      {
+        "label": "Floor 4",
+        "value": "04"
+      },
+      {
+        "label": "Floor 5",
+        "value": "05"
+      },
+      {
+        "label": "Floor 6",
+        "value": "06"
+      },
+      {
+        "label": "Floor 7",
+        "value": "07"
+      },
+      {
+        "label": "Floor 8",
+        "value": "08"
+      },
+      {
+        "label": "Floor 9",
+        "value": "09"
+      },
+      {
+        "label": "Floor 10",
+        "value": "10"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-03__residence-001",
+        "residence": "Residence 301",
+        "type": "condo",
+        "unit": 301,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2560,
+        "exterior_sqft": 1260,
+        "total_sqft": 3820,
+        "availability": "Available",
+        "price": "$2,740,000",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-03__residence-001/floorplan/floorplan.pdf",
+        "photos": null,
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-03__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-04__residence-001",
+        "residence": "Residence 1",
+        "type": "condo",
+        "unit": 401,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2557,
+        "exterior_sqft": 198,
+        "total_sqft": 2755,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-04__residence-002",
+        "residence": "Residence 2",
+        "type": "condo",
+        "unit": 402,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2263,
+        "exterior_sqft": 191,
+        "total_sqft": 2454,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-04__residence-003",
+        "residence": "Residence 3",
+        "type": "condo",
+        "unit": 403,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3065,
+        "exterior_sqft": 252,
+        "total_sqft": 3317,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-04__residence-004",
+        "residence": "Residence 4",
+        "type": "condo",
+        "unit": 404,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 2709,
+        "exterior_sqft": 196,
+        "total_sqft": 2905,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-05__residence-001",
+        "residence": "Residence 1",
+        "type": "condo",
+        "unit": 501,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2557,
+        "exterior_sqft": 198,
+        "total_sqft": 2755,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-05__residence-002",
+        "residence": "Residence 2",
+        "type": "condo",
+        "unit": 502,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2263,
+        "exterior_sqft": 191,
+        "total_sqft": 2454,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-05__residence-003",
+        "residence": "Residence 3",
+        "type": "condo",
+        "unit": 503,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3065,
+        "exterior_sqft": 252,
+        "total_sqft": 3317,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-05__residence-004",
+        "residence": "Residence 4",
+        "type": "condo",
+        "unit": 504,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 2709,
+        "exterior_sqft": 196,
+        "total_sqft": 2905,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-06__residence-001",
+        "residence": "Residence 1",
+        "type": "condo",
+        "unit": 601,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2557,
+        "exterior_sqft": 198,
+        "total_sqft": 2755,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/04.jpg"
+        ],      
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-06__residence-002",
+        "residence": "Residence 2",
+        "type": "condo",
+        "unit": 602,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2263,
+        "exterior_sqft": 191,
+        "total_sqft": 2454,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-06__residence-003",
+        "residence": "Residence 3",
+        "type": "condo",
+        "unit": 603,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3065,
+        "exterior_sqft": 252,
+        "total_sqft": 3317,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-06__residence-004",
+        "residence": "Residence 4",
+        "type": "condo",
+        "unit": 604,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 2709,
+        "exterior_sqft": 196,
+        "total_sqft": 2905,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-07__residence-001",
+        "residence": "Residence 1",
+        "type": "condo",
+        "unit": 701,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2557,
+        "exterior_sqft": 198,
+        "total_sqft": 2755,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-07__residence-002",
+        "residence": "Residence 2",
+        "type": "condo",
+        "unit": 702,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2263,
+        "exterior_sqft": 191,
+        "total_sqft": 2454,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-07__residence-003",
+        "residence": "Residence 3",
+        "type": "condo",
+        "unit": 703,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3065,
+        "exterior_sqft": 252,
+        "total_sqft": 3317,
+        "availability": "Available",
+        "price": "$3,965,000",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-07__residence-004",
+        "residence": "Residence 4",
+        "type": "condo",
+        "unit": 704,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 2709,
+        "exterior_sqft": 196,
+        "total_sqft": 2905,
+        "availability": "Available",
+        "price": "$3,495,000",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-08__residence-001",
+        "residence": "Residence 1",
+        "type": "condo",
+        "unit": 801,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2557,
+        "exterior_sqft": 198,
+        "total_sqft": 2755,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-08__residence-002",
+        "residence": "Residence 2",
+        "type": "condo",
+        "unit": 802,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2263,
+        "exterior_sqft": 191,
+        "total_sqft": 2454,
+        "availability": "Available",
+        "price": "$3,155,000",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-08__residence-003",
+        "residence": "Residence 3",
+        "type": "condo",
+        "unit": 803,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3065,
+        "exterior_sqft": 252,
+        "total_sqft": 3317,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-08__residence-004",
+        "residence": "Residence 4",
+        "type": "condo",
+        "unit": 804,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 2709,
+        "exterior_sqft": 196,
+        "total_sqft": 2905,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-09__residence-001",
+        "residence": "Residence 1",
+        "type": "condo",
+        "unit": 901,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2557,
+        "exterior_sqft": 198,
+        "total_sqft": 2755,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-09__residence-002",
+        "residence": "Residence 2",
+        "type": "condo",
+        "unit": 902,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2263,
+        "exterior_sqft": 191,
+        "total_sqft": 2454,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-09__residence-003",
+        "residence": "Residence 3",
+        "type": "condo",
+        "unit": 903,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3065,
+        "exterior_sqft": 252,
+        "total_sqft": 3317,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-09__residence-004",
+        "residence": "Residence 4",
+        "type": "condo",
+        "unit": 904,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 2709,
+        "exterior_sqft": 196,
+        "total_sqft": 2905,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-10__residence-001",
+        "residence": "Residence 1",
+        "type": "condo",
+        "unit": 1001,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2557,
+        "exterior_sqft": 198,
+        "total_sqft": 2755,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-10__residence-002",
+        "residence": "Residence 2",
+        "type": "condo",
+        "unit": 1002,
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2263,
+        "exterior_sqft": 191,
+        "total_sqft": 2454,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-10__residence-003",
+        "residence": "Residence 3",
+        "type": "condo",
+        "unit": 1003,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 3065,
+        "exterior_sqft": 252,
+        "total_sqft": 3317,
+        "availability": "Available",
+        "price": "Contact us for price",
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/02.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/03.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/gallery/04.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "the-owen-golden-gate-point__floor-10__residence-004",
+        "residence": "Residence 4",
+        "type": "condo",
+        "unit": 1004,
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 2709,
+        "exterior_sqft": 196,
+        "total_sqft": 2905,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/01.jpg",
+          "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/gallery/02.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/the-owen-golden-gate-point/units/the-owen-golden-gate-point__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      }
+    ]
+  }

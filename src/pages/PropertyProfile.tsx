@@ -75,7 +75,7 @@ const PropertyProfile = () => {
   const availableBedroomCounts = useMemo(() => {
   const counts = new Set<number>();
   unitData.forEach(unit => {
-    if (unit.availability === "Available" && typeof unit.beds === "number") {
+    if ((unit.availability === "Available" || unit.availability === "TBD") && typeof unit.beds === "number") {
       counts.add(unit.beds);
     }
   });
@@ -83,18 +83,20 @@ const PropertyProfile = () => {
 }, [unitData]);
 
   useEffect(() => {
-    const availableUnits = unitData.filter(unit => unit.availability === "Available");
-  
+    const availableUnits = unitData.filter(unit => 
+      unit.availability === "Available" || unit.availability === "TBD"
+    );
+
     const bedroomFiltered = selectedBedrooms !== null
       ? availableUnits.filter(unit => unit.beds === selectedBedrooms)
       : availableUnits;
-  
+
     const priceFiltered = selectedPriceStatus === 'listed'
       ? bedroomFiltered.filter(unit => unit.price && unit.price.startsWith('$'))
       : selectedPriceStatus === 'unreleased'
-      ? bedroomFiltered.filter(unit => unit.price === 'Contact us for price')
+      ? bedroomFiltered.filter(unit => unit.price === 'Contact us for price' || unit.price === 'Project on Hold')
       : bedroomFiltered;
-  
+
     setFilteredUnits(priceFiltered);
   }, [unitData, selectedBedrooms, selectedPriceStatus]);
 
@@ -113,6 +115,8 @@ const PropertyProfile = () => {
   const fetchPropertyData = async () => {
     try {
       const basePath = `/data/properties/${slug}`;
+      console.log('🔍 Fetching property data for slug:', slug);
+      console.log('🔍 Base path:', basePath);
 
       const [infoRes, floorplateRes, svgRes] = await Promise.all([
         fetch(`${basePath}/property-info.json`),
@@ -120,16 +124,31 @@ const PropertyProfile = () => {
         fetch(`${basePath}/property-svg.json`)
       ]);
 
-    
+      console.log('📊 Response statuses:', {
+        info: infoRes.status,
+        floorplate: floorplateRes.status,
+        svg: svgRes.status
+      });
 
       if (!infoRes.ok || !floorplateRes.ok || !svgRes.ok) {
-        console.error("One or more property data files failed to load.");
+        console.error("❌ One or more property data files failed to load.");
+        console.error("Info response:", infoRes.status, infoRes.statusText);
+        console.error("Floorplate response:", floorplateRes.status, floorplateRes.statusText);
+        console.error("SVG response:", svgRes.status, svgRes.statusText);
         return;
       }
 
       const infoJson = await infoRes.json();
       const floorplateJson = await floorplateRes.json();
       const svgJson = await svgRes.json();
+
+      console.log('✅ Successfully loaded property data:', {
+        hasMetadata: !!infoJson.metadata,
+        hasUnits: !!infoJson.units,
+        unitsCount: infoJson.units?.length,
+        hasFloorplates: !!floorplateJson,
+        hasSVG: !!svgJson
+      });
 
       setPropertyData(infoJson || {});
       setPropertyMetadata(infoJson.metadata || {});
@@ -260,7 +279,9 @@ const getSqftRange = (units: Unit[]) => {
 
   if (!unit.price || unit.price === 'null') return 'unit-grey';
   if (unit.price === 'Contact us for price') return 'unit-blue';
-  if (unit.price.startsWith('$')) return 'unit-green';
+  if (unit.price === 'Project on Hold') return 'unit-grey';
+  if (unit.price === 'TBD') return 'unit-blue';
+  if (unit.price.startsWith('$')) return 'unit-blue';
 
   return 'unit-grey';
 };
@@ -508,6 +529,7 @@ const getFloorplanImage = (floor: string) => {
                   { title: "Developer Details", items: propertyMetadata.developer_details },
                   { title: "Architect Details", items: propertyMetadata.architect_details },
                   { title: "Builder Details", items: propertyMetadata.builder_details },
+                  { title: "Designer Details", items: propertyMetadata.designer_details },
                 ].map(({ title, items }) => (
                   <div key={title}>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{title}</h3>

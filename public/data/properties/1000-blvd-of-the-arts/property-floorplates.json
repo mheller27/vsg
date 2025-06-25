@@ -1,0 +1,82 @@
+{
+    "04": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/01.png",
+      "floors": ["4", "6", "7", "8", "9", "10", "11", "12", "14"]
+    },
+    "05": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/02.png",
+      "floors": ["5"]
+    },
+    "06": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/01.png",
+      "floors": ["4", "6", "7", "8", "9", "10", "11", "12", "14"]
+    },
+    "07": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/01.png",
+      "floors": ["4", "6", "7", "8", "9", "10", "11", "12", "14"]
+    },
+    "08": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/01.png",
+      "floors": ["4", "6", "7", "8", "9", "10", "11", "12", "14"]
+    },
+    "09": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/01.png",
+      "floors": ["4", "6", "7", "8", "9", "10", "11", "12", "14"]
+    },
+    "10": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/01.png",
+      "floors": ["4", "6", "7", "8", "9", "10", "11", "12", "14"]
+    },
+    "11": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/01.png",
+      "floors": ["4", "6", "7", "8", "9", "10", "11", "12", "14"]
+    },
+    "12": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/01.png",
+      "floors": ["4", "6", "7", "8", "9", "10", "11", "12", "14"]
+    },
+    "14": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/01.png",
+      "floors": ["4", "6", "7", "8", "9", "10", "11", "12", "14"]
+    },
+    "15": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/03.png",
+      "floors": ["15"]
+    },
+    "16": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/04.png",
+      "floors": ["16", "17"]
+    },
+    "17": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/04.png",
+      "floors": ["16", "17"]
+    },
+    "18": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/05.png",
+      "floors": ["18", "19", "20"]
+    },
+    "19": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/05.png",
+      "floors": ["18", "19", "20"]
+    },
+    "20": {
+      "label": "residences",
+      "image": "/assets/1000-blvd-of-the-arts/floorplates/05.png",
+      "floors": ["18", "19", "20"]
+    }
+  }

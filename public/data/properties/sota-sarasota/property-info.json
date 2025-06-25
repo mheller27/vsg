@@ -1,0 +1,867 @@
+{
+  "metadata": {
+    "property_name": "Sota Sarasota",
+    "profile_image": "/assets/sota-sarasota/profile/01.jpg",
+    "developer": "Trepp Developments and Alexander Goshen",
+    "property_video": null,
+    "estimated_completion_date": "TBD",
+    "imageFolders": [
+        "building", 
+        "amenities", 
+        "residences", 
+        "views"
+    ],
+    "has_floorplate_viewer": true,
+    "property_details": [
+      "Modern tropical sophistication meets curated urban living in a limited collection of stylish new residences above HOTEL SOTA. With stunning interiors by the award-winning Andre Kikoski, luxurious resort-style amenities, and personalized services, this is next-level downtown living in the art and culture of Sarasota. Living above HOTEL SOTA, you may slip down to the 5th floor amenity level to enjoy the local flavors and artisan cocktails of the spectacular urban tropical restaurant and bar or luxuriate by the resort-style pool in a soft bay breeze. You may call down for in-residence dining, ask the valet to bring your car around, or host guests on the rooftop Sunset Terrace in style.Stylishly scaled to modern urban life, living at the SOTA Residences means a curated collection of sophisticated amenities are effortlessly downstairs, and all the tropical beauty and cultural immersion of Main Street and downtown Sarasota are steps outside your door."
+    ],
+    "amenity_details": [
+      "Private residential lobby with mailboxes and package room, Front Desk manned six days per week (Monday – Saturday), Access to HOTEL SOTA services, Concierge services, Private residential elevators with controlled access, One assigned parking space for every residence plus valet parking, Two assigned parking spaces for penthouse residences, Private Residents' Social Lounge and Sunset Terrace on the 16th floor, Access to all HOTEL SOTA amenities including restaurant and lounge, pool, fitness center and in-home dining services, Private residents' only massage treatment room, Personal charging privileges at HOTEL SOTA food and dining outlets, Preferred residents' rate for HOTEL SOTA room and event spaces, 24-hour valet service for residents"
+    ],
+    "developer_details": [
+      "Rodrigo Trepp Birnbaum leads the Trepp Developments team with a profound passion for luxury living and a visionary international flair. Known for his decades of achievement in creating unparalleled luxury condominium residences, hotels and retail environments in Bolivia, Rodrigo brings his artisan excellence and worldly sensibilities to capture the tropical beauty and cultural sophistication of downtown Sarasota in an unexpected expression of modern urban living. As Founder and CEO of Alexander Goshen and the co-developer for the SOTA Hotel & Residences project, Miles Alexander III brings over 25 years of experience in real estate development, public-private partnerships, luxury, and workforce housing finullce. Known for his visionary approach and commitment to community-centered development, Miles has successfully led the planning, finullcing, and execution of mixed-use, residential, and commercial real estate projects throughout the Southeast. Through Alexander Goshen, Miles oversees a growing portfolio exceeding $350 million in assets, including hotels, multifamily housing, and large-scale urban revitalization initiatives. His deep understanding of capital structuring, entitlement processes, and public sector collaboration has made Alexander Goshen a trusted partner for municipalities and private investors alike. In addition to his development work, Miles is a respected thought leader, speaker, and advocate for equitable development. His mission is to build transformational spaces that blend luxury, lifestyle, and long-term value for both investors and communities."
+    ],
+    "architect_details": [
+      "The Hoyt Architects team integrates multiple design approaches, with architecture, visualization, creative and tech development all under one roof, to design spaces that connect to their distinctive surroundings. The studio employs an immersive design process of interactive models that helps the team make more informed design decisions and respond seamlessly to a wide range of criteria, feedback and design aesthetics. Hoyt Architects founding Principal Gary Hoyt and managing partner Chris Gallagher each have more than 30 years' experience in the industry, continually inspired by their Sarasota community having helped define the city skyline for decades."
+    ],
+    "builder_details": [
+      "Founded in 1998, KAST Construction has built many of the Sarasota area's most respected condominium addresses. The firm is headquartered in West Palm Beach and has developed billions of dollars in completed projects including over 8,192 multifamily units, 4,782 condominium residences and 8,500 hotel keys. KAST leverages unequalled experience, expertise and resources in providing a full complement of services including design-build, pre-construction and construction services."
+    ],
+    "designer_details": [
+      "SOTA embodies the compelling interior design sensibilities of international firm Andre Kikoski Architect, adding to a portfolio recognized with more than 70 worldwide design awards for its cultural, residential, hospitality and retail projects. A frequent lecturer around the world, founder and Principal Andre Kikoski, AIA received his Master's degree in Architecture at Harvard University. Grounded by enduring architectural principles and driven by innovation, the firm's mission is to create transformative design for clients including The Guggenheim Museum, The Related Companies and The Kohler Companies."
+    ]
+  },
+  "floorOptions": [
+    {
+      "label": "Floor 11",
+      "value": "11"
+    },
+    {
+      "label": "Floor 12",
+      "value": "12"
+    },
+    {
+      "label": "Floor 14",
+      "value": "14"
+    },
+    {
+      "label": "Floor 15",
+      "value": "15"
+    },
+    {
+      "label": "Floor 16",
+      "value": "16"
+    },
+    {
+      "label": "Floor 17",
+      "value": "17"
+    }
+  ],
+  "units": [
+    {
+      "unit_id": "sota-sarasota__floor-11__residence-001",
+      "residence": "Residence 01",
+      "type": "condo",
+      "unit": 1101,
+      "beds": 2,
+      "baths": 3.5,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2508,
+      "exterior_sqft": 189,
+      "total_sqft": 2697,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ],
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-11__residence-002",
+      "residence": "Residence 02",
+      "type": "condo",
+      "unit": 1102,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2173,
+      "exterior_sqft": 189,
+      "total_sqft": 2362,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan.pdf",
+       "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-11__residence-003",
+      "residence": "Residence 03",
+      "type": "condo",
+      "unit": 1103,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2160,
+      "exterior_sqft": 144,
+      "total_sqft": 2304,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ],
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-11__residence-004",
+      "residence": "Residence 04",
+      "type": "condo",
+      "unit": 1104,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2292,
+      "exterior_sqft": 144,
+      "total_sqft": 2436,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-11__residence-005",
+      "residence": "Residence 05",
+      "type": "condo",
+      "unit": 1105,
+      "beds": 2,
+      "baths": 2.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 1708,
+      "exterior_sqft": 135,
+      "total_sqft": 1843,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-11__residence-006",
+      "residence": "Residence 06",
+      "type": "condo",
+      "unit": 1106,
+      "beds": 2,
+      "baths": 3,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2144,
+      "exterior_sqft": 180,
+      "total_sqft": 2324,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-12__residence-001",
+      "residence": "Residence 01",
+      "type": "condo",
+      "unit": 1201,
+      "beds": 2,
+      "baths": 3.5,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2508,
+      "exterior_sqft": 189,
+      "total_sqft": 2697,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-12__residence-002",
+      "residence": "Residence 02",
+      "type": "condo",
+      "unit": 1202,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2173,
+      "exterior_sqft": 189,
+      "total_sqft": 2362,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-12__residence-003",
+      "residence": "Residence 03",
+      "type": "condo",
+      "unit": 1203,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2160,
+      "exterior_sqft": 144,
+      "total_sqft": 2304,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-12__residence-004",
+      "residence": "Residence 04",
+      "type": "condo",
+      "unit": 1204,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2292,
+      "exterior_sqft": 144,
+      "total_sqft": 2436,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-12__residence-005",
+      "residence": "Residence 05",
+      "type": "condo",
+      "unit": 1205,
+      "beds": 2,
+      "baths": 2.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 1708,
+      "exterior_sqft": 135,
+      "total_sqft": 1843,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-12__residence-006",
+      "residence": "Residence 06",
+      "type": "condo",
+      "unit": 1206,
+      "beds": 2,
+      "baths": 3,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2144,
+      "exterior_sqft": 180,
+      "total_sqft": 2324,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-14__residence-001",
+      "residence": "Residence 01",
+      "type": "condo",
+      "unit": 1401,
+      "beds": 2,
+      "baths": 3.5,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2508,
+      "exterior_sqft": 189,
+      "total_sqft": 2697,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-14__residence-002",
+      "residence": "Residence 02",
+      "type": "condo",
+      "unit": 1402,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2173,
+      "exterior_sqft": 189,
+      "total_sqft": 2362,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-14__residence-003",
+      "residence": "Residence 03",
+      "type": "condo",
+      "unit": 1403,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2160,
+      "exterior_sqft": 144,
+      "total_sqft": 2304,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-14__residence-004",
+      "residence": "Residence 04",
+      "type": "condo",
+      "unit": 1404,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2292,
+      "exterior_sqft": 144,
+      "total_sqft": 2436,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-14__residence-005",
+      "residence": "Residence 05",
+      "type": "condo",
+      "unit": 1405,
+      "beds": 2,
+      "baths": 2.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 1708,
+      "exterior_sqft": 135,
+      "total_sqft": 1843,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-14__residence-006",
+      "residence": "Residence 06",
+      "type": "condo",
+      "unit": 1406,
+      "beds": 2,
+      "baths": 3,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2144,
+      "exterior_sqft": 180,
+      "total_sqft": 2324,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-15__residence-001",
+      "residence": "Residence 01",
+      "type": "condo",
+      "unit": 1501,
+      "beds": 2,
+      "baths": 3.5,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2508,
+      "exterior_sqft": 189,
+      "total_sqft": 2697,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-15__residence-002",
+      "residence": "Residence 02",
+      "type": "condo",
+      "unit": 1502,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2173,
+      "exterior_sqft": 189,
+      "total_sqft": 2362,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-15__residence-003",
+      "residence": "Residence 03",
+      "type": "condo",
+      "unit": 1503,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2160,
+      "exterior_sqft": 144,
+      "total_sqft": 2304,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-15__residence-004",
+      "residence": "Residence 04",
+      "type": "condo",
+      "unit": 1504,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2292,
+      "exterior_sqft": 144,
+      "total_sqft": 2436,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-15__residence-005",
+      "residence": "Residence 05",
+      "type": "condo",
+      "unit": 1505,
+      "beds": 2,
+      "baths": 2.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 1708,
+      "exterior_sqft": 135,
+      "total_sqft": 1843,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-15__residence-006",
+      "residence": "Residence 06",
+      "type": "condo",
+      "unit": 1506,
+      "beds": 2,
+      "baths": 3,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2144,
+      "exterior_sqft": 180,
+      "total_sqft": 2324,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-16__residence-001",
+      "residence": "Residence 01",
+      "type": "condo",
+      "unit": 1601,
+      "beds": 2,
+      "baths": 3.5,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2508,
+      "exterior_sqft": 189,
+      "total_sqft": 2697,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-16__residence-002",
+      "residence": "Residence 02",
+      "type": "condo",
+      "unit": 1602,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2173,
+      "exterior_sqft": 189,
+      "total_sqft": 2362,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-002/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-16__residence-003",
+      "residence": "Residence 03",
+      "type": "condo",
+      "unit": 1603,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2160,
+      "exterior_sqft": 144,
+      "total_sqft": 2304,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-003/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-16__residence-004",
+      "residence": "Residence 04",
+      "type": "condo",
+      "unit": 1604,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2292,
+      "exterior_sqft": 144,
+      "total_sqft": 2436,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-004/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-16__residence-005",
+      "residence": "Residence 05",
+      "type": "condo",
+      "unit": 1605,
+      "beds": 2,
+      "baths": 2.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 1708,
+      "exterior_sqft": 135,
+      "total_sqft": 1843,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-005/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-16__residence-006",
+      "residence": "Residence 06",
+      "type": "condo",
+      "unit": 1606,
+      "beds": 2,
+      "baths": 3,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2144,
+      "exterior_sqft": 180,
+      "total_sqft": 2324,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-006/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-17__penthouse-001",
+      "residence": "Penthouse 01",
+      "type": "condo",
+      "unit": 1701,
+      "beds": 2,
+      "baths": 3.5,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2679,
+      "exterior_sqft": 189,
+      "total_sqft": 2868,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-001/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-001/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-17__penthouse-002",
+      "residence": "Penthouse 02",
+      "type": "condo",
+      "unit": 1702,
+      "beds": 3,
+      "baths": 4.0,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2875,
+      "exterior_sqft": 189,
+      "total_sqft": 3064,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-002/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-002/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-17__penthouse-003",
+      "residence": "Penthouse 03",
+      "type": "condo",
+      "unit": 1703,
+      "beds": 3,
+      "baths": 3.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 2408,
+      "exterior_sqft": 145,
+      "total_sqft": 2553,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-003/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-003/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-17__penthouse-004",
+      "residence": "Penthouse 04",
+      "type": "condo",
+      "unit": 1704,
+      "beds": 2,
+      "baths": 2.5,
+      "den": false,
+      "bonus_room": false,
+      "interior_sqft": 1708,
+      "exterior_sqft": 135,
+      "total_sqft": 1843,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-004/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-004/floorplan/floorplan-thumbnail.jpg"
+    },
+    {
+      "unit_id": "sota-sarasota__floor-17__penthouse-005",
+      "residence": "Penthouse 05",
+      "type": "condo",
+      "unit": 1705,
+      "beds": 2,
+      "baths": 3,
+      "den": true,
+      "bonus_room": false,
+      "interior_sqft": 2144,
+      "exterior_sqft": 180,
+      "total_sqft": 2324,
+      "availability": "TBD",
+      "price": "Project on Hold",
+      "floorplan_pdf": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-005/floorplan/floorplan.pdf",
+      "photos": [
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/01.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/02.jpg", 
+        "/assets/sota-sarasota/units/sota-sarasota__floor-11__residence-001/gallery/03.jpg"
+    ], 
+      "video": null,
+      "floorplan_thumbnail": "/assets/sota-sarasota/units/sota-sarasota__floor-17__penthouse-005/floorplan/floorplan-thumbnail.jpg"
+    }
+  ]
+}

@@ -26,7 +26,7 @@ export const locationDetails: Record<string, { price: string; bedrooms: string; 
     bedrooms: '3 Bedrooms',
     sqft: '2,263 - 3,065 SqFt'
   },
-  '6': { // Sota, Sarasota
+  '6': { // Sota Sarasota
     price: '$1.825M - $4.195M',
     bedrooms: '2 - 3 Bedrooms',
     sqft: '1,708 - 2,408 SqFt'
@@ -80,6 +80,11 @@ export const locationDetails: Record<string, { price: string; bedrooms: string; 
     price: '$2.4M - $2.99M',
     bedrooms: '4 - 5 Bedrooms',
     sqft: '2,556 - 3,360 SqFt'
+  },
+  '18': { // 1000 Blvd of the Arts
+    price: '$1.5M - $4M',
+    bedrooms: '1 - 3 Bedrooms',
+    sqft: '1,285 - 3,105 SqFt'
   }
 };
 
@@ -158,7 +163,7 @@ export const locations: EnhancedLocation[] = [
   },
   {
     id: '6',
-    name: 'Sota, Sarasota',
+    name: 'Sota Sarasota',
     coordinates: [-82.535955, 27.336876],
     description: 'Contemporary living in Sarasota',
     imageUrls: [
@@ -308,6 +313,20 @@ export const locations: EnhancedLocation[] = [
       '/lovable-uploads/08cb2b5b-9a13-405a-8a0d-fbbe0e6605e8.png',
       '/lovable-uploads/864f2040-4824-4a59-a431-723eab5dc335.png',
       '/lovable-uploads/ebec2a65-c5cb-4cbc-a93c-46a250b42a28.png'
+    ]
+  },
+  {
+    id: '18',
+    name: '1000 Blvd of the Arts',
+    coordinates: [-82.54876587116479, 27.341117133759138],
+    description: 'Modern luxury residences and hotel',
+    imageUrls: [
+      '/lovable-uploads/1000arts_exterior.jpg',
+      '/lovable-uploads/1000arts_private-resident-lobby.jpg',
+      '/lovable-uploads/1000arts_casual-news-cafe.jpg',
+      '/lovable-uploads/1000arts_fitness-center.jpg',
+      '/lovable-uploads/1000arts_splash-lounge.jpg',
+      '/lovable-uploads/1000arts_the-hub-cowork-space.jpg'
     ]
   }
 ];

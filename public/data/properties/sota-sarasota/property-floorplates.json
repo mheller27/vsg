@@ -1,0 +1,32 @@
+{
+    "11": {
+      "label": "residences",
+      "image": "/assets/sota-sarasota/floorplates/01.png",
+      "floors": ["11", "12", "14", "15", "16"]
+    },
+    "12": {
+      "label": "residences",
+      "image": "/assets/sota-sarasota/floorplates/01.png",
+      "floors": ["11", "12", "14", "15", "16"]
+    },
+    "14": {
+      "label": "residences",
+      "image": "/assets/sota-sarasota/floorplates/01.png",
+      "floors": ["11", "12", "14", "15", "16"]
+    },
+    "15": {
+      "label": "residences",
+      "image": "/assets/sota-sarasota/floorplates/01.png",
+      "floors": ["11", "12", "14", "15", "16"]
+    },
+    "16": {
+      "label": "residences",
+      "image": "/assets/sota-sarasota/floorplates/01.png",
+      "floors": ["11", "12", "14", "15", "16"]
+    },
+    "17": {
+      "label": "residences",
+      "image": "/assets/sota-sarasota/floorplates/02.png",
+      "floors": ["17"]
+    }
+  } 

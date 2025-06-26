@@ -1,0 +1,150 @@
+{
+    "metadata": {
+      "property_name": "Azure Siesta Key",
+      "profile_image": "/assets/azure-siesta-key/profile/01.jpg",
+      "developer": "TC Group",
+      "property_video": "https://www.youtube.com/watch?v=Mm0h9RZyY9c",
+      "estimated_completion_date": "2025-10-31",
+      "imageFolders": [
+        "building",
+        "amenities",
+        "residences"
+      ],
+      "has_floorplate_viewer": true,
+      "property_details": [
+        "A boutique collection of only three condominium residences nestled along a private road, AZURE Siesta Key sets the standard for modern coastal living. A seamless blend of luxury and comfort with state of the art architectural elements and interior design. Crafted with the highest quality materials and designer finishes throughout. Your panoramic views of paradise awaits. Life at AZURE is living without compromise. Located in the heart of a vibrant beach community, close in proximity to dining, shopping, and numerous entertainment options. Less than two miles from Siesta Key Village and steps away from the white sugary sands of Siesta Key Beach."
+      ],
+      "amenity_details": [
+        "1st level pool for units 200 and 300; Private Pool and rooftop for unit 400; shared 1st level with a lobby, private garages, and private lanai space for each unit. "
+      ],
+      "developer_details": [
+        "TC Group is a full service real estate brokerage, contracting and development company located in Sarasota, on Florida's southwest coast. Since 1990, we\u2019ve initiated, brokered, built, developed, managed and consulted on over 250 million dollars of real estate, development and building projects."
+      ],
+      "architect_details": [],
+      "builder_details": [],
+      "designer_details": []
+    },
+    "floorOptions": [
+      {
+        "label": "Floor 2",
+        "value": "02"
+      },
+      {
+        "label": "Floor 3",
+        "value": "03"
+      },
+      {
+        "label": "Floor 4",
+        "value": "04"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "azure-siesta-key__floor-02__Unit-200",
+        "residence": "Unit 200",
+        "type": "condo",
+        "unit": 200,
+        "beds": 4,
+        "baths": 4.0,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2332,
+        "exterior_sqft": 2030,
+        "total_sqft": 4362,
+        "availability": "Available",
+        "price": "$3,200,000",
+        "floorplan_pdf": "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/01.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/02.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/03.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/04.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/05.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/06.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/07.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/08.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/09.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/10.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/11.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/12.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/gallery/13.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/azure-siesta-key/units/azure-siesta-key__floor-02__Unit-200/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "azure-siesta-key__floor-03__Unit-300",
+        "residence": "Unit 300",
+        "type": "condo",
+        "unit": 300,
+        "beds": 4,
+        "baths": 4.0,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2332,
+        "exterior_sqft": 1849,
+        "total_sqft": 4181,
+        "availability": "Available",
+        "price": "$3,200,000",
+        "floorplan_pdf": "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/01.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/02.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/03.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/04.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/05.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/06.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/07.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/08.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/09.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/10.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/11.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/12.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/gallery/13.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/azure-siesta-key/units/azure-siesta-key__floor-03__Unit-300/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "azure-siesta-key__floor-04__Unit-400",
+        "residence": "Unit 400",
+        "type": "condo",
+        "unit": 400,
+        "beds": 5,
+        "baths": 6.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 4042,
+        "exterior_sqft": 2935,
+        "total_sqft": 6977,
+        "availability": "Available",
+        "price": "$6,200,000",
+        "floorplan_pdf": "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/01.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/02.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/03.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/04.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/05.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/06.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/07.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/08.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/09.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/10.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/11.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/12.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/13.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/14.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/15.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/16.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/17.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/18.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/19.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/20.jpg",
+          "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/gallery/21.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/azure-siesta-key/units/azure-siesta-key__floor-04__Unit-400/floorplan/floorplan-thumbnail.jpg"
+      }
+    ]
+  }

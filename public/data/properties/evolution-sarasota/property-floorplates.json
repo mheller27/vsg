@@ -1,0 +1,42 @@
+{
+    "01": {
+      "label": "residences",
+      "image": "/assets/evolution-sarasota/floorplates/01.png",
+      "floors": ["1"]
+    },
+    "02": {
+      "label": "residences",
+      "image": "/assets/evolution-sarasota/floorplates/02.png",
+      "floors": ["2", "3", "4", "5"]
+    },
+    "03": {
+      "label": "residences",
+      "image": "/assets/evolution-sarasota/floorplates/02.png",
+      "floors": ["2", "3", "4", "5"]
+    },
+    "04": {
+      "label": "residences",
+      "image": "/assets/evolution-sarasota/floorplates/02.png",
+      "floors": ["2", "3", "4", "5"]
+    },
+    "05": {
+      "label": "residences",
+      "image": "/assets/evolution-sarasota/floorplates/02.png",
+      "floors": ["2", "3", "4", "5"]
+    },
+    "06": {
+      "label": "penthouses",
+      "image": "/assets/evolution-sarasota/floorplates/03.png",
+      "floors": ["6", "7", "8"]
+    },
+    "07": {
+      "label": "penthouses",
+      "image": "/assets/evolution-sarasota/floorplates/03.png",
+      "floors": ["6", "7", "8"]
+    },
+    "08": {
+      "label": "penthouses",
+      "image": "/assets/evolution-sarasota/floorplates/03.png",
+      "floors": ["6", "7", "8"]
+    }
+  }

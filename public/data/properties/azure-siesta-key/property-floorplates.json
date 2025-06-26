@@ -1,0 +1,17 @@
+{
+    "02": {
+      "label": "residences",
+      "image": "/assets/azure-siesta-key/floorplates/01.png",
+      "floors": ["2"]
+    },
+    "03": {
+      "label": "residences",
+      "image": "/assets/azure-siesta-key/floorplates/02.png",
+      "floors": ["3"]
+    },
+    "04": {
+      "label": "residences",
+      "image": "/assets/azure-siesta-key/floorplates/03.png",
+      "floors": ["4"]
+    }
+}

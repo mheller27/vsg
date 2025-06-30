@@ -1,0 +1,7 @@
+{
+    "01": {
+      "label": "residences",
+      "image": "/assets/orange-one/floorplates/01.png",
+      "floors": ["1"]
+    }
+}

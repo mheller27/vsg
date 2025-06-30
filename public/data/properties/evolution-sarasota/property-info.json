@@ -12,7 +12,7 @@
       ],
       "has_floorplate_viewer": true,
       "property_details": [
-        "A boutique collection of only three condominium residences nestled along a private road, AZURE Siesta Key sets the standard for modern coastal living. A seamless blend of luxury and comfort with state of the art architectural elements and interior design. Crafted with the highest quality materials and designer finishes throughout. Your panoramic views of paradise awaits. Life at AZURE is living without compromise. Located in the heart of a vibrant beach community, close in proximity to dining, shopping, and numerous entertainment options. Less than two miles from Siesta Key Village and steps away from the white sugary sands of Siesta Key Beach."
+        "Welcome to The Evolution, Sarasota\u2019s premier new condominium on Golden Gate Point. Offering breathtaking views of Sarasota Bay, The Evolution blends modern sophistication with the charm of one of Sarasota’s most prestigious neighborhoods. With construction completed, these move-in-ready residences present an unparalleled living experience. Your dream home is waiting. Only a handful remain of the 20 exclusive residences, each thoughtfully designed to provide expansive living spaces, breathtaking views, and an unmatched lifestyle experience. The residences at The Evolution combine contemporary design and thoughtful craftsmanship, offering 3- to 5-bedroom floor plans. Spacious and light-filled, each home features floor-to-ceiling windows framing the beauty of Sarasota Bay. Indulge in a gourmet kitchen with sleek European cabinetry, Sub-Zero and Wolf appliances, and quartz waterfall islands. The primary bedroom serves as a retreat, complete with two walk-in closets, a luxurious standalone bathtub, and a private balcony. The Evolution is redefining new condos on Golden Gate Point."
       ],
       "amenity_details": [
         "At The Evolution, every amenity is designed to enhance your lifestyle. Whether you\u2019re taking in the stunning rooftop views of Sarasota Bay, relaxing by the private pool, or enjoying the elegant lounges, you\u2019ll experience luxury and ease in every corner. The Evolution offers a perfect blend of style and function, with spaces for relaxation, entertainment, and wellness. Here, modern comforts meet timeless elegance, creating a seamless living experience. Each amenity is crafted to inspire, offering both quiet retreats and vibrant social spaces, making The Evolution a place where life truly thrives. The rooftop lounge at The Evolution offers panoramic views of Sarasota Bay and the iconic Ringling Bridge, perfect for taking in unforgettable sunsets. Designed for both relaxation and entertainment, the space features a Bose sound system, cozy outdoor fireplace, and plush lounge seating. A soothing spa invites you to unwind under the stars, making the rooftop ideal for everything from hosting a sunset gathering to enjoying a peaceful evening alone. It\u2019s a luxurious escape that blends comfort with stunning natural beauty. The outdoor pool at The Evolution offers a serene retreat for residents, blending luxury with relaxation. Surrounded by lush landscaping, the pool area invites you to unwind, swim laps, or simply bask in the sun on the comfortable lounge chairs. Whether you\u2019re cooling off after a long day or enjoying a quiet morning swim, this resort-style pool adds a refreshing touch to your everyday living. For fitness enthusiasts, the state-of-the-art yoga studio offers a dedicated space to practice mindfulness and movement. Equipped with everything needed for both yoga and meditation, the studio provides a calm, serene environment to nurture both body and mind. Whether you\u2019re a seasoned yogi or just starting, this space supports your journey to wellness. The Evolution ensures that even your four-legged family members are pampered. The pet grooming studio offers convenience for keeping pets clean and well-cared for, while the outdoor dog park provides space for them to play and socialize. It\u2019s the perfect amenity for pet owners who value both convenience and community. Each residence at The Evolution includes a spacious, private 2-car garage, providing both security and convenience for homeowners. Designed with thoughtful consideration, these exclusive garages ensure easy access and ample storage. Whether for daily use or seasonal stays, our private garages offer peace of mind and add a layer of luxury to your everyday routine."
@@ -406,7 +406,7 @@
         "unit": 602,
         "beds": 5,
         "baths": 5.5,
-        "den": false,
+        "den": true,
         "bonus_room": false,
         "interior_sqft": 3527,
         "exterior_sqft": 562,
@@ -508,10 +508,10 @@
         "total_sqft": 4022,
         "availability": "Sold",
         "price": null,
-        "floorplan_pdf": "/assets/evolution-sarasota/units/evolution-sarasota__floor-08__penthouse-001/floorplan/floorplan.pdf",
+        "floorplan_pdf": "/assets/evolution-sarasota/units/evolution-sarasota__floor-06__penthouse-001/floorplan/floorplan.pdf",
         "photos": null,
         "video": null,
-        "floorplan_thumbnail": "/assets/evolution-sarasota/units/evolution-sarasota__floor-08__penthouse-001/floorplan/floorplan-thumbnail.jpg"
+        "floorplan_thumbnail": "/assets/evolution-sarasota/units/evolution-sarasota__floor-06__penthouse-001/floorplan/floorplan-thumbnail.jpg"
       },
       {
         "unit_id": "evolution-sarasota__floor-08__penthouse-002",

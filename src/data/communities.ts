@@ -41,7 +41,7 @@ export const locationDetails: Record<string, { price: string; bedrooms: string; 
     bedrooms: '2 - 3 Bedrooms',
     sqft: '3,272 - 3,532 SqFt'
   },
-  '9': { // Peninsula, Sarasota
+  '9': { // Peninsula Sarasota
     price: '$4.5M - $6.9M',
     bedrooms: '3 Bedrooms',
     sqft: '2,400 - 3,068 SqFt'
@@ -205,7 +205,7 @@ export const locations: EnhancedLocation[] = [
   },
   {
     id: '9',
-    name: 'Peninsula, Sarasota',
+    name: 'Peninsula Sarasota',
     coordinates: [-82.550173, 27.333942],
     description: 'Exclusive waterfront condominiums',
     imageUrls: [

@@ -1,0 +1,316 @@
+{
+    "metadata": {
+      "property_name": "Six88",
+      "profile_image": "/assets/six88/profile/01.jpg",
+      "developer": "Palm One Group",
+      "property_video": null,
+      "estimated_completion_date": "1/31/2026",
+      "imageFolders": [
+        "building",
+        "amenities",
+        "residences",
+        "views"
+      ],
+      "has_floorplate_viewer": true,
+      "property_details": [
+        "SIX88 will stand as an artistic landmark that redefines coastal modernism, leaving an indelible impression on the bayfront community of Golden Gate Point. Perfectly poised to rise 10 stories in a prime waterfront location, this one-of-a-kind design emphasizes the connection to the water and carefree opulent lifestyle of downtown Sarasota. Inspired by the graceful curve of a luxury yacht\u2019s sail and nestled along eighty feet of majestic shoreline in downtown\u2019s most prestigious neighborhood of Golden Gate Point, SIX88 offers a highly coveted Sarasota lifestyle without limitations.  Future residents of SIX88 will enjoy unparalleled access to the Bay and Gulf waters with exceptional walkability to the best destinations the area has to offer."
+      ],
+      "amenity_details": [
+        "Direct bayfront amenities rarely offered in a boutique condominium building will make you feel like you are coming home every day to a private luxury resort. Relaxed, modern, and sophisticated is the thread that runs through all the amenity spaces at SIX88 Sarasota. Designed for both active and relaxed living, residents will relish the boutique resort lifestyle. Your Life is Unique. Your amenities should be, too. As a private member of the SIX88 Social Club, you gain access to a distinguished community of like-minded individuals where shared experiences and upscale amenities create a welcoming space. Additional amenities include a private gym, pool and spa combination, marina, community rooftop terrace and lobby."
+      ],
+      "developer_details": [
+        "Leading the SIX88 Sarasota Team, Palm One Group is a land and real estate development firm specializing in acquiring, developing, marketing, and selling mixed-use and residential properties. Known for excellence through detailed analysis, industry insight, and strong partnerships, our vertically integrated structure ensures value-focused, hands-on management. This approach provides tight asset control, driving value appreciation and compelling returns for investment partners."
+      ],
+      "architect_details": [
+        "Launched in 2001, DSDG Architects has 23 years of experience and is known for its clean, elegant concepts. It has consistently won awards for Design, Sustainability, Renovation, and Interior Design. Principal Architect Mark Sultana, AIA, describes his process as \u201ctransforming words into pictures.\u201d The team listens first, offers creative solutions, and turns wish lists into reality. DSDG Architects is a full-service firm that provides comprehensive documentation from planning to permits. Based in Sarasota, Florida, the firm is proud to be a part of the SIX88 Sarasota Team."
+      ],
+      "builder_details": [
+        "Established in 1987, Voeller Construction is a full-service South Florida-based general contractor focused on a results-centric philosophy.  We have a passion for elevating the business of building to ensure an exceptional experience for all our clients. With over three decades of experience and a solid reputation for reliability and excellence, our SIX88 Sarasota team is dedicated to exceeding expectations through an unrivaled commitment to ensuring that each client\u2019s individual vision is brought to life with precision and care."
+      ],
+      "designer_details": []
+    },
+    "floorOptions": [
+      {
+        "label": "Floor 2",
+        "value": "02"
+      },
+      {
+        "label": "Floor 3",
+        "value": "03"
+      },
+      {
+        "label": "Floor 4",
+        "value": "04"
+      },
+      {
+        "label": "Floor 5",
+        "value": "05"
+      },
+      {
+        "label": "Floor 6",
+        "value": "06"
+      },
+      {
+        "label": "Floor 7",
+        "value": "07"
+      },
+      {
+        "label": "Floor 8",
+        "value": "08"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "six88__floor-02__residence-001",
+        "residence": "Signature Collection 01",
+        "type": "condo",
+        "unit": "201",
+        "beds": 3,
+        "baths": 3.0,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2088,
+        "exterior_sqft": 418,
+        "total_sqft": 2506,
+        "availability": "Available",
+        "price": "$2,988,000",
+        "floorplan_pdf": "/assets/six88/units/six88__floor-02__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/six88/residences/01.jpg",
+          "/assets/six88/residences/02.jpg",
+          "/assets/six88/residences/03.jpg",
+          "/assets/six88/residences/04.jpg",
+          "/assets/six88/residences/05.jpg",
+          "/assets/six88/residences/06.jpg",
+          "/assets/six88/residences/07.jpg",
+          "/assets/six88/residences/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/six88/units/six88__floor-02__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "six88__floor-02__residence-002",
+        "residence": "Signature Collection 02",
+        "type": "condo",
+        "unit": "202",
+        "beds": 2,
+        "baths": 2.0,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 2045,
+        "exterior_sqft": 850,
+        "total_sqft": 2895,
+        "availability": "Available",
+        "price": "$2,988,000",
+        "floorplan_pdf": "/assets/six88/units/six88__floor-02__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/six88/residences/01.jpg",
+          "/assets/six88/residences/02.jpg",
+          "/assets/six88/residences/03.jpg",
+          "/assets/six88/residences/04.jpg",
+          "/assets/six88/residences/05.jpg",
+          "/assets/six88/residences/06.jpg",
+          "/assets/six88/residences/07.jpg",
+          "/assets/six88/residences/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/six88/units/six88__floor-02__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "six88__floor-03__residence-001",
+        "residence": "Signature Collection 01",
+        "type": "condo",
+        "unit": "301",
+        "beds": 3,
+        "baths": 3.0,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2088,
+        "exterior_sqft": 418,
+        "total_sqft": 2506,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/six88/units/six88__floor-02__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/six88/residences/01.jpg",
+          "/assets/six88/residences/02.jpg",
+          "/assets/six88/residences/03.jpg",
+          "/assets/six88/residences/04.jpg",
+          "/assets/six88/residences/05.jpg",
+          "/assets/six88/residences/06.jpg",
+          "/assets/six88/residences/07.jpg",
+          "/assets/six88/residences/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/six88/units/six88__floor-02__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "six88__floor-03__residence-002",
+        "residence": "Signature Collection 02",
+        "type": "condo",
+        "unit": "302",
+        "beds": 2,
+        "baths": 2.0,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 2045,
+        "exterior_sqft": 469,
+        "total_sqft": 2514,
+        "availability": "Available",
+        "price": "$2,988,000",
+        "floorplan_pdf": "/assets/six88/units/six88__floor-03__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/six88/residences/01.jpg",
+          "/assets/six88/residences/02.jpg",
+          "/assets/six88/residences/03.jpg",
+          "/assets/six88/residences/04.jpg",
+          "/assets/six88/residences/05.jpg",
+          "/assets/six88/residences/06.jpg",
+          "/assets/six88/residences/07.jpg",
+          "/assets/six88/residences/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/six88/units/six88__floor-03__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "six88__floor-04__residence-001",
+        "residence": "360 Collection",
+        "type": "condo",
+        "unit": "401",
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 4618,
+        "exterior_sqft": 643,
+        "total_sqft": 5261,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/six88/residences/01.jpg",
+          "/assets/six88/residences/02.jpg",
+          "/assets/six88/residences/03.jpg",
+          "/assets/six88/residences/04.jpg",
+          "/assets/six88/residences/05.jpg",
+          "/assets/six88/residences/06.jpg",
+          "/assets/six88/residences/07.jpg",
+          "/assets/six88/residences/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "six88__floor-05__residence-001",
+        "residence": "360 Collection",
+        "type": "condo",
+        "unit": "501",
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 4618,
+        "exterior_sqft": 643,
+        "total_sqft": 5261,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/six88/residences/01.jpg",
+          "/assets/six88/residences/02.jpg",
+          "/assets/six88/residences/03.jpg",
+          "/assets/six88/residences/04.jpg",
+          "/assets/six88/residences/05.jpg",
+          "/assets/six88/residences/06.jpg",
+          "/assets/six88/residences/07.jpg",
+          "/assets/six88/residences/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "six88__floor-06__residence-001",
+        "residence": "360 Collection",
+        "type": "condo",
+        "unit": "601",
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 4618,
+        "exterior_sqft": 643,
+        "total_sqft": 5261,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/six88/residences/01.jpg",
+          "/assets/six88/residences/02.jpg",
+          "/assets/six88/residences/03.jpg",
+          "/assets/six88/residences/04.jpg",
+          "/assets/six88/residences/05.jpg",
+          "/assets/six88/residences/06.jpg",
+          "/assets/six88/residences/07.jpg",
+          "/assets/six88/residences/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "six88__floor-07__residence-001",
+        "residence": "360 Collection",
+        "type": "condo",
+        "unit": "701",
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 4618,
+        "exterior_sqft": 643,
+        "total_sqft": 5261,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/six88/residences/01.jpg",
+          "/assets/six88/residences/02.jpg",
+          "/assets/six88/residences/03.jpg",
+          "/assets/six88/residences/04.jpg",
+          "/assets/six88/residences/05.jpg",
+          "/assets/six88/residences/06.jpg",
+          "/assets/six88/residences/07.jpg",
+          "/assets/six88/residences/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "six88__floor-08__penthouse-001",
+        "residence": "Penthouse",
+        "type": "Penthouse",
+        "unit": "801",
+        "beds": 3,
+        "baths": 3.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 4618,
+        "exterior_sqft": 2243,
+        "total_sqft": 6861,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/six88/units/six88__floor-08__penthouse-001/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/six88/residences/01.jpg",
+          "/assets/six88/residences/02.jpg",
+          "/assets/six88/residences/03.jpg",
+          "/assets/six88/residences/04.jpg",
+          "/assets/six88/residences/05.jpg",
+          "/assets/six88/residences/06.jpg",
+          "/assets/six88/residences/07.jpg",
+          "/assets/six88/residences/08.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      }
+    ]
+  }

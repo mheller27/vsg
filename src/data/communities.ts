@@ -36,7 +36,7 @@ export const locationDetails: Record<string, { price: string; bedrooms: string; 
     bedrooms: '3 - 4 Bedrooms',
     sqft: '3,350 - 4,952 SqFt'
   },
-  '8': { // The Edge, Sarasota
+  '8': { // The Edge Sarasota
     price: '$2.5M - $4.5M',
     bedrooms: '2 - 3 Bedrooms',
     sqft: '3,272 - 3,532 SqFt'
@@ -71,17 +71,12 @@ export const locationDetails: Record<string, { price: string; bedrooms: string; 
     bedrooms: '3 Bedrooms',
     sqft: '3,550 - 4,154 SqFt'
   },
-  '16': { // Bath and Racquet
-    price: '$779k - $1.29M',
-    bedrooms: '2 - 3 Bedrooms',
-    sqft: '1,325 - 1,745 SqFt'
-  },
-  '17': { // Orange One
+  '16': { // Orange One
     price: '$2.4M - $2.99M',
     bedrooms: '4 - 5 Bedrooms',
     sqft: '2,556 - 3,360 SqFt'
   },
-  '18': { // 1000 Blvd of the Arts
+  '17': { // 1000 Blvd of the Arts
     price: '$1.5M - $4M',
     bedrooms: '1 - 3 Bedrooms',
     sqft: '1,285 - 3,105 SqFt'
@@ -191,7 +186,7 @@ export const locations: EnhancedLocation[] = [
   },
   {
     id: '8',
-    name: 'The Edge, Sarasota',
+    name: 'The Edge Sarasota',
     coordinates: [-82.544538, 27.338902],
     description: 'Modern waterfront living',
     imageUrls: [
@@ -289,20 +284,6 @@ export const locations: EnhancedLocation[] = [
   },
   {
     id: '16',
-    name: 'Bath and Racquet',
-    coordinates: [-82.528320, 27.295067],
-    description: 'Resort-style community',
-    imageUrls: [
-      '/lovable-uploads/e2796d6a-f5b1-4e7e-9697-41319973c76d.png',
-      '/lovable-uploads/2e13118d-ba14-4291-9d42-41767b9f70bd.png',
-      '/lovable-uploads/d73d7b5f-f663-4d06-b9c8-d761d1ba8ca3.png',
-      '/lovable-uploads/bd7a641e-605d-4389-aa4f-235cf896d04d.png',
-      '/lovable-uploads/b2549a71-2d2c-4a0d-88f1-bd8bfe65cf76.png',
-      '/lovable-uploads/6ce96f55-53b6-43e4-9ffd-11e7b91843dd.png'
-    ]
-  },
-  {
-    id: '17',
     name: 'Orange One',
     coordinates: [-82.538325, 27.340146],
     description: 'Contemporary luxury residences',
@@ -316,7 +297,7 @@ export const locations: EnhancedLocation[] = [
     ]
   },
   {
-    id: '18',
+    id: '17',
     name: '1000 Blvd of the Arts',
     coordinates: [-82.54876587116479, 27.341117133759138],
     description: 'Modern luxury residences and hotel',

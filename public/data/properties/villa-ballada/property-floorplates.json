@@ -1,0 +1,22 @@
+{
+    "02": {
+      "label": "residences",
+      "image": "/assets/villa-ballada/floorplates/01.png",
+      "floors": ["2"]
+    },
+    "03": {
+      "label": "residences", 
+      "image": "/assets/villa-ballada/floorplates/02.png",
+      "floors": ["3"]
+    },
+    "04": {
+      "label": "residences",
+      "image": "/assets/villa-ballada/floorplates/03.png",
+      "floors": ["4"]
+    },
+    "05": {
+      "label": "residences",
+      "image": "/assets/villa-ballada/floorplates/04.png",
+      "floors": ["5"]
+    }
+  }

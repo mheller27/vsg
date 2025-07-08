@@ -37,7 +37,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-001",
         "residence": "Residence A1",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A1",
         "beds": 3,
         "baths": 4.5,
@@ -69,7 +69,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-002",
         "residence": "Residence A2",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A2",
         "beds": 3,
         "baths": 4.5,
@@ -101,7 +101,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-003",
         "residence": "Residence A3",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A3",
         "beds": 3,
         "baths": 4.5,
@@ -133,7 +133,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-004",
         "residence": "Residence A4",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A4",
         "beds": 3,
         "baths": 4.5,
@@ -165,7 +165,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-005",
         "residence": "Residence A5",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A5",
         "beds": 3,
         "baths": 4.5,
@@ -197,7 +197,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-006",
         "residence": "Residence A6",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A6",
         "beds": 3,
         "baths": 4.5,
@@ -229,7 +229,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-007",
         "residence": "Residence A7",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A7",
         "beds": 3,
         "baths": 4.5,
@@ -261,7 +261,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-008",
         "residence": "Residence A8",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A8",
         "beds": 3,
         "baths": 4.5,
@@ -293,7 +293,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-009",
         "residence": "Residence A9",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A9",
         "beds": 3,
         "baths": 4.5,
@@ -325,7 +325,7 @@
       {
         "unit_id": "orange-one__floor-01__residence-010",
         "residence": "Residence A10",
-        "type": "condo",
+        "type": "townhouse",
         "unit": "A10",
         "beds": 3,
         "baths": 2.5,

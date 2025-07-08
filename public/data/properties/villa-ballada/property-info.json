@@ -1,0 +1,557 @@
+{
+    "metadata": {
+      "property_name": "Villa Ballada",
+      "profile_image": "/assets/villa-ballada/profile/01.jpg",
+      "developer": "Dunn Hospitality Group",
+      "property_video": null,
+      "estimated_completion_date": "7/30/2025",
+      "imageFolders": [
+        "building",
+        "amenities",
+        "residences"
+      ],
+      "has_floorplate_viewer": true,
+      "property_details": [
+        "Introducing Villa Ballada - the third in our series of extraordinary contemporary architectural designs in the Rosemary District by local award-winning architects, Halflants + Pichette. Villa Ballada follows our first two projects by Dunn Hospitality Group - Zahrada and Zahrada 2, just a half block away. There are 22 residences and two retail units presenting an unbelievable opportunity to choose from 21 different floor plans, each offering its own unique feel, and desirable to many with a lifestyle all on one level.This #302 condominium features four bedrooms and 3.5 baths and includes a west facing covered sunset terrace off the living room. Wide open foyer, spacious designer kitchens with breakfast bar and welcoming dining and living rooms are the main features in all 21 designs. Your new condominium is available from $1,030,600 to $2,263,000 with two-, three- and four-bedroom designs. Additionally, the beautiful swimming pool and courtyard will cool you down on those hot summer days. Secure lobby and parking garage with assigned parking and optional EV charging stations keep you safe and sound. ***Villa Ballada is now offering two car capability inside secure garage. Extra parking available to Buyer via optional Luxury parking lift.*** ***AWARD WINNING ARCHITECTURE*** But in the end, the location where you can experience a myriad of Sarasota\u2019s downtown delights, such as delectable culinary opportunities, arts and culture, Florida Studio Theater, Sarasota Opera House, Westcoast Black Theatre Troupe and the farmers market, Whole Foods Market close by, the John Ringling Causeway, Marina Jack and the Sarasota waterfront. New construction techniques, premium finishes and craftsmanship rule the day. You must experience Villa Ballada as you won't be disappointed. Remember, we are only four blocks from our incredible new the Bay Sarasota 53-acre bayfront park underway for everyone who frequents and delights in Sarasota. Your new condominium is available from $1,030,600 to $2,263,000 with two-, three- and four-bedroom designs. The 5 story structure is planned to be completed by May 2025."
+      ],
+      "amenity_details": [
+        "Amenities and community features include: Community Pool, Escrow Reserves Fund, Insurance, Maintenance Exterior, Maintenance Grounds, Manager, Pest Control, Pool Maintenance, Sewer, Trash, Water"
+      ],
+      "developer_details": [
+        "Duality Group is a Sarasota-based real estate development firm led by Karel Dudych, known for creating distinctive urban residences that blend modern design with walkable, culturally rich locations. With a track record that includes Zahrada, Zahrada 2 in Sarasota\u2019s Rosemary District, Duality Group continues its focus on boutique-scale communities with Villa Ballada\u2014a contemporary condominium development that reflects their commitment to architectural elegance and neighborhood integration."
+      ],
+      "architect_details": [
+        "HALFLANTS + PICHETTE   is an award-winning modern design-build studio with offices in Sarasota and Tampa. Our goal is to create thoughtful, high-quality modern architecture that responds to context and function. Our collaborative approach to modern architecture is process-oriented and deliberately avoids preconceived solutions. Halflants + Pichette provides a range of services that include architectural design, interior design,  master planning,  and full construction services. We treasure the diversity of our firm. We hail from nine countries across four continents, and speak five different languages. \n\nThe firm\u2019s work is centered primarily on housing projects and single-family residences, many of which are carried out as design-build ventures. Since its inception, the firm was honored with over fifty American Institute of Architects awards, more than any other practice in the State of Florida. The practice has also garnered five national medals from the Association of Licensed Architects as well as the Tampa Bay AIA Firm of the Year award. Halflants+ Pichette Studio for Modern Architecture has been recognized in the professional press at both state and national levels. The work was published in nine issues of the Florida Caribbean Architect, the quarterly regional publication of the AIA.\n\nOn four separate occasions, a residence completed by Halflants + Pichette was featured as the publication\u2019s cover. The work has also been illustrated in Dwell Magazine, AIArchitect, and Residential Architect. In 2017, the AIA honored John Pichette with the Annual Builder of the Year award for the State of Florida. The following year, Michael Halflants was recognized with the AIA Florida Medal of Honor for Design, the highest award for a design that AIA Florida can bestow on an architect."
+      ],
+      "builder_details": [
+        "Hospitality Construction LLC"
+      ],
+      "designer_details": []
+    },
+    "floorOptions": [
+      {
+        "label": "Floor 2",
+        "value": "02"
+      },
+      {
+        "label": "Floor 3",
+        "value": "03"
+      },
+      {
+        "label": "Floor 4",
+        "value": "04"
+      },
+      {
+        "label": "Floor 5",
+        "value": "05"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "villa-ballada__floor-02__residence-002",
+        "residence": "Residence 202",
+        "type": "condo",
+        "unit": "202",
+        "beds": 2,
+        "baths": 2,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1057,
+        "exterior_sqft": 115,
+        "total_sqft": 1172,
+        "availability": "Available",
+        "price": "$1,030,600",
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-02__residence-004",
+        "residence": "Residence 204",
+        "type": "condo",
+        "unit": "204",
+        "beds": 2,
+        "baths": 2,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1143,
+        "exterior_sqft": 64,
+        "total_sqft": 1207,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-02__residence-006",
+        "residence": "Residence 206",
+        "type": "condo",
+        "unit": "206",
+        "beds": 2,
+        "baths": 2,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1105,
+        "exterior_sqft": 115,
+        "total_sqft": 1220,
+        "availability": "Available",
+        "price": "$1,077,500",
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-006/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-006/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-02__residence-008",
+        "residence": "Residence 208",
+        "type": "condo",
+        "unit": "208",
+        "beds": 2,
+        "baths": 2,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1127,
+        "exterior_sqft": 213,
+        "total_sqft": 1340,
+        "availability": "Available",
+        "price": "$1,099,000",
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-008/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-008/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-02__residence-010",
+        "residence": "Residence 210",
+        "type": "condo",
+        "unit": "210",
+        "beds": 2,
+        "baths": 2.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1192,
+        "exterior_sqft": 384,
+        "total_sqft": 1576,
+        "availability": "Available",
+        "price": "$1,196,000",
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-010/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-010/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-02__residence-012",
+        "residence": "Residence 212",
+        "type": "condo",
+        "unit": "212",
+        "beds": 2,
+        "baths": 2,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1176,
+        "exterior_sqft": 97,
+        "total_sqft": 1273,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-012/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-012/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-02__residence-014",
+        "residence": "Residence 214",
+        "type": "condo",
+        "unit": "214",
+        "beds": 2,
+        "baths": 2.5,
+        "den": true,
+        "bonus_room": false,
+        "interior_sqft": 1625,
+        "exterior_sqft": 100,
+        "total_sqft": 1725,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-014/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-014/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-03__residence-002",
+        "residence": "Residence 302",
+        "type": "condo",
+        "unit": "302",
+        "beds": 4,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2322,
+        "exterior_sqft": 66,
+        "total_sqft": 2388,
+        "availability": "Available",
+        "price": "$2,264,000",
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-03__residence-004",
+        "residence": "Residence 304",
+        "type": "condo",
+        "unit": "304",
+        "beds": 2,
+        "baths": 2,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1122,
+        "exterior_sqft": 68,
+        "total_sqft": 1190,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-03__residence-006",
+        "residence": "Residence 306",
+        "type": "condo",
+        "unit": "306",
+        "beds": 4,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2322,
+        "exterior_sqft": 66,
+        "total_sqft": 2388,
+        "availability": "Available",
+        "price": "$2,264,000",
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-006/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-006/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-03__residence-008",
+        "residence": "Residence 308",
+        "type": "condo",
+        "unit": "308",
+        "beds": 2,
+        "baths": 2.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1196,
+        "exterior_sqft": 65,
+        "total_sqft": 1261,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-008/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-008/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-03__residence-010",
+        "residence": "Residence 310",
+        "type": "condo",
+        "unit": "310",
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1742,
+        "exterior_sqft": 88,
+        "total_sqft": 1830,
+        "availability": "Available",
+        "price": "$1,698,500",
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-010/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-010/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-04__residence-002",
+        "residence": "Residence 402",
+        "type": "condo",
+        "unit": "402",
+        "beds": 4,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2321,
+        "exterior_sqft": 71,
+        "total_sqft": 2392,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-04__residence-004",
+        "residence": "Residence 404",
+        "type": "condo",
+        "unit": "404",
+        "beds": 2,
+        "baths": 2,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1155,
+        "exterior_sqft": 109,
+        "total_sqft": 1264,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-04__residence-006",
+        "residence": "Residence 406",
+        "type": "condo",
+        "unit": "406",
+        "beds": 4,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2321,
+        "exterior_sqft": 71,
+        "total_sqft": 2392,
+        "availability": "Available",
+        "price": "$2,263,000",
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-006/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-006/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-04__residence-008",
+        "residence": "Residence 408",
+        "type": "condo",
+        "unit": "408",
+        "beds": 2,
+        "baths": 2.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1196,
+        "exterior_sqft": 55,
+        "total_sqft": 1251,
+        "availability": "Available",
+        "price": "$1,166,000",
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-008/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-008/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-04__residence-010",
+        "residence": "Residence 410",
+        "type": "condo",
+        "unit": "410",
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1745,
+        "exterior_sqft": 164,
+        "total_sqft": 1909,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-010/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-010/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-05__residence-002",
+        "residence": "Residence 502",
+        "type": "condo",
+        "unit": "502",
+        "beds": 4,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2342,
+        "exterior_sqft": 129,
+        "total_sqft": 2471,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-002/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-002/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-05__residence-004",
+        "residence": "Residence 504",
+        "type": "condo",
+        "unit": "504",
+        "beds": 2,
+        "baths": 2,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1153,
+        "exterior_sqft": 62,
+        "total_sqft": 1215,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-004/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-004/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-05__residence-006",
+        "residence": "Residence 506",
+        "type": "condo",
+        "unit": "506",
+        "beds": 4,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 2342,
+        "exterior_sqft": 132,
+        "total_sqft": 2474,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-006/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-006/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-05__residence-008",
+        "residence": "Residence 508",
+        "type": "condo",
+        "unit": "508",
+        "beds": 2,
+        "baths": 2.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1196,
+        "exterior_sqft": 94,
+        "total_sqft": 1290,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-008/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-008/floorplan/floorplan-thumbnail.jpg"
+      },
+      {
+        "unit_id": "villa-ballada__floor-05__residence-010",
+        "residence": "Residence 510",
+        "type": "condo",
+        "unit": "510",
+        "beds": 3,
+        "baths": 3.5,
+        "den": false,
+        "bonus_room": false,
+        "interior_sqft": 1745,
+        "exterior_sqft": 180,
+        "total_sqft": 1925,
+        "availability": "Sold",
+        "price": null,
+        "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-010/floorplan/floorplan.pdf",
+        "photos": [
+          "/assets/villa-ballada/residences/01.jpg",
+          "/assets/villa-ballada/residences/02.jpg",
+          "/assets/villa-ballada/residences/03.jpg"
+        ],
+        "video": null,
+        "floorplan_thumbnail": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-010/floorplan/floorplan-thumbnail.jpg"
+      }
+    ]
+  }

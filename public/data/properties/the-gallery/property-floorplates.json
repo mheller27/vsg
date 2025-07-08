@@ -1,0 +1,27 @@
+{
+    "01": {
+      "label": "residences",
+      "image": "/assets/the-gallery/floorplates/01.png",
+      "floors": ["1"]
+    },
+    "02": {
+      "label": "residences",
+      "image": "/assets/the-gallery/floorplates/02.png",
+      "floors": ["2"]
+    },
+    "03": {
+      "label": "residences",
+      "image": "/assets/the-gallery/floorplates/03.png",
+      "floors": ["3"]
+    },
+    "04": {
+      "label": "residences",
+      "image": "/assets/the-gallery/floorplates/04.png",
+      "floors": ["4"]
+    },
+    "05": {
+      "label": "penthouses",
+      "image": "/assets/the-gallery/floorplates/05.png",
+      "floors": ["5"]
+    }
+  }

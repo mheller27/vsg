@@ -14,70 +14,96 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
   unitData,
   getPriceRange,
   getBedroomRange,
-  getSqftRange
+  getSqftRange,
 }) => {
   return (
     <div className="mb-8">
-      <div className="flex flex-row sm:flex-col lg:flex-row lg:items-start gap-4 sm:gap-6">
-        {/* Profile Image */}
-        <div className="flex-shrink-0">
+
+    {/* Mobile Layout */}
+    <div className="block sm:hidden">
+      {/* Shared container to control layout width */}
+      <div className="flex flex-col w-full">
+
+        {/* Section 1: Image + 3 rows */}
+        <div className="flex items-center gap-4 w-full">
           {propertyMetadata.profile_image && (
             <img
               src={propertyMetadata.profile_image}
               alt={propertyMetadata.property_name}
-              className="w-20 h-20 sm:w-36 sm:h-36 rounded-full object-cover"
+              className="w-20 h-20 rounded-full object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 target.style.display = 'none';
               }}
             />
           )}
-        </div>
 
-        {/* Property Information and Actions */}
-        <div className="flex-1 flex flex-col justify-center">
-          <div className="mb-3">
-            <h1 className="text-base font-semibold text-gray-900 sm:text-3xl">
+          <div className="flex flex-col h-20 flex-1 gap-1">
+            <h1 className="text-lg font-semibold text-gray-900 leading-tight truncate">
               {propertyMetadata.property_name}
             </h1>
-          </div>
-
-          <div className="space-y-2 mb-3">
-            <p className="text-sm font-medium text-blue-600 sm:text-xl">
+            <p className="text-base font-medium text-blue-600 leading-tight truncate">
               {getPriceRange(unitData)}
             </p>
-            <p className="text-sm text-gray-600 sm:text-lg">
+            <p className="text-base text-gray-600 leading-tight truncate">
               {getBedroomRange(unitData)} • {getSqftRange(unitData)} SF
             </p>
           </div>
+        </div>
 
-          {/* Buttons */}
-          <div className="flex flex-row flex-wrap justify-start gap-2 w-full lg:mt-4 lg:flex-row lg:gap-2">
-            <div className="flex min-w-full sm:hidden gap-2 mt-2">
-              <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 transition px-2 py-1 text-xs flex items-center justify-center gap-1">
+        {/* Section 2: Button Row */}
+        <div className="flex gap-2 mt-3 w-full">
+          <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7">
+            <Phone className="h-3 w-3" />
+            Contact
+          </Button>
+          <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7">
+            <Video className="h-3 w-3" />
+            Tour
+          </Button>
+          <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7">
+            <Bell className="h-3 w-3" />
+            Follow
+          </Button>
+        </div>
+      </div>
+    </div>
+
+      {/* Desktop Layout */}
+      <div className="hidden sm:block">
+        <div className="flex flex-row items-center gap-6">
+          {propertyMetadata.profile_image && (
+            <img
+              src={propertyMetadata.profile_image}
+              alt={propertyMetadata.property_name}
+              className="w-40 h-40 rounded-full object-cover"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.style.display = 'none';
+              }}
+            />
+          )}
+
+          <div className="flex flex-col justify-between h-40 w-full">
+            <h1 className="text-lg font-semibold text-gray-900 leading-tight truncate">
+              {propertyMetadata.property_name}
+            </h1>
+            <p className="text-base font-medium text-blue-600 leading-tight truncate">
+              {getPriceRange(unitData)}
+            </p>
+            <p className="text-base text-gray-600 leading-tight truncate">
+              {getBedroomRange(unitData)} • {getSqftRange(unitData)} SF
+            </p>
+            <div className="flex gap-2">
+              <Button className="bg-blue-600 text-white hover:bg-blue-700 text-sm px-4 py-2 rounded-md flex items-center gap-2">
                 <Phone className="h-4 w-4" />
                 Contact
               </Button>
-              <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 transition px-2 py-1 text-xs flex items-center justify-center gap-1">
+              <Button className="bg-blue-600 text-white hover:bg-blue-700 text-sm px-4 py-2 rounded-md flex items-center gap-2">
                 <Video className="h-4 w-4" />
                 Tour
               </Button>
-              <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 transition px-2 py-1 text-xs flex items-center justify-center gap-1">
-                <Bell className="h-4 w-4" />
-                Follow
-              </Button>
-            </div>
-
-            <div className="hidden sm:flex flex-row flex-wrap gap-2">
-              <Button className="bg-blue-600 text-white hover:bg-blue-700 transition px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm flex items-center gap-1 sm:gap-2">
-                <Phone className="h-4 w-4" />
-                Contact
-              </Button>
-              <Button className="bg-blue-600 text-white hover:bg-blue-700 transition px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm flex items-center gap-1 sm:gap-2">
-                <Video className="h-4 w-4" />
-                Tour
-              </Button>
-              <Button className="bg-blue-600 text-white hover:bg-blue-700 transition px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm flex items-center gap-1 sm:gap-2">
+              <Button className="bg-blue-600 text-white hover:bg-blue-700 text-sm px-4 py-2 rounded-md flex items-center gap-2">
                 <Bell className="h-4 w-4" />
                 Follow
               </Button>
@@ -85,6 +111,7 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
           </div>
         </div>
       </div>
+
     </div>
   );
 };

@@ -589,20 +589,20 @@ const getFloorplanImage = (floor: string) => {
         <TabsContent value="video" className="mt-6">
           <div>
             <h2 className="text-2xl font-semibold mb-4">Property Video</h2>
-            <div className="bg-gray-50 rounded-lg border border-gray-200">
+            <div className="bg-gray-50 rounded-lg border border-gray-200 p-6">
               {(() => {
                 const videoUrl = propertyMetadata?.property_video;
                 const youtubeId = videoUrl?.split('v=')[1]?.split('&')[0];
         
                 return youtubeId ? (
-                  <div className="relative mx-auto" style={{ width: '90%', paddingBottom: '50.625%', height: 0 }}>
+                  <div className="mx-auto w-full sm:w-[95%] md:w-[85%] lg:w-[75%] xl:w-[65%] aspect-video">
                     <iframe
                       src={`https://www.youtube.com/embed/${youtubeId}`}
                       title="Property Video"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      className="absolute top-0 left-0 w-full h-full rounded-lg"
+                      className="w-full h-full rounded-lg"
                     />
                   </div>
                 ) : (

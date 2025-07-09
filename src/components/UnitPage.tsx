@@ -87,79 +87,89 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
     return new Intl.NumberFormat().format(Number(num));
   };
 
-  // Info section content
-  const InfoSection = () => (
-    <div className="bg-white border-b border-gray-200 p-4 md:p-6">
-      <div className="space-y-3 md:space-y-4">
-        {/* First Row: Residence name, unit number, and price/availability */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-            <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900">
-              {unit.residence || 'Unit Information'}
-            </h1>
-            {unit.unit && (
-              <span className="text-base md:text-lg text-gray-600">
-                Unit {unit.unit}
-              </span>
-            )}
-          </div>
-          <div
-            className={`text-lg md:text-xl lg:text-2xl font-bold ${
-              unit.availability === "Sold"
-                ? "text-red-600"
-                : typeof unit.price === "string" && /^\$\d/.test(unit.price)
-                ? "text-green-700"
-                : "text-blue-700"
-            }`}
-          >
-            {getPriceDisplay()}
-          </div>
+  const InfoSectionMobile = () => (
+    <div className="bg-white border-b border-gray-200 p-4 space-y-3">
+      {/* First 3 rows in column */}
+      <div className="flex flex-col gap-2">
+        <div className="flex items-center gap-2">
+          <h1 className="text-lg font-bold text-gray-900">{unit.residence}</h1>
+          {unit.unit && <div className="text-gray-600">Unit {unit.unit}</div>}
         </div>
-
-        {/* Second Row: Bedrooms, bathrooms, den, bonus room */}
+        <div className={`font-bold ${
+          unit.availability === "Sold"
+            ? "text-red-600"
+            : typeof unit.price === "string" && /^\$\d/.test(unit.price)
+            ? "text-green-700"
+            : "text-blue-700"
+        }`}>
+          {getPriceDisplay()}
+        </div>
         {getBedroomBathroomDisplay() && (
-          <div className="text-sm md:text-base text-gray-600">
-            {getBedroomBathroomDisplay()}
-          </div>
+          <div className="text-sm text-gray-600">{getBedroomBathroomDisplay()}</div>
         )}
-
-        {/* Third Row: Interior SF, Exterior SF, Total SF */}
-        <div className="flex flex-wrap gap-4 text-sm md:text-base text-gray-600">
-          {unit.interior_sqft && (
-            <span>Interior: {formatSqft(unit.interior_sqft)} SF</span>
-          )}
-          {unit.exterior_sqft && (
-            <span>Exterior: {formatSqft(unit.exterior_sqft)} SF</span>
-          )}
-          {unit.total_sqft && (
-            <span>Total: {formatSqft(unit.total_sqft)} SF</span>
-          )}
+        <div className="text-sm text-gray-600 flex flex-wrap gap-4">
+          {unit.interior_sqft && <span>Interior: {formatSqft(unit.interior_sqft)} SF</span>}
+          {unit.exterior_sqft && <span>Exterior: {formatSqft(unit.exterior_sqft)} SF</span>}
         </div>
-
-        {/* Fourth Row: Action buttons */}
-        <div className="flex gap-3 pt-2">
-          <Button 
-            size={isMobile ? "sm" : "default"}
-            className="bg-blue-600 text-white hover:bg-blue-700 transition flex items-center gap-2 min-h-[44px] px-4"
-          >
-            <Phone className="h-4 w-4" />
-            <span className="text-sm md:text-base">Call</span>
-          </Button>
-          <Button 
-            size={isMobile ? "sm" : "default"}
-            className="bg-blue-600 text-white hover:bg-blue-700 transition flex items-center gap-2 min-h-[44px] px-4"
-          >
-            <MessageSquare className="h-4 w-4" />
-            <span className="text-sm md:text-base">Text</span>
-          </Button>
-          <Button 
-            size={isMobile ? "sm" : "default"}
-            className="bg-blue-600 text-white hover:bg-blue-700 transition flex items-center gap-2 min-h-[44px] px-4"
-          >
-            <Video className="h-4 w-4" />
-            <span className="text-sm md:text-base">Tour</span>
-          </Button>
-        </div>
+      </div>
+  
+      {/* Row 4: Buttons span full width */}
+      <div className="flex justify-between gap-2">
+        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700">
+          <Phone className="h-4 w-4 mr-1" />
+          Call
+        </Button>
+        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700">
+          <MessageSquare className="h-4 w-4 mr-1" />
+          Text
+        </Button>
+        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700">
+          <Video className="h-4 w-4 mr-1" />
+          Tour
+        </Button>
+      </div>
+    </div>
+  );
+  
+  const InfoSectionDesktop = () => (
+    <div className="bg-white border-b border-gray-200 p-6 space-y-4">
+      <div className="flex items-center gap-4">
+        <h1 className="text-2xl font-bold text-gray-900">{unit.residence}</h1>
+        {unit.unit && <div className="text-lg text-gray-600">Unit {unit.unit}</div>}
+      </div>
+      <div className={`text-2xl font-bold ${
+        unit.availability === "Sold"
+          ? "text-red-600"
+          : typeof unit.price === "string" && /^\$\d/.test(unit.price)
+          ? "text-green-700"
+          : "text-blue-700"
+      }`}>
+        {getPriceDisplay()}
+      </div>
+  
+      {getBedroomBathroomDisplay() && (
+        <div className="text-base text-gray-600">{getBedroomBathroomDisplay()}</div>
+      )}
+  
+      <div className="flex flex-wrap gap-4 text-base text-gray-600">
+        {unit.interior_sqft && <span>Interior: {formatSqft(unit.interior_sqft)} SF</span>}
+        {unit.exterior_sqft && <span>Exterior: {formatSqft(unit.exterior_sqft)} SF</span>}
+        {unit.total_sqft && <span>Total: {formatSqft(unit.total_sqft)} SF</span>}
+      </div>
+  
+      <div className="flex gap-3 pt-2">
+        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-4">
+          <Phone className="h-4 w-4" />
+          Call
+        </Button>
+        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-4">
+          <MessageSquare className="h-4 w-4" />
+          Text
+        </Button>
+        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-4">
+          <Video className="h-4 w-4" />
+          Tour
+        </Button>
       </div>
     </div>
   );
@@ -312,7 +322,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
         </div>
 
         {/* Scrollable Content */}
-        <InfoSection />
+        <InfoSectionMobile />
         <TabsSection />
       </div>
     );
@@ -342,7 +352,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
         </div>
 
         {/* Scrollable Content */}
-        <InfoSection />
+        <InfoSectionDesktop />
         <TabsSection />
       </div>
     </div>

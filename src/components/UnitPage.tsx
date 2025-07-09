@@ -64,16 +64,10 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
 
   // Get price/availability display
   const getPriceDisplay = () => {
-    if (unit.availability === "Sold") {
-      return "Sold";
-    } else if (unit.availability === "Available") {
-      return "Contact us for price";
-    } else if (unit.availability === "For Sale" && unit.price && unit.price !== 'null') {
-      return unit.price;
-    } else if (unit.price && unit.price !== 'null') {
-      return unit.price;
-    }
-    return "Contact us for price";
+    if (unit.availability === "Sold") return "Sold";
+    if (typeof unit.price === "string" && /^\$\d/.test(unit.price)) return unit.price; // numerical price
+    if (typeof unit.price === "string" && unit.price.trim() !== "") return unit.price; // any other string
+    return "Contact us for price"; // fallback
   };
 
   // Get bedroom/bathroom display with den/bonus room
@@ -109,13 +103,15 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
               </span>
             )}
           </div>
-          <div className={`text-lg md:text-xl lg:text-2xl font-bold ${
-            unit.availability === "Sold"
-              ? 'text-red-600'
-              : unit.availability === "Available" || getPriceDisplay() === "Contact us for price"
-              ? 'text-blue-700'
-              : 'text-green-700'
-          }`}>
+          <div
+            className={`text-lg md:text-xl lg:text-2xl font-bold ${
+              unit.availability === "Sold"
+                ? "text-red-600"
+                : typeof unit.price === "string" && /^\$\d/.test(unit.price)
+                ? "text-green-700"
+                : "text-blue-700"
+            }`}
+          >
             {getPriceDisplay()}
           </div>
         </div>

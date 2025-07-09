@@ -115,15 +115,11 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   
       {/* Row 4: Buttons span full width */}
       <div className="flex justify-between gap-2">
-        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700">
-          <Phone className="h-4 w-4 mr-1" />
-          Call
-        </Button>
-        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700">
+        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 h-8">
           <MessageSquare className="h-4 w-4 mr-1" />
-          Text
+          Contact
         </Button>
-        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700">
+        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 h-8">
           <Video className="h-4 w-4 mr-1" />
           Tour
         </Button>
@@ -132,7 +128,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   );
   
   const InfoSectionDesktop = () => (
-    <div className="bg-white border-b border-gray-200 p-6 space-y-4">
+    <div className="bg-white border-b border-gray-200 p-6 space-y-2">
       <div className="flex items-center gap-4">
         <h1 className="text-2xl font-bold text-gray-900">{unit.residence}</h1>
         {unit.unit && <div className="text-lg text-gray-600">Unit {unit.unit}</div>}
@@ -158,15 +154,11 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
       </div>
   
       <div className="flex gap-3 pt-2">
-        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-4">
-          <Phone className="h-4 w-4" />
-          Call
-        </Button>
-        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-4">
+        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-8">
           <MessageSquare className="h-4 w-4" />
-          Text
+          Contact
         </Button>
-        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-4">
+        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-8">
           <Video className="h-4 w-4" />
           Tour
         </Button>

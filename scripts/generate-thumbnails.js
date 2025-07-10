@@ -7,9 +7,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Configuration
-const THUMBNAIL_WIDTH = 400;
-const THUMBNAIL_HEIGHT = 300;
-const QUALITY = 80;
+const THUMBNAIL_WIDTH = 1000;
+const THUMBNAIL_HEIGHT = 750;
+const QUALITY = 95;
 
 async function generateThumbnails() {
   const assetsDir = path.join(__dirname, '../public/assets');

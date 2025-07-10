@@ -357,17 +357,26 @@ const getFloorplanImage = (floor: string) => {
   const galleryImages: string[] = useMemo(() => {
     if (!imageFolders || !slug) return [];
     const images: string[] = [];
+    
+    // Collect all images from all folders in order
     imageFolders.forEach(folder => {
       for (let i = 1; i <= 20; i++) {
-        images.push(`/assets/${slug}/${folder}/${String(i).padStart(2, '0')}.jpg`);
+        const imagePath = `/assets/${slug}/${folder}/${String(i).padStart(2, '0')}.jpg`;
+        images.push(imagePath);
       }
     });
+    
     return images;
   }, [imageFolders, slug]);
 
   // Track only images that actually exist (successfully loaded)
   const [existingImages, setExistingImages] = useState<string[]>([]);
   const [existingThumbnails, setExistingThumbnails] = useState<string[]>([]);
+  
+  // Filter gallery images to only show existing ones
+  const filteredGalleryImages = useMemo(() => {
+    return galleryImages.filter(src => existingImages.includes(src));
+  }, [galleryImages, existingImages]);
 
   // Helper function to get thumbnail path
   const getThumbnailPath = (fullPath: string) => {
@@ -605,54 +614,56 @@ const getFloorplanImage = (floor: string) => {
         <TabsContent value="gallery" className="mt-6">
           <div>
             {imageFolders.length > 0 ? (
-              <div className="space-y-8">
-                {imageFolders.map((folder) => {
-                  const images = Array.from({ length: 20 }, (_, i) => 
-                    `/assets/${slug}/${folder}/${String(i + 1).padStart(2, '0')}.jpg`
-                  );
-        
-                  return (
-                    <div key={folder}>
-                      <h3 className="text-xl font-bold capitalize mb-3">{folder.replace(/-/g, ' ')}</h3>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        {images.map((src, idx) => {
-                          const thumbnailPath = getThumbnailPath(src);
-                          const fullSizePath = src; // Use original src as full-size path
-                          
-                          return (
-                            <LazyLoad key={`${folder}-${idx}`} height={256} offset={100} once>
-                              <img
-                                src={thumbnailPath}
-                                alt={`${folder} image ${idx + 1}`}
-                                className="rounded-lg shadow-sm object-cover w-full h-64 cursor-pointer hover:opacity-90 transition-opacity"
-                                onLoad={() => {
-                                  // Add to both thumbnail and full-size arrays
-                                  setExistingThumbnails(prev => 
-                                    prev.includes(thumbnailPath) ? prev : [...prev, thumbnailPath]
-                                  );
-                                  setExistingImages(prev => 
-                                    prev.includes(fullSizePath) ? prev : [...prev, fullSizePath]
-                                  );
-                                }}
-                                onClick={() => {
-                                  const index = existingImages.indexOf(fullSizePath);
-                                  if (index !== -1) {
-                                    setPhotoIndex(index);
-                                    setLightboxOpen(true);
-                                  }
-                                }}
-                                onError={(e) => {
-                                  const target = e.target as HTMLImageElement;
-                                  target.style.display = 'none'; // Hide if image doesn't exist
-                                }}
-                              />
-                            </LazyLoad>
+              <div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+                  {filteredGalleryImages.map((src, idx) => {
+                    const thumbnailPath = getThumbnailPath(src);
+                    
+                    return (
+                      <LazyLoad key={`gallery-${idx}`} height={256} offset={100} once>
+                        <div>
+                          <img
+                            src={thumbnailPath}
+                            alt={`Gallery image ${idx + 1}`}
+                            className="rounded-lg shadow-sm object-cover w-full cursor-pointer hover:opacity-90 transition-opacity"
+                            onClick={() => {
+                              const index = existingImages.indexOf(src);
+                              if (index !== -1) {
+                                setPhotoIndex(index);
+                                setLightboxOpen(true);
+                              }
+                            }}
+                          />
+                        </div>
+                      </LazyLoad>
+                    );
+                  })}
+                </div>
+                
+                {/* Hidden images to detect which ones exist */}
+                <div style={{ display: 'none' }}>
+                  {galleryImages.map((src, idx) => {
+                    const thumbnailPath = getThumbnailPath(src);
+                    
+                    return (
+                      <img
+                        key={`detector-${idx}`}
+                        src={thumbnailPath}
+                        onLoad={() => {
+                          setExistingThumbnails(prev => 
+                            prev.includes(thumbnailPath) ? prev : [...prev, thumbnailPath]
                           );
-                        })}
-                      </div>
-                    </div>
-                  );
-                })}
+                          setExistingImages(prev => 
+                            prev.includes(src) ? prev : [...prev, src]
+                          );
+                        }}
+                        onError={() => {
+                          // Image doesn't exist, don't add to arrays
+                        }}
+                      />
+                    );
+                  })}
+                </div>
               </div>
             ) : (
               <div className="bg-gray-50 p-6 rounded-lg">

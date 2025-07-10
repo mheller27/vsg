@@ -617,7 +617,7 @@ const getFloorplanImage = (floor: string) => {
                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                         {images.map((src, idx) => {
                           const thumbnailPath = getThumbnailPath(src);
-                          const fullSizePath = getFullSizePath(src);
+                          const fullSizePath = src; // Use original src as full-size path
                           
                           return (
                             <LazyLoad key={`${folder}-${idx}`} height={256} offset={100} once>

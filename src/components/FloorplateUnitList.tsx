@@ -27,11 +27,22 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
           <div className="space-y-3">
             {/* Header */}
             <div className="border-b border-gray-100 pb-2">
-              <h3 className="font-bold text-lg text-gray-900">
-                {unit.residence || 'Unit Information'}
-              </h3>
-              {unit.unit && (
-                <p className="text-sm text-gray-600">Unit {unit.unit}</p>
+              <div className="flex items-center gap-2">
+                <span className="font-bold text-gray-900">
+                  {unit.residence}
+                </span>
+                {unit.unit && <span className="text-gray-600">| {unit.unit}</span>}
+              </div>
+              {unit.price && unit.price !== 'null' && (
+                <div className={`font-bold mt-1 ${
+                  unit.price.startsWith('$')
+                    ? 'text-green-700 text-base'
+                    : unit.price === 'Contact us for price'
+                    ? 'text-blue-700 text-sm'
+                    : 'text-gray-700 text-base'
+                }`}>
+                  {unit.price}
+                </div>
               )}
             </div>
 
@@ -66,40 +77,7 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
                     </span>
                   ))}
               </div>
-
-              {unit.availability && (
-                <div className="text-xs sm:text-sm font-medium text-gray-700">
-                  Availability:{' '}
-                  <span className={`font-semibold ${
-                    unit.availability === 'Available'
-                      ? 'text-green-700'
-                      : unit.availability === 'Sold'
-                      ? 'text-red-600'
-                      : 'text-gray-500'
-                  }`}>
-                    {unit.availability}
-                  </span>
-                </div>
-              )}
             </div>
-
-            {/* Price */}
-            {unit.price && unit.price !== 'null' && (
-              <div className="pt-2 border-t border-gray-100">
-                <div className="flex items-center gap-2">
-                  <span className="text-gray-600 text-sm">Price:</span>
-                  <span className={`font-bold ${
-                    unit.price.startsWith('$')
-                      ? 'text-green-700 text-base'
-                      : unit.price === 'Contact us for price'
-                      ? 'text-blue-700 text-sm'
-                      : 'text-gray-700 text-base'
-                  }`}>
-                    {unit.price}
-                  </span>
-                </div>
-              </div>
-            )}
           </div>
 
           {/* Thumbnail */}
@@ -107,7 +85,7 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
             <div className="mt-4">
               <img
                 src={getSafeImageSrc(unit.floorplan_thumbnail)}
-                alt={`Floorplan for ${unit.roundedesidence} Unit ${unit.unit}`}
+                alt={`Floorplan for ${unit.residence} Unit ${unit.unit}`}
                 className="w-full h-32 object-contain rounded border border-gray-200"
                 onError={(e) => (e.currentTarget.src = '/placeholder.svg')}
               />

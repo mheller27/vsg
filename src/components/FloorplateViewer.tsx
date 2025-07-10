@@ -70,6 +70,10 @@ const FloorplateViewer: React.FC<FloorplateViewerProps> = ({
               <span className="inline-block w-4 h-4 rounded-sm bg-emerald-400 border border-gray-300" />
               <span className="text-xs text-gray-700">For Sale</span>
             </div>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-4 h-4 rounded-sm bg-white border border-gray-300" />
+              <span className="text-xs text-gray-700">Unavailable</span>
+            </div>
           </div>
 
           {/* Image + SVG Overlay */}

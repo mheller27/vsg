@@ -59,14 +59,14 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
                   ))}
               </div>
 
-              <div className="flex flex-wrap gap-1 text-xs sm:text-sm text-gray-700">
+              <div className="flex gap-1 text-xs sm:text-xs text-gray-700 whitespace-nowrap overflow-hidden min-w-0">
                 {[
-                  unit.interior_sqft ? `Interior: ${formatSquareFootage(unit.interior_sqft)}` : null,
-                  unit.exterior_sqft ? `Exterior: ${formatSquareFootage(unit.exterior_sqft)}` : null,
+                  unit.interior_sqft ? `Interior: ${formatSquareFootage(unit.interior_sqft)} sqft` : null,
+                  unit.exterior_sqft ? `Exterior: ${formatSquareFootage(unit.exterior_sqft)} sqft` : null,
                 ]
                   .filter(Boolean)
                   .map((label, index, array) => (
-                    <span key={index}>
+                    <span key={index} className="truncate">
                       {label}
                       {index < array.length - 1 && <span className="mx-1 text-gray-400">|</span>}
                     </span>

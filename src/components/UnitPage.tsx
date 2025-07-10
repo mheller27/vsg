@@ -212,7 +212,9 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
         )}
         <div className="text-sm text-gray-600 flex flex-wrap gap-4">
           {unit.interior_sqft && <span>Interior: {formatSqft(unit.interior_sqft)} SF</span>}
-          {unit.exterior_sqft && <span>Exterior: {formatSqft(unit.exterior_sqft)} SF</span>}
+          {typeof unit.exterior_sqft === 'number' && unit.exterior_sqft > 0 && (
+            <span>Exterior: {formatSqft(unit.exterior_sqft)} SF</span>
+          )}
         </div>
       </div>
   
@@ -252,7 +254,9 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   
       <div className="flex flex-wrap gap-4 text-base text-gray-600">
         {unit.interior_sqft && <span>Interior: {formatSqft(unit.interior_sqft)} SF</span>}
-        {unit.exterior_sqft && <span>Exterior: {formatSqft(unit.exterior_sqft)} SF</span>}
+        {typeof unit.exterior_sqft === 'number' && unit.exterior_sqft > 0 && (
+          <span>Exterior: {formatSqft(unit.exterior_sqft)} SF</span>
+        )}
         {unit.total_sqft && <span>Total: {formatSqft(unit.total_sqft)} SF</span>}
       </div>
   

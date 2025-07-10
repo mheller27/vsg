@@ -30,6 +30,17 @@ const UnitHoverCard: React.FC<UnitHoverCardProps> = ({ unit, x, y, hoverCardRef,
           )}
         </div>
 
+        {/* Price at the top */}
+        {unit.price && unit.price !== 'null' && (
+          <div className="pt-2">
+            <div className="flex items-center gap-2">
+              <span className={`font-bold ${getPriceColorClass(unit.price)}`}>
+                {unit.price}
+              </span>
+            </div>
+          </div>
+        )}
+
         {/* Unit Details */}
         <div className="space-y-2 text-sm text-gray-700">
           <div className="flex items-center gap-4">
@@ -64,16 +75,6 @@ const UnitHoverCard: React.FC<UnitHoverCardProps> = ({ unit, x, y, hoverCardRef,
               </div>
             )}
           </div>
-
-          {unit.price && unit.price !== 'null' && (
-            <div className="pt-2 border-t border-gray-100">
-              <div className="flex items-center gap-2">
-                <span className={`font-bold ${getPriceColorClass(unit.price)}`}>
-                  {unit.price}
-                </span>
-              </div>
-            </div>
-          )}
 
           {unit.floorplan_thumbnail && (
             <div className="pt-2 border-t border-gray-100">

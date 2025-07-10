@@ -129,7 +129,7 @@
         "exterior_sqft": 418,
         "total_sqft": 2506,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/six88/units/six88__floor-02__residence-001/floorplan/floorplan.pdf",
         "photos": [
           "/assets/six88/residences/01.jpg",
@@ -185,7 +185,7 @@
         "exterior_sqft": 643,
         "total_sqft": 5261,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan.pdf",
         "photos": [
           "/assets/six88/residences/01.jpg",
@@ -213,7 +213,7 @@
         "exterior_sqft": 643,
         "total_sqft": 5261,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan.pdf",
         "photos": [
           "/assets/six88/residences/01.jpg",
@@ -241,7 +241,7 @@
         "exterior_sqft": 643,
         "total_sqft": 5261,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan.pdf",
         "photos": [
           "/assets/six88/residences/01.jpg",
@@ -269,7 +269,7 @@
         "exterior_sqft": 643,
         "total_sqft": 5261,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/six88/units/six88__floor-04__residence-001/floorplan/floorplan.pdf",
         "photos": [
           "/assets/six88/residences/01.jpg",
@@ -297,7 +297,7 @@
         "exterior_sqft": 2243,
         "total_sqft": 6861,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/six88/units/six88__floor-08__penthouse-001/floorplan/floorplan.pdf",
         "photos": [
           "/assets/six88/residences/01.jpg",

@@ -89,7 +89,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2254,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -113,7 +113,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2254,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -137,7 +137,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2254,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -161,7 +161,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2254,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-102abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -185,7 +185,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2254,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-102abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -209,7 +209,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2254,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-102abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -233,7 +233,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2254,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-102abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -257,7 +257,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2190,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-103abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -281,7 +281,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2190,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-103abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -305,7 +305,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2190,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-103abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -329,7 +329,7 @@
         "exterior_sqft": 668,
         "total_sqft": 2190,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-01__courtyard-103abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-01__courtyard-101abcd/gallery/01.jpg",
@@ -342,7 +342,7 @@
       },
       {
         "unit_id": "the-gallery__floor-02__staircase-201p",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "201P",
         "beds": 3,
@@ -353,7 +353,7 @@
         "exterior_sqft": 64,
         "total_sqft": 2047,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -365,7 +365,7 @@
       },
       {
         "unit_id": "the-gallery__floor-02__staircase-202p",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "202P",
         "beds": 3,
@@ -388,7 +388,7 @@
       },
       {
         "unit_id": "the-gallery__floor-02__staircase-203p",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "203P",
         "beds": 3,
@@ -399,7 +399,7 @@
         "exterior_sqft": 38,
         "total_sqft": 1911,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-02__staircase-203p/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -422,7 +422,7 @@
         "exterior_sqft": 0,
         "total_sqft": 938,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-02__sanctury-201efh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__sanctury-201efh/gallery/01.jpg",
@@ -466,7 +466,7 @@
         "exterior_sqft": 0,
         "total_sqft": 938,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-02__sanctury-201efh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__sanctury-201efh/gallery/01.jpg",
@@ -488,7 +488,7 @@
         "exterior_sqft": 0,
         "total_sqft": 938,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-02__sanctury-203egh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__sanctury-201efh/gallery/01.jpg",
@@ -510,7 +510,7 @@
         "exterior_sqft": 0,
         "total_sqft": 938,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-02__sanctury-203egh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__sanctury-201efh/gallery/01.jpg",
@@ -532,7 +532,7 @@
         "exterior_sqft": 0,
         "total_sqft": 938,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-02__sanctury-203egh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__sanctury-201efh/gallery/01.jpg",
@@ -554,7 +554,7 @@
         "exterior_sqft": 18,
         "total_sqft": 1200,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-03__garden-301efgh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-03__garden-301efgh/gallery/01.jpg"
@@ -575,7 +575,7 @@
         "exterior_sqft": 18,
         "total_sqft": 1200,
         "availability": "Available",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-03__garden-301efgh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-03__garden-301efgh/gallery/01.jpg"
@@ -617,7 +617,7 @@
         "exterior_sqft": 18,
         "total_sqft": 1200,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-03__garden-301efgh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-03__garden-301efgh/gallery/01.jpg"
@@ -638,7 +638,7 @@
         "exterior_sqft": 113,
         "total_sqft": 1300,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-03__garden-302efg/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-03__garden-301efgh/gallery/01.jpg"
@@ -680,7 +680,7 @@
         "exterior_sqft": 113,
         "total_sqft": 1300,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-03__garden-302efg/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-03__garden-301efgh/gallery/01.jpg"
@@ -701,7 +701,7 @@
         "exterior_sqft": 18,
         "total_sqft": 1205,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-03__garden-302h/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-03__garden-301efgh/gallery/01.jpg"
@@ -722,7 +722,7 @@
         "exterior_sqft": 83,
         "total_sqft": 1762,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__sanctury-401p/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__sanctury-201efh/gallery/01.jpg",
@@ -744,7 +744,7 @@
         "exterior_sqft": 78,
         "total_sqft": 1435,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__sanctury-402p/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__sanctury-201efh/gallery/01.jpg",
@@ -755,7 +755,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-401a",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "401A",
         "beds": 2,
@@ -766,7 +766,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1830,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-401abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -778,7 +778,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-401b",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "401B",
         "beds": 2,
@@ -801,7 +801,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-401c",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "401C",
         "beds": 2,
@@ -812,7 +812,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1830,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-401abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -824,7 +824,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-401d",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "401D",
         "beds": 2,
@@ -835,7 +835,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1830,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-401abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -847,7 +847,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-402a",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "402A",
         "beds": 2,
@@ -858,7 +858,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1919,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-402abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -870,7 +870,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-402b",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "402B",
         "beds": 2,
@@ -881,7 +881,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1919,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-402abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -893,7 +893,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-402c",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "402C",
         "beds": 2,
@@ -904,7 +904,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1919,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-402abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -916,7 +916,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-402d",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "402D",
         "beds": 2,
@@ -927,7 +927,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1919,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-402abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -939,7 +939,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-403a",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "403A",
         "beds": 2,
@@ -950,7 +950,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1652,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-403abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -962,7 +962,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-403b",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "403B",
         "beds": 2,
@@ -985,7 +985,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-403c",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "403C",
         "beds": 2,
@@ -996,7 +996,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1652,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-403abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -1008,7 +1008,7 @@
       },
       {
         "unit_id": "the-gallery__floor-04__staircase-403d",
-        "residence": "The Open Staircase Collection",
+        "residence": "Open Staircase Collection",
         "type": "condo",
         "unit": "403D",
         "beds": 2,
@@ -1019,7 +1019,7 @@
         "exterior_sqft": 96,
         "total_sqft": 1652,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__staircase-403abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-02__staircase-201p/gallery/01.jpg",
@@ -1042,7 +1042,7 @@
         "exterior_sqft": 156,
         "total_sqft": 1490,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/gallery/01.jpg",
@@ -1064,7 +1064,7 @@
         "exterior_sqft": 156,
         "total_sqft": 1490,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/gallery/01.jpg",
@@ -1086,7 +1086,7 @@
         "exterior_sqft": 156,
         "total_sqft": 1490,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/gallery/01.jpg",
@@ -1108,7 +1108,7 @@
         "exterior_sqft": 156,
         "total_sqft": 1490,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/gallery/01.jpg",
@@ -1130,7 +1130,7 @@
         "exterior_sqft": 356,
         "total_sqft": 1697,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__rooftop-402efg/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/gallery/01.jpg",
@@ -1152,7 +1152,7 @@
         "exterior_sqft": 356,
         "total_sqft": 1697,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__rooftop-402efg/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/gallery/01.jpg",
@@ -1174,7 +1174,7 @@
         "exterior_sqft": 356,
         "total_sqft": 1697,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__rooftop-402efg/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/gallery/01.jpg",
@@ -1196,7 +1196,7 @@
         "exterior_sqft": 216,
         "total_sqft": 1550,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-04__rooftop-402h/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-04__rooftop-401efgh/gallery/01.jpg",
@@ -1218,7 +1218,7 @@
         "exterior_sqft": 535,
         "total_sqft": 3516,
         "availability": "Available",
-        "price": "Contact us for price",
+        "price": "Unreleased",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501p/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501a/gallery/01.jpg",
@@ -1240,7 +1240,7 @@
         "exterior_sqft": 217,
         "total_sqft": 1964,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501a/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501a/gallery/01.jpg",
@@ -1262,7 +1262,7 @@
         "exterior_sqft": 217,
         "total_sqft": 2127,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501bcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501a/gallery/01.jpg",
@@ -1284,7 +1284,7 @@
         "exterior_sqft": 217,
         "total_sqft": 2127,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501bcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501a/gallery/01.jpg",
@@ -1306,7 +1306,7 @@
         "exterior_sqft": 217,
         "total_sqft": 2127,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501bcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501a/gallery/01.jpg",
@@ -1328,7 +1328,7 @@
         "exterior_sqft": 217,
         "total_sqft": 1909,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-05__penthouse-502abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501a/gallery/01.jpg",
@@ -1372,7 +1372,7 @@
         "exterior_sqft": 217,
         "total_sqft": 1909,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-05__penthouse-502abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501a/gallery/01.jpg",
@@ -1394,7 +1394,7 @@
         "exterior_sqft": 217,
         "total_sqft": 1909,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/the-gallery/units/the-gallery__floor-05__penthouse-502abcd/floorplan/floorplan.pdf",
         "photos": [
           "/assets/the-gallery/units/the-gallery__floor-05__penthouse-501a/gallery/01.jpg",

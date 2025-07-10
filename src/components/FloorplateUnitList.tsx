@@ -35,11 +35,11 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
               </div>
               {unit.price && unit.price !== 'null' && (
                 <div className={`font-bold mt-1 ${
-                  unit.price.startsWith('$')
+                  unit.price === "Sold"
+                    ? 'text-red-600'
+                    : typeof unit.price === "string" && unit.price.trim().startsWith('$')
                     ? 'text-green-700 text-base'
-                    : unit.price === 'Contact us for price'
-                    ? 'text-blue-700 text-sm'
-                    : 'text-gray-700 text-base'
+                    : 'text-blue-700 text-base'
                 }`}>
                   {unit.price}
                 </div>

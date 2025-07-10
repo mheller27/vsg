@@ -64,19 +64,6 @@ const UnitHoverCard: React.FC<UnitHoverCardProps> = ({ unit, x, y, hoverCardRef,
             )}
           </div>
 
-          {unit.availability && (
-            <div className="flex justify-between">
-              <span className="text-gray-600">Status:</span>
-              <span className={`font-medium ${
-                unit.availability.toLowerCase().includes('available')
-                  ? 'text-green-600'
-                  : 'text-orange-600'
-              }`}>
-                {unit.availability}
-              </span>
-            </div>
-          )}
-
           {unit.price && unit.price !== 'null' && (
             <div className="pt-2 border-t border-gray-100">
               <div className="flex items-center gap-2">

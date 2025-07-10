@@ -94,7 +94,12 @@ const PropertyProfile = () => {
     const priceFiltered = selectedPriceStatus === 'listed'
       ? bedroomFiltered.filter(unit => unit.price && unit.price.startsWith('$'))
       : selectedPriceStatus === 'unreleased'
-      ? bedroomFiltered.filter(unit => unit.price === 'Contact us for price' || unit.price === 'Project on Hold')
+      ? bedroomFiltered.filter(
+          unit =>
+            unit.price &&
+            !unit.price.trim().startsWith('$') &&
+            unit.price.trim().toLowerCase() !== 'sold'
+        )
       : bedroomFiltered;
 
     setFilteredUnits(priceFiltered);
@@ -279,9 +284,10 @@ const getSqftRange = (units: Unit[]) => {
 
   if (!unit.price || unit.price === 'null') return 'unit-grey';
   if (unit.price === 'Contact us for price') return 'unit-blue';
+  if (unit.price === 'Unreleased') return 'unit-blue';
   if (unit.price === 'Project on Hold') return 'unit-grey';
   if (unit.price === 'TBD') return 'unit-blue';
-  if (unit.price.startsWith('$')) return 'unit-blue';
+  if (unit.price.startsWith('$')) return 'unit-green';
 
   return 'unit-grey';
 };

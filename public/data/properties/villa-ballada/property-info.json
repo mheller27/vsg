@@ -83,7 +83,7 @@
         "exterior_sqft": 64,
         "total_sqft": 1207,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-004/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -175,7 +175,7 @@
         "exterior_sqft": 97,
         "total_sqft": 1273,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-012/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -198,7 +198,7 @@
         "exterior_sqft": 100,
         "total_sqft": 1725,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-02__residence-014/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -244,7 +244,7 @@
         "exterior_sqft": 68,
         "total_sqft": 1190,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-004/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -290,7 +290,7 @@
         "exterior_sqft": 65,
         "total_sqft": 1261,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-03__residence-008/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -336,7 +336,7 @@
         "exterior_sqft": 71,
         "total_sqft": 2392,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-002/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -359,7 +359,7 @@
         "exterior_sqft": 109,
         "total_sqft": 1264,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-004/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -428,7 +428,7 @@
         "exterior_sqft": 164,
         "total_sqft": 1909,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-04__residence-010/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -451,7 +451,7 @@
         "exterior_sqft": 129,
         "total_sqft": 2471,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-002/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -474,7 +474,7 @@
         "exterior_sqft": 62,
         "total_sqft": 1215,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-004/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -497,7 +497,7 @@
         "exterior_sqft": 132,
         "total_sqft": 2474,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-006/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -520,7 +520,7 @@
         "exterior_sqft": 94,
         "total_sqft": 1290,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-008/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",
@@ -543,7 +543,7 @@
         "exterior_sqft": 180,
         "total_sqft": 1925,
         "availability": "Sold",
-        "price": null,
+        "price": "Sold",
         "floorplan_pdf": "/assets/villa-ballada/units/villa-ballada__floor-05__residence-010/floorplan/floorplan.pdf",
         "photos": [
           "/assets/villa-ballada/residences/01.jpg",

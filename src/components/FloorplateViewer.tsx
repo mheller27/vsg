@@ -60,6 +60,18 @@ const FloorplateViewer: React.FC<FloorplateViewerProps> = ({
             </Button>
           </div>
 
+          {/* Key/Legend */}
+          <div className="absolute top-4 left-4 z-20 flex flex-row gap-4 bg-white bg-opacity-80 rounded p-2 shadow">
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-4 h-4 rounded-sm bg-blue-500 border border-gray-300" />
+              <span className="text-xs text-gray-700">Unreleased</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-4 h-4 rounded-sm bg-green-500 border border-gray-300" />
+              <span className="text-xs text-gray-700">For Sale</span>
+            </div>
+          </div>
+
           {/* Image + SVG Overlay */}
           <TransformComponent wrapperClass="w-full h-full">
             <div className="relative w-full h-full flex items-center justify-center">

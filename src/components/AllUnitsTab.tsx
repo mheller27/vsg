@@ -105,11 +105,11 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
                 </div>
                 {unit.price && unit.price !== 'null' && (
                   <div className={`font-bold mt-1 ${
-                    unit.price.startsWith('$')
+                    unit.price.trim().toLowerCase() === 'sold'
+                      ? 'text-red-600'
+                      : unit.price.trim().startsWith('$')
                       ? 'text-green-700 text-base'
-                      : unit.price === 'Contact us for price'
-                      ? 'text-blue-700 text-sm'
-                      : 'text-gray-700 text-base'
+                      : 'text-blue-700 text-base'
                   }`}>
                     {unit.price}
                   </div>

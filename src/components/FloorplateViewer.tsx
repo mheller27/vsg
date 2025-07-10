@@ -67,7 +67,7 @@ const FloorplateViewer: React.FC<FloorplateViewerProps> = ({
               <span className="text-xs text-gray-700">Unreleased</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="inline-block w-4 h-4 rounded-sm bg-green-500 border border-gray-300" />
+              <span className="inline-block w-4 h-4 rounded-sm bg-emerald-400 border border-gray-300" />
               <span className="text-xs text-gray-700">For Sale</span>
             </div>
           </div>

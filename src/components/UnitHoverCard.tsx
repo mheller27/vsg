@@ -1,5 +1,6 @@
 import React from 'react';
 import { getSafeImageSrc } from '../lib/fallbackImage';
+import { getPriceColorClass } from '@/lib/utils';
 
 interface UnitHoverCardProps {
   unit: any;
@@ -67,14 +68,7 @@ const UnitHoverCard: React.FC<UnitHoverCardProps> = ({ unit, x, y, hoverCardRef,
           {unit.price && unit.price !== 'null' && (
             <div className="pt-2 border-t border-gray-100">
               <div className="flex items-center gap-2">
-                <span className="text-gray-600 text-sm">Price:</span>
-                <span className={`font-bold ${
-                  unit.price.startsWith('$')
-                    ? 'text-green-700 text-base'
-                    : unit.price === 'Contact us for price'
-                    ? 'text-blue-700 text-sm'
-                    : 'text-gray-700 text-base'
-                }`}>
+                <span className={`font-bold ${getPriceColorClass(unit.price)}`}>
                   {unit.price}
                 </span>
               </div>

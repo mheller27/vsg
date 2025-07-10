@@ -1,4 +1,5 @@
 import React from 'react';
+import { getPriceColorClass } from '@/lib/utils';
 
 interface Unit {
   unit_id: string;
@@ -104,13 +105,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
                   {unit.unit && <span className="text-sm text-gray-600">| {unit.unit}</span>}
                 </div>
                 {unit.price && unit.price !== 'null' && (
-                  <div className={`font-bold mt-1 ${
-                    unit.price.trim().toLowerCase() === 'sold'
-                      ? 'text-red-600'
-                      : unit.price.trim().startsWith('$')
-                      ? 'text-green-700 text-base'
-                      : 'text-blue-700 text-base'
-                  }`}>
+                  <div className={`font-bold mt-1 ${getPriceColorClass(unit.price)}`}>
                     {unit.price}
                   </div>
                 )}

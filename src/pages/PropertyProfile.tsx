@@ -30,8 +30,8 @@ const styles = `
     transition: opacity 0.2s ease-in-out;
   }
   .unit-green {
-    fill: #86EFAC;
-    stroke: #22C55E;
+    fill: #6EE7B7;
+    stroke: #6EE7B7;
     stroke-miterlimit: 10;
     opacity: 0.7;
     transition: opacity 0.2s ease-in-out;

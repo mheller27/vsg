@@ -1,5 +1,6 @@
 import React from 'react';
 import { getSafeImageSrc } from '../lib/fallbackImage';
+import { getPriceColorClass } from '@/lib/utils';
 
 interface UnitListProps {
   units: any[];
@@ -34,13 +35,7 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
                 {unit.unit && <span className="text-gray-600">| {unit.unit}</span>}
               </div>
               {unit.price && unit.price !== 'null' && (
-                <div className={`font-bold mt-1 ${
-                  unit.price === "Sold"
-                    ? 'text-red-600'
-                    : typeof unit.price === "string" && unit.price.trim().startsWith('$')
-                    ? 'text-green-700 text-base'
-                    : 'text-blue-700 text-base'
-                }`}>
+                <div className={`font-bold mt-1 ${getPriceColorClass(unit.price)}`}>
                   {unit.price}
                 </div>
               )}

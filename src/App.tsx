@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import MapPage from "./pages/MapPage";
 import PropertyProfile from "./pages/PropertyProfile";
 
+
 const queryClient = new QueryClient();
 
 const App = () => (

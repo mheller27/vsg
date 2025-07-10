@@ -1,8 +1,10 @@
+import '@/pdfWorker';
 import React, { useState, useEffect } from 'react';
 import { X, ArrowLeft, Phone, MessageSquare, Video } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useIsMobile } from '@/hooks/use-mobile';
+import '@/pdfWorker';
 
 interface UnitPageProps {
   unit: any;
@@ -10,9 +12,101 @@ interface UnitPageProps {
   onClose: () => void;
 }
 
-const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
+import { Document, Page } from 'react-pdf';
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import 'react-pdf/dist/esm/Page/TextLayer.css';
+import { useRef } from 'react';
+
+
+const FloorplanViewer = ({ file }: { file: string }) => {
   const isMobile = useIsMobile();
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [numPages, setNumPages] = useState<number | null>(null);
+  const [scale, setScale] = useState(1.0);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (isMobile && containerRef.current) {
+      const containerWidth = containerRef.current.offsetWidth;
+      const defaultPdfWidth = 612;
+      const newScale = (containerWidth / defaultPdfWidth) * 0.6;
+      setScale(newScale);
+    }
+  }, [file, isMobile]);
+
+  const handleLoadSuccess = ({ numPages }: { numPages: number }) => {
+    setNumPages(numPages);
+    setError(null);
+  };
+
+  const handleLoadError = (error: Error) => {
+    setError(error.message);
+  };
+
+  if (isMobile) {
+    return (
+      <div ref={containerRef} className="bg-gray-50 rounded-lg border border-gray-200 p-4">
+        <div className="flex justify-between items-center mb-4">
+          <span className="font-semibold text-gray-800">Zoom</span>
+          <div className="flex gap-2">
+            <button
+              className="border border-gray-300 rounded px-3 py-1 text-sm"
+              onClick={() => setScale((s) => Math.max(0.2, s - 0.2))}
+            >
+              -
+            </button>
+            <button
+              className="border border-gray-300 rounded px-3 py-1 text-sm"
+              onClick={() => setScale((s) => Math.min(3.0, s + 0.2))}
+            >
+              +
+            </button>
+          </div>
+        </div>
+
+        {error ? (
+          <div className="text-red-500 p-4 text-center">Error loading PDF: {error}</div>
+        ) : (
+          <Document
+            file={file}
+            onLoadSuccess={handleLoadSuccess}
+            onLoadError={handleLoadError}
+            loading={<div className="text-center p-4">Loading PDF...</div>}
+          >
+            {Array.from({ length: numPages || 0 }, (_, i) => (
+              <Page
+                key={`page_${i + 1}`}
+                pageNumber={i + 1}
+                scale={scale}
+                renderAnnotationLayer={false}
+                renderTextLayer={false}
+              />
+            ))}
+          </Document>
+        )}
+      </div>
+    );
+  }
+
+  // 🖥️ Desktop: use iframe
+  return (
+    <div className="bg-gray-50 rounded-lg border border-gray-200">
+      <iframe
+        src={`${file}#toolbar=1&navpanes=0`}
+        title="Floorplan PDF"
+        className="w-full min-h-[90vh] border-0 rounded-lg"
+        onLoad={() => console.log(`PDF loaded successfully: ${file}`)}
+        onError={(e) => console.error(`PDF failed to load:`, e)}
+      />
+    </div>
+  );
+};
+
+
+
+const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   const [activeTab, setActiveTab] = useState('floorplan');
+  const isMobile = useIsMobile(); // <-- Move hook call here
 
   // Handle escape key
   useEffect(() => {
@@ -29,7 +123,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
     return () => {
       document.removeEventListener('keydown', handleEscape);
     };
-  }, [isOpen, isMobile, onClose]);
+  }, [isOpen, onClose]);
 
   // Update active tab when unit changes or tabs availability changes
   useEffect(() => {
@@ -188,13 +282,9 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
           <TabsContent value="floorplan" className="m-0">
             <div className="bg-gray-50 rounded-lg border border-gray-200">
               {unit.floorplan_pdf ? (
-                <iframe
-                  src={`${unit.floorplan_pdf}#toolbar=1&navpanes=0`}
-                  title={`Floorplan for ${unit.residence} Unit ${unit.unit}`}
-                  className="w-full min-h-[90vh] border-0"
-                  onLoad={() => console.log(`PDF loaded successfully for ${unit.residence} Unit ${unit.unit}`)}
-                  onError={(e) => console.error(`PDF failed to load for ${unit.residence} Unit ${unit.unit}:`, e)}
-                />
+                <div className="overflow-auto">
+                  <FloorplanViewer file={unit.floorplan_pdf} />
+                </div>
               ) : (
                 <div className="h-96 flex items-center justify-center">
                   <div className="text-center text-gray-500">

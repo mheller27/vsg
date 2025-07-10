@@ -12,6 +12,19 @@ import UnitHoverCard from '../components/UnitHoverCard';
 import FloorplateUnitList from '../components/FloorplateUnitList';
 import AllUnitsTab from '../components/AllUnitsTab';
 import FloorplateViewer from '../components/FloorplateViewer';
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import LazyLoad from 'react-lazyload';
+
+// Add Unit type based on usage in this file
+// This is a minimal type, expand as needed
+interface Unit {
+  unit_id: string;
+  price?: string;
+  beds?: number;
+  interior_sqft?: number;
+  availability?: string;
+}
 
 const normalizeId = (id: string) => id.trim().toLowerCase().replace(/\s+/g, '');
 const styles = `
@@ -47,7 +60,7 @@ const styles = `
 const PropertyProfile = () => {
   const { slug } = useParams<{ slug: string }>();
   const [selectedFloor, setSelectedFloor] = useState('');
-  const [unitData, setUnitData] = useState<any[]>([]);
+  const [unitData, setUnitData] = useState<Unit[]>([]);
   const [propertyMetadata, setPropertyMetadata] = useState<any>(null);
   const [hoveredUnit, setHoveredUnit] = useState<any>(null);
   const [mouseX, setMouseX] = useState(0);
@@ -69,12 +82,12 @@ const PropertyProfile = () => {
   }, [propertyData, selectedFloor]);
 
   
-  const [filteredUnits, setFilteredUnits] = useState<any[]>([]);
+  const [filteredUnits, setFilteredUnits] = useState<Unit[]>([]);
   const [selectedBedrooms, setSelectedBedrooms] = useState<number | null>(null);
   const [selectedPriceStatus, setSelectedPriceStatus] = useState<'listed' | 'unreleased' | null>(null);
   const availableBedroomCounts = useMemo(() => {
   const counts = new Set<number>();
-  unitData.forEach(unit => {
+  unitData.forEach((unit: Unit) => {
     if ((unit.availability === "Available" || unit.availability === "TBD") && typeof unit.beds === "number") {
       counts.add(unit.beds);
     }
@@ -83,19 +96,19 @@ const PropertyProfile = () => {
 }, [unitData]);
 
   useEffect(() => {
-    const availableUnits = unitData.filter(unit => 
+    const availableUnits = unitData.filter((unit: Unit) => 
       unit.availability === "Available" || unit.availability === "TBD"
     );
 
     const bedroomFiltered = selectedBedrooms !== null
-      ? availableUnits.filter(unit => unit.beds === selectedBedrooms)
+      ? availableUnits.filter((unit: Unit) => unit.beds === selectedBedrooms)
       : availableUnits;
 
     const priceFiltered = selectedPriceStatus === 'listed'
-      ? bedroomFiltered.filter(unit => unit.price && unit.price.startsWith('$'))
+      ? bedroomFiltered.filter((unit: Unit) => unit.price && unit.price.startsWith('$'))
       : selectedPriceStatus === 'unreleased'
       ? bedroomFiltered.filter(
-          unit =>
+          (unit: Unit) =>
             unit.price &&
             !unit.price.trim().startsWith('$') &&
             unit.price.trim().toLowerCase() !== 'sold'
@@ -248,7 +261,7 @@ const getPriceRange = (units: Unit[]) => {
 };
 
 const getBedroomRange = (units: Unit[]) => {
-  const beds = units.map(unit => unit.beds).filter(Boolean);
+  const beds = units.map(unit => unit.beds).filter(Boolean) as number[];
   if (beds.length === 0) return 'N/A';
   const min = Math.min(...beds);
   const max = Math.max(...beds);
@@ -256,7 +269,7 @@ const getBedroomRange = (units: Unit[]) => {
 };
 
 const getSqftRange = (units: Unit[]) => {
-  const sqfts = units.map(unit => unit.interior_sqft).filter(Boolean);
+  const sqfts = units.map(unit => unit.interior_sqft).filter(Boolean) as number[];
   if (sqfts.length === 0) return 'N/A';
   const min = Math.min(...sqfts);
   const max = Math.max(...sqfts);
@@ -308,14 +321,14 @@ const filteredAndSortedUnits = useMemo(() => {
 
   const selectedFloorPadded = selectedFloor.padStart(2, '0'); // e.g., "06", "14"
 
-  const floorUnits = unitData.filter(unit => {
+  const floorUnits = unitData.filter((unit: Unit) => {
     const match = unit.unit_id.match(/__floor-(\d{2})__/);
     const unitFloor = match?.[1];
     return unitFloor === selectedFloorPadded;
   });
 
-  return floorUnits.sort((a, b) => {
-    const getPriority = (unit: any) => {
+  return floorUnits.sort((a: Unit, b: Unit) => {
+    const getPriority = (unit: Unit) => {
       if (!unit.price || unit.price === 'null') return 3;
       if (unit.price === 'Contact us for price') return 2;
       if (unit.price.startsWith('$')) return 1;
@@ -334,23 +347,42 @@ const getFloorplanImage = (floor: string) => {
   return propertyFloorplates?.[floor]?.image || '';
 };
 
- if (!propertyData) {
-  return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="text-center">
-        <h1 className="text-2xl font-bold mb-4">Property Not Found</h1>
-        <Link to="/map">
-          <Button variant="outline">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Map
-          </Button>
-        </Link>
-      </div>
-    </div>
-  );
-}
-
   const details = propertyData?.metadata;
+
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [photoIndex, setPhotoIndex] = useState(0);
+
+  // Remove previous allImages/imageIndexMap logic
+  // Build galleryImages array of all possible images
+  const galleryImages: string[] = useMemo(() => {
+    if (!imageFolders || !slug) return [];
+    const images: string[] = [];
+    imageFolders.forEach(folder => {
+      for (let i = 1; i <= 20; i++) {
+        images.push(`/assets/${slug}/${folder}/${String(i).padStart(2, '0')}.jpg`);
+      }
+    });
+    return images;
+  }, [imageFolders, slug]);
+
+  // Track only images that actually exist (successfully loaded)
+  const [existingImages, setExistingImages] = useState<string[]>([]);
+
+  if (!propertyData) {
+    return (
+      <div className="container mx-auto px-4 py-8">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold mb-4">Property Not Found</h1>
+          <Link to="/map">
+            <Button variant="outline">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Back to Map
+            </Button>
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -486,7 +518,7 @@ const getFloorplanImage = (floor: string) => {
                 selectedBedrooms={selectedBedrooms}
                 setSelectedBedrooms={setSelectedBedrooms}
                 selectedPriceStatus={selectedPriceStatus}
-                setSelectedPriceStatus={setSelectedPriceStatus}
+                setSelectedPriceStatus={(value: 'listed' | 'unreleased' | null) => setSelectedPriceStatus(value)}
                 availableBedroomCounts={availableBedroomCounts}
                 handleUnitClick={handleUnitClick}
                 formatSquareFootage={formatSquareFootage}
@@ -552,7 +584,6 @@ const getFloorplanImage = (floor: string) => {
 
         <TabsContent value="gallery" className="mt-6">
           <div>
-            <h2 className="text-2xl font-semibold mb-4">Photo Gallery</h2>
             {imageFolders.length > 0 ? (
               <div className="space-y-8">
                 {imageFolders.map((folder) => {
@@ -570,6 +601,16 @@ const getFloorplanImage = (floor: string) => {
                             src={src}
                             alt={`${folder} image ${idx + 1}`}
                             className="rounded-lg shadow-sm object-cover w-full h-64"
+                            onLoad={() => {
+                              setExistingImages(prev => prev.includes(src) ? prev : [...prev, src]);
+                            }}
+                            onClick={() => {
+                              const index = existingImages.indexOf(src);
+                              if (index !== -1) {
+                                setPhotoIndex(index);
+                                setLightboxOpen(true);
+                              }
+                            }}
                             onError={(e) => {
                               const target = e.target as HTMLImageElement;
                               target.style.display = 'none'; // Hide if image doesn't exist
@@ -624,6 +665,14 @@ const getFloorplanImage = (floor: string) => {
           </div>
         </TabsContent>
       </Tabs>
+
+      <Lightbox
+        open={lightboxOpen}
+        close={() => setLightboxOpen(false)}
+        slides={existingImages.map(src => ({ src }))}
+        index={photoIndex}
+        on={{ view: ({ index }) => setPhotoIndex(index) }}
+      />
     </div>
   );
 };

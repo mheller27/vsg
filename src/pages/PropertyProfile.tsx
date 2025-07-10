@@ -367,6 +367,26 @@ const getFloorplanImage = (floor: string) => {
 
   // Track only images that actually exist (successfully loaded)
   const [existingImages, setExistingImages] = useState<string[]>([]);
+  const [existingThumbnails, setExistingThumbnails] = useState<string[]>([]);
+
+  // Helper function to get thumbnail path
+  const getThumbnailPath = (fullPath: string) => {
+    // Convert full path to thumbnail path
+    const pathParts = fullPath.split('/');
+    const fileName = pathParts.pop(); // Get the filename
+    const folderName = pathParts.pop(); // Get the folder name (residences, amenities, etc.)
+    return [...pathParts, folderName, 'thumbnails', fileName].join('/');
+  };
+
+  // Helper function to get full-size image path
+  const getFullSizePath = (thumbnailPath: string) => {
+    // Convert thumbnail path back to full-size path
+    const pathParts = thumbnailPath.split('/');
+    const fileName = pathParts.pop(); // Get the filename
+    pathParts.pop(); // Remove 'thumbnails'
+    const folderName = pathParts.pop(); // Get the folder name
+    return [...pathParts, folderName, fileName].join('/');
+  };
 
   if (!propertyData) {
     return (
@@ -595,28 +615,40 @@ const getFloorplanImage = (floor: string) => {
                     <div key={folder}>
                       <h3 className="text-xl font-bold capitalize mb-3">{folder.replace(/-/g, ' ')}</h3>
                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        {images.map((src, idx) => (
-                          <img
-                            key={`${folder}-${idx}`}
-                            src={src}
-                            alt={`${folder} image ${idx + 1}`}
-                            className="rounded-lg shadow-sm object-cover w-full h-64"
-                            onLoad={() => {
-                              setExistingImages(prev => prev.includes(src) ? prev : [...prev, src]);
-                            }}
-                            onClick={() => {
-                              const index = existingImages.indexOf(src);
-                              if (index !== -1) {
-                                setPhotoIndex(index);
-                                setLightboxOpen(true);
-                              }
-                            }}
-                            onError={(e) => {
-                              const target = e.target as HTMLImageElement;
-                              target.style.display = 'none'; // Hide if image doesn't exist
-                            }}
-                          />
-                        ))}
+                        {images.map((src, idx) => {
+                          const thumbnailPath = getThumbnailPath(src);
+                          const fullSizePath = getFullSizePath(src);
+                          
+                          return (
+                            <LazyLoad key={`${folder}-${idx}`} height={256} offset={100} once>
+                              <img
+                                src={thumbnailPath}
+                                alt={`${folder} image ${idx + 1}`}
+                                className="rounded-lg shadow-sm object-cover w-full h-64 cursor-pointer hover:opacity-90 transition-opacity"
+                                onLoad={() => {
+                                  // Add to both thumbnail and full-size arrays
+                                  setExistingThumbnails(prev => 
+                                    prev.includes(thumbnailPath) ? prev : [...prev, thumbnailPath]
+                                  );
+                                  setExistingImages(prev => 
+                                    prev.includes(fullSizePath) ? prev : [...prev, fullSizePath]
+                                  );
+                                }}
+                                onClick={() => {
+                                  const index = existingImages.indexOf(fullSizePath);
+                                  if (index !== -1) {
+                                    setPhotoIndex(index);
+                                    setLightboxOpen(true);
+                                  }
+                                }}
+                                onError={(e) => {
+                                  const target = e.target as HTMLImageElement;
+                                  target.style.display = 'none'; // Hide if image doesn't exist
+                                }}
+                              />
+                            </LazyLoad>
+                          );
+                        })}
                       </div>
                     </div>
                   );

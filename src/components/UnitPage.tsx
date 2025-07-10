@@ -16,6 +16,7 @@ import { Document, Page } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import { useRef } from 'react';
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 
 const FloorplanViewer = ({ file }: { file: string }) => {
@@ -48,7 +49,7 @@ const FloorplanViewer = ({ file }: { file: string }) => {
       <div ref={containerRef} className="bg-gray-50 rounded-lg border border-gray-200 p-4">
         <div className="flex justify-between items-center mb-4">
           <span className="font-semibold text-gray-800">Zoom</span>
-          <div className="flex gap-2">
+          <div className="flex gap-2 items-center">
             <button
               className="border border-gray-300 rounded px-3 py-1 text-sm"
               onClick={() => setScale((s) => Math.max(0.2, s - 0.2))}
@@ -61,6 +62,14 @@ const FloorplanViewer = ({ file }: { file: string }) => {
             >
               +
             </button>
+            <a
+              href={file}
+              download
+              className="ml-2 border border-blue-600 bg-white text-blue-600 rounded px-3 py-1 text-sm hover:bg-blue-50 hover:text-blue-700 hover:border-blue-700 transition"
+              style={{ textDecoration: 'none' }}
+            >
+              Download
+            </a>
           </div>
         </div>
 

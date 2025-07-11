@@ -142,7 +142,7 @@ const PropertyProfile = () => {
       console.log('🔍 Base path:', basePath);
 
       const [infoRes, floorplateRes, svgRes] = await Promise.all([
-        fetch(`${basePath}/property-info.json`),
+        fetch(`${basePath}/property-info.json?t=${Date.now()}`),
         fetch(`${basePath}/property-floorplates.json`),
         fetch(`${basePath}/property-svg.json`)
       ]);
@@ -164,7 +164,7 @@ const PropertyProfile = () => {
       const infoJson = await infoRes.json();
       const floorplateJson = await floorplateRes.json();
       const svgJson = await svgRes.json();
-
+      
       console.log('✅ Successfully loaded property data:', {
         hasMetadata: !!infoJson.metadata,
         hasUnits: !!infoJson.units,

@@ -71,7 +71,8 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
 
       {/* Desktop Layout */}
       <div className="hidden sm:block">
-        <div className="flex flex-row items-center gap-6">
+        <div className="flex flex-row items-stretch gap-6 h-40">
+          {/* Profile Image */}
           {propertyMetadata.profile_image && (
             <img
               src={propertyMetadata.profile_image}
@@ -84,7 +85,8 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
             />
           )}
 
-          <div className="flex flex-col justify-between h-40 w-full">
+          {/* Details/Rows */}
+          <div className="flex flex-col justify-between w-full">
             <h1 className="text-lg font-semibold text-gray-900 leading-tight truncate">
               {propertyMetadata.property_name}
             </h1>
@@ -109,6 +111,17 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
               </Button>
             </div>
           </div>
+
+          {/* Logo Image (Desktop Only) */}
+          {propertyMetadata.profile_logo && (
+            <div className="hidden sm:flex items-center h-40">
+              <img
+                src={propertyMetadata.profile_logo}
+                alt={`${propertyMetadata.property_name} logo`}
+                className="h-40 w-auto object-contain"
+              />
+            </div>
+          )}
         </div>
       </div>
 

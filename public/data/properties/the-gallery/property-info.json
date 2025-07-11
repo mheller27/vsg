@@ -2,10 +2,11 @@
     "metadata": {
       "property_name": "The Gallery",
       "profile_image": "/assets/the-gallery/profile/01.jpg",
+      "profile_logo": "/assets/the-gallery/profile/01.svg",
       "developer": "Palm One Group & The Simpson Organization",
       "property_video": null,
       "estimated_completion_date": "5/1/2026",
-      "property_coordinates" [-82.544037, 27.339923],
+      "property_coordinates": [-82.544037, 27.339923],
       "imageFolders": [
         "building",
         "amenities",

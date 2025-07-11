@@ -116,9 +116,7 @@ export const locations: EnhancedLocation[] = [
     id: '3',
     name: 'Amara on Sarasota Bay',
     coordinates: [-82.54919, 27.33364],
-    description: `$4.25M - $7.95M
-2 - 4 Bedrooms
-2,615 - 3,429 SqFt`,
+    description: `$4.25M - $7.95M, 2 - 4 Bedrooms, 2,615 - 3,429 SqFt`,
     imageUrls: [
       '/lovable-uploads/6fd75bc0-99fb-42ac-a3ef-4b5d1378fdd4.png',
       '/lovable-uploads/88244fd3-c37c-47d5-83b4-ccd490be9631.png',

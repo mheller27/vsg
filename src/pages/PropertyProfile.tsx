@@ -12,8 +12,12 @@ import UnitHoverCard from '../components/UnitHoverCard';
 import FloorplateUnitList from '../components/FloorplateUnitList';
 import AllUnitsTab from '../components/AllUnitsTab';
 import FloorplateViewer from '../components/FloorplateViewer';
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Keyboard, EffectFade } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 import LazyLoad from 'react-lazyload';
 
 // Add Unit type based on usage in this file
@@ -349,8 +353,8 @@ const getFloorplanImage = (floor: string) => {
 
   const details = propertyData?.metadata;
 
-  const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [photoIndex, setPhotoIndex] = useState(0);
+  const [swiperModalOpen, setSwiperModalOpen] = useState(false);
+  const [swiperIndex, setSwiperIndex] = useState(0);
 
   // Remove previous allImages/imageIndexMap logic
   // Build galleryImages array of all possible images
@@ -395,23 +399,23 @@ const getFloorplanImage = (floor: string) => {
     pathParts.pop(); // Remove 'thumbnails'
     const folderName = pathParts.pop(); // Get the folder name
     return [...pathParts, folderName, fileName].join('/');
-  };
+};
 
-  if (!propertyData) {
-    return (
-      <div className="container mx-auto px-4 py-8">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold mb-4">Property Not Found</h1>
-          <Link to="/map">
-            <Button variant="outline">
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Map
-            </Button>
-          </Link>
-        </div>
+ if (!propertyData) {
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <div className="text-center">
+        <h1 className="text-2xl font-bold mb-4">Property Not Found</h1>
+        <Link to="/map">
+          <Button variant="outline">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Map
+          </Button>
+        </Link>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -618,8 +622,7 @@ const getFloorplanImage = (floor: string) => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
                   {filteredGalleryImages.map((src, idx) => {
                     const thumbnailPath = getThumbnailPath(src);
-                    
-                    return (
+                  return (
                       <LazyLoad key={`gallery-${idx}`} height={256} offset={100} once>
                         <div>
                           <img
@@ -627,11 +630,8 @@ const getFloorplanImage = (floor: string) => {
                             alt={`Gallery image ${idx + 1}`}
                             className="rounded-lg shadow-sm object-cover w-full cursor-pointer hover:opacity-90 transition-opacity"
                             onClick={() => {
-                              const index = existingImages.indexOf(src);
-                              if (index !== -1) {
-                                setPhotoIndex(index);
-                                setLightboxOpen(true);
-                              }
+                              setSwiperIndex(idx);
+                              setSwiperModalOpen(true);
                             }}
                           />
                         </div>
@@ -639,14 +639,12 @@ const getFloorplanImage = (floor: string) => {
                     );
                   })}
                 </div>
-                
                 {/* Hidden images to detect which ones exist */}
                 <div style={{ display: 'none' }}>
                   {galleryImages.map((src, idx) => {
                     const thumbnailPath = getThumbnailPath(src);
-                    
                     return (
-                      <img
+                          <img
                         key={`detector-${idx}`}
                         src={thumbnailPath}
                         onLoad={() => {
@@ -664,6 +662,54 @@ const getFloorplanImage = (floor: string) => {
                     );
                   })}
                 </div>
+                {/* Swiper Modal */}
+                {swiperModalOpen && (
+                  <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80"
+                    tabIndex={-1}
+                    onClick={() => setSwiperModalOpen(false)}
+                    onKeyDown={e => { if (e.key === 'Escape') setSwiperModalOpen(false); }}
+                  >
+                    <div
+                      className="relative w-full max-w-4xl h-[80vh] bg-white rounded-lg shadow-lg flex items-center justify-center"
+                      onClick={e => e.stopPropagation()}
+                    >
+                      <button
+                        className="absolute top-4 right-4 z-10 bg-white rounded-full p-2 shadow hover:bg-gray-100"
+                        onClick={() => setSwiperModalOpen(false)}
+                        aria-label="Close gallery"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                      <Swiper
+                        initialSlide={swiperIndex}
+                        navigation
+                        pagination={{ clickable: true }}
+                        keyboard={{ enabled: true }}
+                        spaceBetween={30}
+                        className="w-full h-full"
+                        onSlideChange={swiper => setSwiperIndex(swiper.activeIndex)}
+                        modules={[Navigation, Pagination, Keyboard, EffectFade]}
+                        effect="fade"
+                        speed={600}
+                      >
+                        {filteredGalleryImages.map((src, idx) => (
+                          <SwiperSlide key={`modal-slide-${idx}`}>
+                            <div className="w-full h-full flex items-center justify-center bg-white">
+                              <img
+                                src={src}
+                                alt={`Gallery image ${idx + 1}`}
+                                className="object-contain w-full h-full max-h-[70vh] mx-auto rounded-lg"
+                              />
+                            </div>
+                          </SwiperSlide>
+                        ))}
+                      </Swiper>
+                    </div>
+                  </div>
+                )}
               </div>
             ) : (
               <div className="bg-gray-50 p-6 rounded-lg">
@@ -708,14 +754,6 @@ const getFloorplanImage = (floor: string) => {
           </div>
         </TabsContent>
       </Tabs>
-
-      <Lightbox
-        open={lightboxOpen}
-        close={() => setLightboxOpen(false)}
-        slides={existingImages.map(src => ({ src }))}
-        index={photoIndex}
-        on={{ view: ({ index }) => setPhotoIndex(index) }}
-      />
     </div>
   );
 };

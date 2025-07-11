@@ -11,6 +11,12 @@ import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import LazyLoad from 'react-lazyload';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Keyboard, EffectFade } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 
 interface UnitPageProps {
   unit: any;
@@ -120,6 +126,9 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   // Lightbox state for photos
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
+  
+  const [swiperModalOpen, setSwiperModalOpen] = useState(false);
+  const [swiperIndex, setSwiperIndex] = useState(0);
   
 
   
@@ -428,12 +437,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
     photos: string[]; 
     startIndex: number;
   }) => {
-    console.log(`🔍 PhotoSection "${title}":`, { photos: photos.length, startIndex });
-    if (!photos || photos.length === 0) {
-      console.log(`🔍 PhotoSection "${title}": No photos to render`);
-      return null;
-    }
-    
+    if (!photos || photos.length === 0) return null;
     return (
       <div className="mb-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">{title}</h3>
@@ -441,7 +445,6 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
           {photos.map((src, idx) => {
             const thumbnailPath = getThumbnailPath(src);
             const globalIndex = startIndex + idx;
-            
             return (
               <img
                 key={`photo-section-${globalIndex}`}
@@ -450,20 +453,61 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
                 loading="lazy"
                 className="rounded-lg shadow-sm object-cover w-full cursor-pointer hover:opacity-90 transition-opacity"
                 onClick={() => {
-                  setPhotoIndex(globalIndex);
-                  setLightboxOpen(true);
-                }}
-                onLoad={() => {
-                  const now = new Date();
-                  console.log(`✅ Loaded: ${thumbnailPath} at ${now.toLocaleTimeString()}`);
-                }}
-                onError={() => {
-                  console.log(`❌ Failed to load: ${thumbnailPath}`);
+                  setSwiperIndex(globalIndex);
+                  setSwiperModalOpen(true);
                 }}
               />
             );
           })}
         </div>
+        {/* Swiper Modal */}
+        {swiperModalOpen && (
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80"
+            tabIndex={-1}
+            onClick={() => setSwiperModalOpen(false)}
+            onKeyDown={e => { if (e.key === 'Escape') setSwiperModalOpen(false); }}
+          >
+            <div
+              className="relative w-full max-w-4xl h-[80vh] bg-white rounded-lg shadow-lg flex items-center justify-center"
+              onClick={e => e.stopPropagation()}
+            >
+              <button
+                className="absolute top-4 right-4 z-10 bg-white rounded-full p-2 shadow hover:bg-gray-100"
+                onClick={() => setSwiperModalOpen(false)}
+                aria-label="Close gallery"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+              <Swiper
+                initialSlide={swiperIndex}
+                navigation
+                pagination={{ clickable: true }}
+                keyboard={{ enabled: true }}
+                spaceBetween={30}
+                className="w-full h-full"
+                onSlideChange={swiper => setSwiperIndex(swiper.activeIndex)}
+                modules={[Navigation, Pagination, Keyboard, EffectFade]}
+                effect="fade"
+                speed={600}
+              >
+                {unitPhotos.map((src, idx) => (
+                  <SwiperSlide key={`modal-slide-${idx}`}>
+                    <div className="w-full h-full flex items-center justify-center bg-white">
+                      <img
+                        src={src}
+                        alt={`${title} - Photo ${idx + 1}`}
+                        className="object-contain w-full h-full max-h-[70vh] mx-auto rounded-lg"
+                      />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+          </div>
+        )}
       </div>
     );
   };
@@ -499,6 +543,10 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
           slides={unitPhotos.map(src => ({ src }))}
           index={photoIndex}
           on={{ view: ({ index }) => setPhotoIndex(index) }}
+          animation={{
+            fade: 400,
+            easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
+          }}
         />
       </div>
     );
@@ -539,6 +587,10 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
         slides={unitPhotos.map(src => ({ src }))}
         index={photoIndex}
         on={{ view: ({ index }) => setPhotoIndex(index) }}
+        animation={{
+          swipe: 500,
+          easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
+        }}
       />
     </div>
   );

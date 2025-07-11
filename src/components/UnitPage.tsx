@@ -437,33 +437,30 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
     return (
       <div className="mb-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">{title}</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 overflow-y-auto max-h-[80vh]">
           {photos.map((src, idx) => {
             const thumbnailPath = getThumbnailPath(src);
             const globalIndex = startIndex + idx;
             
             return (
-              <LazyLoad key={`photo-section-${globalIndex}`} height={256} offset={100} once>
-                <div>
-                  <img
-                    src={thumbnailPath}
-                    alt={`${title} - Photo ${idx + 1}`}
-                    className="rounded-lg shadow-sm object-cover w-full cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => {
-                      setPhotoIndex(globalIndex);
-                      setLightboxOpen(true);
-                    }}
-                    onError={(e) => {
-                      console.log('❌ Image failed to load:', thumbnailPath);
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                    }}
-                    onLoad={() => {
-                      console.log('✅ Image loaded successfully:', thumbnailPath);
-                    }}
-                  />
-                </div>
-              </LazyLoad>
+              <img
+                key={`photo-section-${globalIndex}`}
+                src={thumbnailPath}
+                alt={`${title} - Photo ${idx + 1}`}
+                loading="lazy"
+                className="rounded-lg shadow-sm object-cover w-full cursor-pointer hover:opacity-90 transition-opacity"
+                onClick={() => {
+                  setPhotoIndex(globalIndex);
+                  setLightboxOpen(true);
+                }}
+                onLoad={() => {
+                  const now = new Date();
+                  console.log(`✅ Loaded: ${thumbnailPath} at ${now.toLocaleTimeString()}`);
+                }}
+                onError={() => {
+                  console.log(`❌ Failed to load: ${thumbnailPath}`);
+                }}
+              />
             );
           })}
         </div>
@@ -471,26 +468,38 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
     );
   };
   
-  // Mobile full-page layout
   if (isMobile) {
     return (
-      <div className="fixed inset-0 z-50 bg-white overflow-y-auto">
-        {/* Mobile Header - Sticky */}
-        <div className="bg-white border-b border-gray-200 p-4 flex items-center sticky top-0 z-10">
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={onClose}
-            className="mr-3"
-          >
-            <ArrowLeft className="h-5 w-5" />
-          </Button>
-          <h1 className="text-lg font-semibold">Unit Details</h1>
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-white">
+        {/* Modal Backdrop */}
+        <div 
+          className="absolute inset-0 bg-black bg-opacity-50"
+          onClick={onClose}
+        />
+        
+        {/* Modal Content - Mobile Friendly */}
+        <div className="relative bg-white rounded-lg shadow-xl w-full h-full overflow-y-auto">
+          {/* Header */}
+          <div className="bg-white border-b border-gray-200 p-4 flex items-center sticky top-0 z-10">
+            <Button variant="ghost" size="icon" onClick={onClose} className="mr-3">
+              <ArrowLeft className="h-5 w-5" />
+            </Button>
+            <h1 className="text-lg font-semibold">Unit Details</h1>
+          </div>
+  
+          {/* Scrollable Content */}
+          <InfoSectionMobile />
+          <TabsSection />
         </div>
-
-        {/* Scrollable Content */}
-        <InfoSectionMobile />
-        <TabsSection />
+  
+        {/* Lightbox for mobile */}
+        <Lightbox
+          open={lightboxOpen}
+          close={() => setLightboxOpen(false)}
+          slides={unitPhotos.map(src => ({ src }))}
+          index={photoIndex}
+          on={{ view: ({ index }) => setPhotoIndex(index) }}
+        />
       </div>
     );
   }

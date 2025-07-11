@@ -488,10 +488,10 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
                 keyboard={{ enabled: true }}
                 spaceBetween={30}
                 className="w-full h-full"
-                onSlideChange={swiper => setSwiperIndex(swiper.activeIndex)}
                 modules={[Navigation, Pagination, Keyboard, EffectFade]}
-                effect="fade"
-                speed={600}
+                effect="slide"
+                speed={300}
+                loop={true}
               >
                 {unitPhotos.map((src, idx) => (
                   <SwiperSlide key={`modal-slide-${idx}`}>

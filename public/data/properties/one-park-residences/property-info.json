@@ -7,7 +7,10 @@
     "bed_bath_range": "3 - 4 Bedrooms \u2022 2,569 - 3,996 SqFt",
     "property_video": "https://www.youtube.com/watch?v=NP75rMQ-pYE&t=333s",
     "estimated_completion_date": "2026-12-31",
-    "imageFolders": ["building", "amenities", "residences", "construction-updates"],
+    "imageFolders": ["building", 
+                    "amenities", 
+                    "residences", 
+                    "construction-updates"],
     "has_floorplate_viewer": true,
     "property_details": [
       "Luxurious Living and Dining: With breathtaking views as the backdrop, spacious indoor and outdoor living and dining areas have been thoughtfully designed for entertaining with porcelain slab, wood or marble floors. Floor-to-ceiling glass leads to expansive balconies and irresistible views of the bay and vibrant downtown.",

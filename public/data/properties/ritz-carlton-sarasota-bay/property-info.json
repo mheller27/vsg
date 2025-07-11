@@ -100,7 +100,7 @@
   ],
   "units": [
     {
-      "unit_id": "ritz-sarasota-bay__floor-03__plaza-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-03__plaza-001",
       "residence": "Plaza 1",
       "type": "condo",
       "unit": 301,
@@ -113,13 +113,13 @@
       "total_sqft": 4464,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-03__plaza-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-03__plaza-001/floorplan/floorplan.pdf",
       "photos": null,
       "video": null,
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-03__plaza-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-03__plaza-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-03__plaza-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-03__plaza-002",
       "residence": "Plaza 2",
       "type": "condo",
       "unit": 302,
@@ -132,13 +132,13 @@
       "total_sqft": 4435,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-03__plaza-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-03__plaza-002/floorplan/floorplan.pdf",
       "photos": null,
       "video": null,
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-03__plaza-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-03__plaza-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-04__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-04__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 401,
@@ -151,19 +151,19 @@
       "total_sqft": 4821,
       "availability": "Sold",
       "price": "Sold",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-04__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-04__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 402,
@@ -176,18 +176,18 @@
       "total_sqft": 4560,
       "availability": "Sold",
       "price": "Sold",
-      "floorplan_pdf": "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-04__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-04__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 403,
@@ -200,21 +200,21 @@
       "total_sqft": 4419,
       "availability": "Sold",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-04__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-04__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 404,
@@ -227,21 +227,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-04__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-04__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 405,
@@ -254,13 +254,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "$3,999,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-05__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-05__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 501,
@@ -273,19 +273,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-05__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-05__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 502,
@@ -298,18 +298,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-05__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-05__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 503,
@@ -322,21 +322,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-05__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-05__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 504,
@@ -349,21 +349,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-05__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-05__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 505,
@@ -376,13 +376,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-06__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-06__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 601,
@@ -395,19 +395,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-06__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-06__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 602,
@@ -420,18 +420,18 @@
       "total_sqft": 4560,
       "availability": "Sold",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-06__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-06__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 603,
@@ -444,21 +444,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-06__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-06__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 604,
@@ -471,21 +471,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-06__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-06__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 605,
@@ -498,13 +498,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-07__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-07__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 701,
@@ -517,19 +517,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-07__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-07__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 702,
@@ -542,18 +542,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],            
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-07__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-07__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 703,
@@ -566,21 +566,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-07__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-07__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 704,
@@ -593,21 +593,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-07__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-07__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 705,
@@ -620,13 +620,13 @@
       "total_sqft": 4663,
       "availability": "Sold",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-08__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-08__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 801,
@@ -639,19 +639,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "$5,999,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-08__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-08__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 802,
@@ -664,18 +664,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "$5,149,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],            
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-08__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-08__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 803,
@@ -688,21 +688,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-08__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-08__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 804,
@@ -715,21 +715,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "$4,599,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-08__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-08__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 805,
@@ -742,13 +742,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-09__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-09__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 901,
@@ -761,19 +761,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-09__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-09__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 902,
@@ -786,18 +786,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],            
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-09__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-09__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 903,
@@ -810,21 +810,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-09__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-09__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 904,
@@ -837,21 +837,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-09__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-09__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 905,
@@ -864,13 +864,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-10__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-10__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 1001,
@@ -883,19 +883,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-10__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-10__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 1002,
@@ -908,18 +908,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],            
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-10__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-10__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 1003,
@@ -932,21 +932,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "$5,099,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-10__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-10__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 1004,
@@ -959,21 +959,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "$4,999,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-10__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-10__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 1005,
@@ -986,13 +986,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "$4,799,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-11__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-11__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 1101,
@@ -1005,19 +1005,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-11__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-11__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 1102,
@@ -1030,18 +1030,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "$5,749,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],            
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-11__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-11__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 1103,
@@ -1054,21 +1054,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "$5,724,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-11__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-11__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 1104,
@@ -1081,21 +1081,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-11__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-11__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 1105,
@@ -1108,13 +1108,13 @@
       "total_sqft": 4663,
       "availability": "Sold",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-12__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-12__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 1201,
@@ -1127,19 +1127,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-12__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-12__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 1202,
@@ -1152,18 +1152,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],            
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-12__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-12__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 1203,
@@ -1176,21 +1176,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-12__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-12__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 1204,
@@ -1203,21 +1203,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "$5,299,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-12__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-12__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 1205,
@@ -1230,13 +1230,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-14__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-14__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 1401,
@@ -1249,19 +1249,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-14__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-14__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 1402,
@@ -1274,18 +1274,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "$6,429,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],            
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-14__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-14__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 1403,
@@ -1298,21 +1298,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "$5,624,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-14__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-14__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 1404,
@@ -1325,21 +1325,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-14__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-14__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 1405,
@@ -1352,13 +1352,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-15__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-15__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 1501,
@@ -1371,19 +1371,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-15__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-15__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 1502,
@@ -1396,18 +1396,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],            
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-15__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-15__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 1503,
@@ -1420,21 +1420,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-15__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-15__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 1504,
@@ -1447,21 +1447,21 @@
       "total_sqft": 3830,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-15__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-15__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 1505,
@@ -1474,13 +1474,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-16__residence-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-16__residence-001",
       "residence": "Residence A",
       "type": "condo",
       "unit": 1601,
@@ -1493,19 +1493,19 @@
       "total_sqft": 4821,
       "availability": "Available",
       "price": "$8,049,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/gallery/05.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=XzfMmRa2ar4",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-16__residence-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-16__residence-002",
       "residence": "Residence B",
       "type": "condo",
       "unit": 1602,
@@ -1518,18 +1518,18 @@
       "total_sqft": 4560,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
-      "/assets/ritz-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/gallery/04.jpg"
       ],            
       "video": "https://www.youtube.com/watch?v=FBLYhsJHa7Q",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-16__residence-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-16__residence-003",
       "residence": "Residence C",
       "type": "condo",
       "unit": 1603,
@@ -1542,21 +1542,21 @@
       "total_sqft": 4419,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/gallery/05.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=02rcsHSqcTw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-16__residence-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-16__residence-004",
       "residence": "Residence D",
       "type": "condo",
       "unit": 1604,
@@ -1569,21 +1569,21 @@
       "total_sqft": 3830,
       "availability": "Sold",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan.pdf",
       "photos": [
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
-      "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/01.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/02.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/03.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/04.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/05.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/06.jpg",
+      "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/gallery/07.jpg"
     ],      
       "video": "https://www.youtube.com/watch?v=wqZhrqxvkiQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-16__residence-005",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-16__residence-005",
       "residence": "Residence E",
       "type": "condo",
       "unit": 1605,
@@ -1596,13 +1596,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=0F-A7620rAQ",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-04__residence-005/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-17__estate-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-17__estate-001",
       "residence": "Estate F",
       "type": "condo",
       "unit": 1701,
@@ -1615,23 +1615,23 @@
       "total_sqft": 5524,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/07.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/08.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/09.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/07.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/08.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/09.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=k0H4qEKaDjw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-17__estate-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-17__estate-002",
       "residence": "Estate G",
       "type": "condo",
       "unit": 1702,
@@ -1644,21 +1644,21 @@
       "total_sqft": 7189,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/07.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/07.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=AQF0HOqNq98",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-17__estate-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-17__estate-003",
       "residence": "Estate H",
       "type": "condo",
       "unit": 1703,
@@ -1671,23 +1671,23 @@
       "total_sqft": 4814,
       "availability": "Available",
       "price": "$8,099,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/07.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/08.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/09.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/07.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/08.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/09.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=kEGPT6DZl4k",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-17__estate-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-17__estate-004",
       "residence": "Estate J",
       "type": "condo",
       "unit": 1704,
@@ -1700,13 +1700,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-004/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=ywI_O4JFihM",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-18__estate-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-18__estate-001",
       "residence": "Estate F",
       "type": "condo",
       "unit": 1801,
@@ -1719,23 +1719,23 @@
       "total_sqft": 5524,
       "availability": "Available",
       "price": "$9,999,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/07.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/08.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/09.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/07.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/08.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/09.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=k0H4qEKaDjw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-18__estate-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-18__estate-002",
       "residence": "Estate G",
       "type": "condo",
       "unit": 1802,
@@ -1748,21 +1748,21 @@
       "total_sqft": 7189,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/07.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/07.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=AQF0HOqNq98",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-18__estate-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-18__estate-003",
       "residence": "Estate H",
       "type": "condo",
       "unit": 1803,
@@ -1775,23 +1775,23 @@
       "total_sqft": 4814,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/07.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/08.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/09.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/07.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/08.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/09.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=kEGPT6DZl4k",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-18__estate-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-18__estate-004",
       "residence": "Estate J",
       "type": "condo",
       "unit": 1804,
@@ -1804,13 +1804,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-004/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=ywI_O4JFihM",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-19__estate-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-19__estate-001",
       "residence": "Estate F",
       "type": "condo",
       "unit": 1901,
@@ -1823,23 +1823,23 @@
       "total_sqft": 5524,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/07.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/08.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/09.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/07.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/08.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/09.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=k0H4qEKaDjw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-19__estate-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-19__estate-002",
       "residence": "Estate G",
       "type": "condo",
       "unit": 1902,
@@ -1852,21 +1852,21 @@
       "total_sqft": 7189,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/07.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/07.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=AQF0HOqNq98",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-19__estate-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-19__estate-003",
       "residence": "Estate H",
       "type": "condo",
       "unit": 1903,
@@ -1879,23 +1879,23 @@
       "total_sqft": 4814,
       "availability": "Available",
       "price": "$8,999,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/07.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/08.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/09.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/07.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/08.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/09.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=kEGPT6DZl4k",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-19__estate-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-19__estate-004",
       "residence": "Estate J",
       "type": "condo",
       "unit": 1904,
@@ -1908,13 +1908,13 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-004/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=ywI_O4JFihM",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-004/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-20__penthouse-001",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-20__penthouse-001",
       "residence": "Penthouse F",
       "type": "condo",
       "unit": 2001,
@@ -1927,23 +1927,23 @@
       "total_sqft": 5524,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-20__penthouse-001/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-20__penthouse-001/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/07.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/08.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-001/gallery/09.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/07.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/08.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-001/gallery/09.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=k0H4qEKaDjw",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-20__penthouse-001/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-20__penthouse-001/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-20__penthouse-002",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-20__penthouse-002",
       "residence": "Penthouse G",
       "type": "condo",
       "unit": 2002,
@@ -1956,21 +1956,21 @@
       "total_sqft": 7189,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-20__penthouse-002/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-20__penthouse-002/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-002/gallery/07.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-002/gallery/07.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=AQF0HOqNq98",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-20__penthouse-002/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-20__penthouse-002/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-20__penthouse-003",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-20__penthouse-003",
       "residence": "Penthouse H",
       "type": "condo",
       "unit": 2003,
@@ -1983,23 +1983,23 @@
       "total_sqft": 4814,
       "availability": "Available",
       "price": "Unreleased",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-20__penthouse-003/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-20__penthouse-003/floorplan/floorplan.pdf",
       "photos": [
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/01.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/02.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/03.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/04.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/05.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/06.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/07.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/08.jpg",
-        "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-17__estate-003/gallery/09.jpg"
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/01.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/02.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/03.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/04.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/05.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/06.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/07.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/08.jpg",
+        "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-17__estate-003/gallery/09.jpg"
       ],      
       "video": "https://www.youtube.com/watch?v=kEGPT6DZl4k",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-20__penthouse-003/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-20__penthouse-003/floorplan/floorplan-thumbnail.jpg"
     },
     {
-      "unit_id": "ritz-sarasota-bay__floor-20__penthouse-004",
+      "unit_id": "ritz-carlton-sarasota-bay__floor-20__penthouse-004",
       "residence": "Penthouse J",
       "type": "condo",
       "unit": 2004,
@@ -2012,10 +2012,10 @@
       "total_sqft": 4663,
       "availability": "Available",
       "price": "$8,499,000",
-      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-20__penthouse-004/floorplan/floorplan.pdf",
+      "floorplan_pdf": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-20__penthouse-004/floorplan/floorplan.pdf",
       "photos": null,
       "video": "https://www.youtube.com/watch?v=ywI_O4JFihM",
-      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-sarasota-bay__floor-20__penthouse-004/floorplan/floorplan-thumbnail.jpg"
+      "floorplan_thumbnail": "/assets/ritz-carlton-sarasota-bay/units/ritz-carlton-sarasota-bay__floor-20__penthouse-004/floorplan/floorplan-thumbnail.jpg"
     }
   ]
 }

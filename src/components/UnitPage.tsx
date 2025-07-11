@@ -1,22 +1,22 @@
 import '@/pdfWorker';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { X, ArrowLeft, Phone, MessageSquare, Video } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useIsMobile } from '@/hooks/use-mobile';
-import '@/pdfWorker';
+import { Document, Page } from 'react-pdf';
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import 'react-pdf/dist/esm/Page/TextLayer.css';
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import LazyLoad from 'react-lazyload';
 
 interface UnitPageProps {
   unit: any;
   isOpen: boolean;
   onClose: () => void;
 }
-
-import { Document, Page } from 'react-pdf';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-import 'react-pdf/dist/esm/Page/TextLayer.css';
-import { useRef } from 'react';
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 
 const FloorplanViewer = ({ file }: { file: string }) => {
@@ -115,7 +115,40 @@ const FloorplanViewer = ({ file }: { file: string }) => {
 
 const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   const [activeTab, setActiveTab] = useState('floorplan');
-  const isMobile = useIsMobile(); // <-- Move hook call here
+  const isMobile = useIsMobile();
+  
+  // Lightbox state for photos
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [photoIndex, setPhotoIndex] = useState(0);
+  
+
+  
+  // Helper function to get thumbnail path
+  const getThumbnailPath = (fullPath: string) => {
+    // Convert full path to thumbnail path
+    const pathParts = fullPath.split('/');
+    const fileName = pathParts.pop(); // Get the filename
+    const folderName = pathParts.pop(); // Get the folder name
+    
+    // Handle both patterns:
+    // 1. Unit-specific: /assets/slug/units/unit-id/gallery/01.jpg -> /assets/slug/units/unit-id/gallery/thumbnails/01.jpg
+    // 2. Shared residences: /assets/slug/residences/01.jpg -> /assets/slug/residences/thumbnails/01.jpg
+    return [...pathParts, folderName, 'thumbnails', fileName].join('/');
+  };
+  
+  // Helper function to detect if photos are unit-specific (in units folder)
+  const hasUnitSpecificPhotos = useMemo(() => {
+    if (!unit || !unit.photos || !Array.isArray(unit.photos)) return false;
+    return unit.photos.some(photo => photo.includes('/units/'));
+  }, [unit]);
+
+
+
+  // Use unit photos directly - simpler approach
+  const unitPhotos = useMemo(() => {
+    if (!unit || !unit.photos || !Array.isArray(unit.photos)) return [];
+    return unit.photos;
+  }, [unit]);
 
   // Handle escape key
   useEffect(() => {
@@ -151,6 +184,16 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
       }
     }
   }, [unit]);
+
+  // For debugging - let's see what's happening
+  useEffect(() => {
+    if (unit && unit.unit_id) {
+      const slug = unit.unit_id.split('__')[0];
+      console.log('🔍 Unit slug:', slug);
+      console.log('🔍 Unit photos:', unit.photos);
+      console.log('🔍 Has unit-specific photos:', hasUnitSpecificPhotos);
+    }
+  }, [unit, hasUnitSpecificPhotos]);
 
   if (!isOpen || !unit) return null;
 
@@ -312,33 +355,13 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
 
         {hasPhotos && (
           <TabsContent value="photos" className="m-0">
-            <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-gray-900">Unit Photos</h3>
-              {unit.photos && unit.photos.length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {unit.photos.map((imagePath: string, index: number) => (
-                    <div key={index} className="relative group">
-                      <img
-                        src={imagePath}
-                        alt={`${unit.residence} Unit ${unit.unit} - Photo ${index + 1}`}
-                        className="w-full h-64 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
-                        onError={(e) => {
-                          const target = e.target as HTMLImageElement;
-                          target.style.display = 'none';
-                        }}
-                      />
-                      <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-200 rounded-lg" />
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="bg-gray-50 rounded-lg border border-gray-200 h-96 flex items-center justify-center">
-                  <div className="text-center text-gray-500">
-                    <div className="text-lg font-medium mb-2">No photos available for this unit</div>
-                    <div className="text-sm">Unit photos will be displayed here when available</div>
-                  </div>
-                </div>
-              )}
+            <div>
+              {/* Unit-specific photos with header */}
+              <PhotoSection 
+                title="Renderings & Photos For This Unit" 
+                photos={unitPhotos} 
+                startIndex={0} 
+              />
             </div>
           </TabsContent>
         )}
@@ -398,6 +421,55 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
     return null;
   }
 };
+
+  // Component to render a photo section
+  const PhotoSection = ({ title, photos, startIndex }: { 
+    title: string; 
+    photos: string[]; 
+    startIndex: number;
+  }) => {
+    console.log(`🔍 PhotoSection "${title}":`, { photos: photos.length, startIndex });
+    if (!photos || photos.length === 0) {
+      console.log(`🔍 PhotoSection "${title}": No photos to render`);
+      return null;
+    }
+    
+    return (
+      <div className="mb-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">{title}</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+          {photos.map((src, idx) => {
+            const thumbnailPath = getThumbnailPath(src);
+            const globalIndex = startIndex + idx;
+            
+            return (
+              <LazyLoad key={`photo-section-${globalIndex}`} height={256} offset={100} once>
+                <div>
+                  <img
+                    src={thumbnailPath}
+                    alt={`${title} - Photo ${idx + 1}`}
+                    className="rounded-lg shadow-sm object-cover w-full cursor-pointer hover:opacity-90 transition-opacity"
+                    onClick={() => {
+                      setPhotoIndex(globalIndex);
+                      setLightboxOpen(true);
+                    }}
+                    onError={(e) => {
+                      console.log('❌ Image failed to load:', thumbnailPath);
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                    }}
+                    onLoad={() => {
+                      console.log('✅ Image loaded successfully:', thumbnailPath);
+                    }}
+                  />
+                </div>
+              </LazyLoad>
+            );
+          })}
+        </div>
+      </div>
+    );
+  };
   
   // Mobile full-page layout
   if (isMobile) {
@@ -450,6 +522,15 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
         <InfoSectionDesktop />
         <TabsSection />
       </div>
+      
+      {/* Lightbox for unit photos */}
+      <Lightbox
+        open={lightboxOpen}
+        close={() => setLightboxOpen(false)}
+        slides={unitPhotos.map(src => ({ src }))}
+        index={photoIndex}
+        on={{ view: ({ index }) => setPhotoIndex(index) }}
+      />
     </div>
   );
 };

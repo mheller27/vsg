@@ -3,7 +3,7 @@ import { getPriceColorClass } from '@/lib/utils';
 
 interface Unit {
   unit_id: string;
-  Residence?: string;
+  residence?: string;
   unit?: string;
   beds?: number;
   baths?: number;
@@ -101,7 +101,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
               {/* Header */}
               <div className="border-b border-gray-100 pb-2">
                 <div className="flex items-center gap-2">
-                  <span className="font-bold text-lg text-gray-900">{unit.Residence || 'Unit Information'}</span>
+                  <span className="font-bold text-lg text-gray-900">{unit.residence || 'Unit Information'}</span>
                   {unit.unit && <span className="text-sm text-gray-600">| {unit.unit}</span>}
                 </div>
                 {unit.price && unit.price !== 'null' && (
@@ -149,7 +149,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
               <div className="mt-4">
                 <img
                   src={unit.floorplan_thumbnail}
-                  alt={`Floorplan for ${unit.Residence} Unit ${unit.unit}`}
+                  alt={`Floorplan for ${unit.residence} Unit ${unit.unit}`}
                   className="w-full h-32 object-contain rounded border border-gray-200"
                 />
               </div>

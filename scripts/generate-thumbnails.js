@@ -31,45 +31,69 @@ async function generateThumbnails() {
     for (const subdir of subdirs) {
       const subdirPath = path.join(propertyDir, subdir);
       
-      // Create thumbnails directory
-      const thumbnailsDir = path.join(subdirPath, 'thumbnails');
-      if (!fs.existsSync(thumbnailsDir)) {
-        fs.mkdirSync(thumbnailsDir, { recursive: true });
-      }
-
-      // Get all jpg files
-      const files = fs.readdirSync(subdirPath).filter(file => 
-        file.toLowerCase().endsWith('.jpg') || file.toLowerCase().endsWith('.jpeg')
-      );
-
-      for (const file of files) {
-        const inputPath = path.join(subdirPath, file);
-        const outputPath = path.join(thumbnailsDir, file);
-
-        // Skip if thumbnail already exists
-        if (fs.existsSync(outputPath)) {
-          console.log(`  Skipping ${subdir}/${file} (thumbnail exists)`);
-          continue;
-        }
-
-        try {
-          await sharp(inputPath)
-            .resize(THUMBNAIL_WIDTH, THUMBNAIL_HEIGHT, {
-              fit: 'cover',
-              position: 'center'
-            })
-            .jpeg({ quality: QUALITY })
-            .toFile(outputPath);
+      // Handle regular folders (amenities, building, residences, etc.)
+      if (subdir !== 'units') {
+        await processFolder(subdirPath, subdir);
+      } else {
+        // Handle units folder - process each unit's gallery
+        const unitsDir = path.join(propertyDir, 'units');
+        if (fs.existsSync(unitsDir)) {
+          const unitDirs = fs.readdirSync(unitsDir).filter(dir => 
+            fs.statSync(path.join(unitsDir, dir)).isDirectory()
+          );
           
-          console.log(`  Generated thumbnail for ${subdir}/${file}`);
-        } catch (error) {
-          console.error(`  Error processing ${subdir}/${file}:`, error.message);
+          for (const unitDir of unitDirs) {
+            const unitPath = path.join(unitsDir, unitDir);
+            const galleryPath = path.join(unitPath, 'gallery');
+            
+            if (fs.existsSync(galleryPath)) {
+              await processFolder(galleryPath, `units/${unitDir}/gallery`);
+            }
+          }
         }
       }
     }
   }
   
   console.log('Thumbnail generation complete!');
+}
+
+async function processFolder(folderPath, folderName) {
+  // Create thumbnails directory
+  const thumbnailsDir = path.join(folderPath, 'thumbnails');
+  if (!fs.existsSync(thumbnailsDir)) {
+    fs.mkdirSync(thumbnailsDir, { recursive: true });
+  }
+
+  // Get all jpg files
+  const files = fs.readdirSync(folderPath).filter(file => 
+    file.toLowerCase().endsWith('.jpg') || file.toLowerCase().endsWith('.jpeg')
+  );
+
+  for (const file of files) {
+    const inputPath = path.join(folderPath, file);
+    const outputPath = path.join(thumbnailsDir, file);
+
+    // Skip if thumbnail already exists
+    if (fs.existsSync(outputPath)) {
+      console.log(`  Skipping ${folderName}/${file} (thumbnail exists)`);
+      continue;
+    }
+
+    try {
+      await sharp(inputPath)
+        .resize(THUMBNAIL_WIDTH, THUMBNAIL_HEIGHT, {
+          fit: 'cover',
+          position: 'center'
+        })
+        .jpeg({ quality: QUALITY })
+        .toFile(outputPath);
+      
+      console.log(`  Generated thumbnail for ${folderName}/${file}`);
+    } catch (error) {
+      console.error(`  Error processing ${folderName}/${file}:`, error.message);
+    }
+  }
 }
 
 // Run the script

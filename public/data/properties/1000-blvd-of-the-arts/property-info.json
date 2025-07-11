@@ -5,6 +5,7 @@
       "developer": "Kolter Urban",
       "property_video": "https://www.youtube.com/watch?v=JeHW1S3o4l0&t=13s",
       "estimated_completion_date": "2028-12-31",
+      "property_coordinates": [-82.54876587116479, 27.341117133759138],
       "imageFolders": [
         "building",
         "amenities",

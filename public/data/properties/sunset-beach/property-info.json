@@ -5,6 +5,7 @@
       "developer": "CASTO Group and David Lehrman",
       "property_video": null,
       "estimated_completion_date": "2026-04-01",
+      "property_coordinates": [-82.567439, 27.277367],
       "imageFolders": [
         "building",
         "amenities",

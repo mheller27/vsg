@@ -19,6 +19,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import LazyLoad from 'react-lazyload';
+import PropertyDetailsTab from '@/components/PropertyDetailsTab';
 
 // Add Unit type based on usage in this file
 // This is a minimal type, expand as needed
@@ -561,58 +562,13 @@ const getFloorplanImage = (floor: string) => {
         </TabsContent>
 
         <TabsContent value="details" className="mt-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Quick Facts</h2>
-              <div className="space-y-3 text-gray-700">
-                <div>
-                  <span className="font-bold">Price Range:</span>{' '}
-                  {getPriceRange(unitData)}
-                </div>
-                <div>
-                  <span className="font-bold">Bedrooms:</span>{' '}
-                  {getBedroomRange(unitData)}
-                </div>
-                <div>
-                  <span className="font-bold">SF Range:</span>{' '}
-                  {getSqftRange(unitData)}
-                </div>
-                <div>
-                  <span className="font-bold">Developer:</span>{' '}
-                  {propertyMetadata?.developer || 'N/A'}
-                </div>
-                <div>
-                  <span className="font-bold">Unit Total:</span>{' '}
-                  {unitData.length}
-                </div>
-                <div>
-                  <span className="font-bold">Estimated Completion Date:</span>{' '}
-                  {propertyMetadata?.estimated_completion_date || 'N/A'}
-                </div>
-              </div>
-            </div>
-          </div>
-            {propertyMetadata && (
-              <div className="mt-10 space-y-6">
-                {[
-                  { title: "Property Details", items: propertyMetadata.property_details },
-                  { title: "Amenity Details", items: propertyMetadata.amenity_details },
-                  { title: "Developer Details", items: propertyMetadata.developer_details },
-                  { title: "Architect Details", items: propertyMetadata.architect_details },
-                  { title: "Builder Details", items: propertyMetadata.builder_details },
-                  { title: "Designer Details", items: propertyMetadata.designer_details },
-                ].map(({ title, items }) => (
-                  <div key={title}>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{title}</h3>
-                    <ul className="list-disc list-inside space-y-2">
-                      {items?.map((item, index) => (
-                        <li key={index} className="text-gray-800">{item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            )}
+          <PropertyDetailsTab
+            unitData={unitData}
+            propertyMetadata={propertyMetadata}
+            getPriceRange={getPriceRange}
+            getBedroomRange={getBedroomRange}
+            getSqftRange={getSqftRange}
+          />
         </TabsContent>
 
         <TabsContent value="gallery" className="mt-6">

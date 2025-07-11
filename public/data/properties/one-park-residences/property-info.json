@@ -7,6 +7,7 @@
     "bed_bath_range": "3 - 4 Bedrooms \u2022 2,569 - 3,996 SqFt",
     "property_video": "https://www.youtube.com/watch?v=NP75rMQ-pYE&t=333s",
     "estimated_completion_date": "2026-12-31",
+    "property_coordinates": [-82.54722, 27.34125],
     "imageFolders": ["building", 
                     "amenities", 
                     "residences", 

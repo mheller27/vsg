@@ -5,6 +5,7 @@
       "developer": "Dunn Hospitality Group",
       "property_video": null,
       "estimated_completion_date": "7/30/2025",
+      "property_coordinates": [-82.539413, 27.340479],
       "imageFolders": [
         "building",
         "amenities",

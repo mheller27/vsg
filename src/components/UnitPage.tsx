@@ -367,7 +367,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
             <div>
               {/* Unit-specific photos with header */}
               <PhotoSection 
-                title="Renderings & Photos For This Unit" 
+                title="Unit Renderings & Photos" 
                 photos={unitPhotos} 
                 startIndex={0} 
               />

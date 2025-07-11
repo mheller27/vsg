@@ -5,6 +5,7 @@
       "developer": "The Ronto Group",
       "property_video": null,
       "estimated_completion_date": "2026-12-31",
+      "property_coordinates": [-82.573160, 27.308927],
       "imageFolders": [
         "building",
         "amenities",

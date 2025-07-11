@@ -5,6 +5,7 @@
       "developer": "Sam Gault",
       "property_video": null,
       "estimated_completion_date": "9/31/2025",
+      "property_coordinates": [-82.550173, 27.333942],
       "imageFolders": [
         "building",
         "amenities",

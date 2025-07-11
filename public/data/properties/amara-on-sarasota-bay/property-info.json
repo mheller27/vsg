@@ -5,6 +5,7 @@
       "developer": "Ronto Group",
       "property_video": null,
       "estimated_completion_date": "2029-08-31",
+      "property_coordinates": [-82.54919, 27.33364],
       "imageFolders": [
         "building",
         "amenities",

@@ -5,6 +5,7 @@
       "developer": "TC Group",
       "property_video": "https://www.youtube.com/watch?v=Mm0h9RZyY9c",
       "estimated_completion_date": "2025-10-31",
+      "property_coordinates": [-82.541749, 27.262616],
       "imageFolders": [
         "building",
         "amenities",

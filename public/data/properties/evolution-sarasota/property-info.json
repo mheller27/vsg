@@ -5,6 +5,7 @@
       "developer": "WB Finance",
       "property_video": null,
       "estimated_completion_date": "Complete",
+      "property_coordinates": [-82.550251, 27.335072],
       "imageFolders": [
         "building",
         "amenities",

@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Remove default outline for all elements inside the custom select trigger */
+.select-trigger:focus,
+.select-trigger:focus-visible,
+.select-trigger:focus-within,
+.select-trigger *:focus,
+.select-trigger *:focus-visible,
+.select-trigger *:focus-within {
+  outline: none !important;
+  box-shadow: none !important;
+}

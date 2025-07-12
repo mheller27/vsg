@@ -96,40 +96,40 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
         <div style="
           display: flex;
           max-width: 90vw;
-          max-width: min(320px, 90vw);
           width: 100%;
           font-family: system-ui, -apple-system, sans-serif;
           line-height: 1.4;
           box-sizing: border-box;
           flex-direction: row;
         ">
-          ${mainImage ? `
-            <div style="
-              flex: 0 0 100px;
-              width: 100px;
-              height: 80px;
-              margin-right: 12px;
-              box-sizing: border-box;
-            ">
-              <img 
-                src="${mainImage}" 
-                alt="${location.name}"
-                style="
-                  width: 100%;
-                  height: 100%;
-                  object-fit: cover;
-                  border-radius: 6px;
-                  box-sizing: border-box;
-                "
-              />
-            </div>
-          ` : ''}
           <div style="
-            flex: 1;
+            flex: 0 0 100px;
+            width: 100px;
+            height: auto;
+            margin-right: 12px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: stretch;
+          ">
+            <img 
+              src="${mainImage}" 
+              alt="${location.name}"
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 6px;
+                box-sizing: border-box;
+                display: block;
+              "
+            />
+          </div>
+          <div style="
+            flex: 1 1 0%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            min-height: 80px;
+            min-width: 0;
             box-sizing: border-box;
           ">
             <div style="box-sizing: border-box;">
@@ -179,13 +179,13 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
         </div>
       `;
 
-      const popup = new mapboxgl.Popup({ 
+      const popup = new mapboxgl.Popup({
         offset: 25,
-        maxWidth: '90vw',
+        maxWidth: '320px',
         className: 'custom-popup',
         closeOnClick: true,
         closeButton: false,
-        anchor: 'bottom'
+        // anchor: 'auto' // you can omit this, 'auto' is default
       }).setHTML(popupHTML);
 
       // Create custom marker element

@@ -262,7 +262,7 @@ const getPriceRange = (units: Unit[]) => {
   const max = Math.max(...validPrices);
 
   const formatPrice = (price: number) => `$${price.toLocaleString()}`;
-  return `From ${formatPrice(min)} - ${formatPrice(max)}`;
+  return `${formatPrice(min)} - ${formatPrice(max)}`;
 };
 
 const getBedroomRange = (units: Unit[]) => {
@@ -270,7 +270,7 @@ const getBedroomRange = (units: Unit[]) => {
   if (beds.length === 0) return 'N/A';
   const min = Math.min(...beds);
   const max = Math.max(...beds);
-  return min === max ? `${min} Bedrooms` : `${min} - ${max} Bedrooms`;
+  return min === max ? `${min} Beds` : `${min} - ${max} Beds`;
 };
 
 const getSqftRange = (units: Unit[]) => {
@@ -476,7 +476,7 @@ const getFloorplanImage = (floor: string) => {
       
      <Tabs defaultValue="sitemap" className="w-full">
    <TabsList className="grid w-full grid-cols-4">
-          <TabsTrigger value="sitemap">Sitemap</TabsTrigger>
+          <TabsTrigger value="sitemap">Floorplans</TabsTrigger>
           <TabsTrigger value="details">Details</TabsTrigger>
           <TabsTrigger value="gallery">Gallery</TabsTrigger>
           <TabsTrigger value="video">Video</TabsTrigger>
@@ -489,7 +489,7 @@ const getFloorplanImage = (floor: string) => {
           <Tabs defaultValue="floor-view" className="w-full">
             <TabsList className="mb-4">
               <TabsTrigger value="floor-view">Search By Floor</TabsTrigger>
-              <TabsTrigger value="all-units">All Available Units</TabsTrigger>
+              <TabsTrigger value="all-units">All Units</TabsTrigger>
             </TabsList>
             
             <TabsContent value="floor-view">
@@ -497,7 +497,7 @@ const getFloorplanImage = (floor: string) => {
                   {propertyData && (
                     <div className="w-full">
                       <Select value={selectedFloor} onValueChange={setSelectedFloor}>
-                        <SelectTrigger className="w-[280px] text-base font-semibold">
+                        <SelectTrigger className="select-trigger w-[280px] text-base font-semibold border-2 border-blue-500 focus:border-blue-600">
                           <SelectValue placeholder="Select Floor" />
                         </SelectTrigger>
                         <SelectContent>
@@ -532,7 +532,9 @@ const getFloorplanImage = (floor: string) => {
   
                 <div className="w-full lg:w-1/2 h-1/2 lg:h-full flex flex-col">
                   <div className="bg-gray-50 rounded-lg border border-gray-200 h-[70vh] lg:h-full flex flex-col">
-                    <h3 className="text-lg font-semibold mb-1 px-4 pt-4 pb-1">Available Units</h3>
+                    <h3 className="text-lg font-semibold mb-1 px-4 pt-4 pb-1">
+                      {floorOptions.find(option => option.value === selectedFloor)?.label || `Floor ${selectedFloor}`} Units
+                    </h3>
                     <div className="overflow-y-auto p-4 space-y-4">
                       <FloorplateUnitList
                         units={filteredAndSortedUnits}

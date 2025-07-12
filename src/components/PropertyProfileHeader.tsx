@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { Phone, Video, Bell } from 'lucide-react';
+import { Phone, Video, Bell, Bed, Ruler } from 'lucide-react';
 
 interface PropertyHeaderProps {
   propertyMetadata: any;
@@ -46,7 +46,10 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
               {getPriceRange(unitData)}
             </p>
             <p className="text-base text-gray-600 leading-tight truncate">
-              {getBedroomRange(unitData)} • {getSqftRange(unitData)} SF
+              <Bed className="inline-block mr-1 mb-0.5 w-4 h-4 text-gray-500" />
+              {getBedroomRange(unitData)}
+              <Ruler className="inline-block ml-2 mr-1 mb-0.5 w-4 h-4 text-gray-500" />
+              {getSqftRange(unitData)}
             </p>
           </div>
         </div>
@@ -87,14 +90,17 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
 
           {/* Details/Rows */}
           <div className="flex flex-col justify-between w-full">
-            <h1 className="text-lg font-semibold text-gray-900 leading-tight truncate">
+            <h1 className="text-2xl font-semibold text-gray-900 leading-tight truncate">
               {propertyMetadata.property_name}
             </h1>
-            <p className="text-base font-medium text-blue-600 leading-tight truncate">
+            <p className="text-xl font-medium text-blue-600 leading-tight truncate">
               {getPriceRange(unitData)}
             </p>
             <p className="text-base text-gray-600 leading-tight truncate">
-              {getBedroomRange(unitData)} • {getSqftRange(unitData)} SF
+              <Bed className="inline-block mr-1 mb-0.5 w-4 h-4 text-gray-500" />
+              {getBedroomRange(unitData)}
+              <Ruler className="inline-block ml-2 mr-1 mb-0.5 w-4 h-4 text-gray-500" />
+              {getSqftRange(unitData)} Sqft
             </p>
             <div className="flex gap-2">
               <Button className="bg-blue-600 text-white hover:bg-blue-700 text-sm px-4 py-2 rounded-md flex items-center gap-2">

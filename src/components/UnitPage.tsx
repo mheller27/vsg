@@ -274,7 +274,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
       <div className="flex justify-between gap-2">
         <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 h-8">
           <MessageSquare className="h-4 w-4 mr-1" />
-          Contact
+          {unit.price === "Unreleased" ? "Request Price" : "Contact"}
         </Button>
         <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 h-8">
           <Video className="h-4 w-4 mr-1" />
@@ -315,7 +315,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
       <div className="flex gap-3 pt-2">
         <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-8">
           <MessageSquare className="h-4 w-4" />
-          Contact
+          {unit.price === "Unreleased" ? "Request Price" : "Contact"}
         </Button>
         <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-8">
           <Video className="h-4 w-4" />

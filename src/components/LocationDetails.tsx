@@ -11,10 +11,10 @@ const LocationDetails = ({ location }: LocationDetailsProps) => {
   
   if (details) {
     return (
-      <div className="flex flex-col gap-1">
-        <div className="text-gray-600">{details.price}</div>
-        <div className="text-gray-600">{details.bedrooms}</div>
-        <div className="text-gray-600">{details.sqft}</div>
+      <div className="flex flex-col gap-0.5">
+        <div className="text-gray-600 text-sm m-0 p-0">{details.price}</div>
+        <div className="text-gray-600 text-sm m-0 p-0">{details.bedrooms}</div>
+        <div className="text-gray-600 text-sm m-0 p-0">{details.sqft}</div>
       </div>
     );
   }

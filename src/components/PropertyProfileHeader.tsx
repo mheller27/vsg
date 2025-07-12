@@ -55,7 +55,7 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
         </div>
 
         {/* Section 2: Button Row */}
-        <div className="flex gap-2 mt-3 w-full">
+        <div className="flex gap-1 mt-3 w-full px-4">
           <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7">
             <Phone className="h-3 w-3" />
             Contact
@@ -64,7 +64,7 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
             <Video className="h-3 w-3" />
             Tour
           </Button>
-          <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7">
+          <Button className="flex-1 bg-white border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7">
             <Bell className="h-3 w-3" />
             Follow
           </Button>
@@ -111,7 +111,7 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
                 <Video className="h-4 w-4" />
                 Tour
               </Button>
-              <Button className="bg-blue-600 text-white hover:bg-blue-700 text-sm px-4 py-2 rounded-md flex items-center gap-2">
+              <Button className="bg-white border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-sm px-4 py-2 rounded-md flex items-center gap-2">
                 <Bell className="h-4 w-4" />
                 Follow
               </Button>

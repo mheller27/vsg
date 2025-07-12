@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { locationDetails } from '../data/communities';
+import debounce from 'lodash.debounce';
 
 export interface Location {
   id: string;
@@ -23,20 +24,47 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markers = useRef<mapboxgl.Marker[]>([]);
+  const initialVisibleLocationsSet = useRef(false);
 
   const getPropertySlug = (locationName: string) => {
     return locationName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
   };
 
+  // Wrap the callback in a debounce (e.g., 200ms)
+  const debouncedOnVisibleLocationsChange = useRef(
+    debounce((ids: string[]) => {
+      onVisibleLocationsChange?.(ids);
+    }, 200)
+  ).current;
+
   const checkVisibleLocations = () => {
     if (!map.current || !onVisibleLocationsChange) return;
-
     const bounds = map.current.getBounds();
+    const mapCanvas = map.current.getContainer();
+    const mapWidth = mapCanvas.offsetWidth;
+    const mapHeight = mapCanvas.offsetHeight;
+
+    if (mapWidth === 0 || mapHeight === 0) {
+      console.warn('[checkVisibleLocations] Map size is zero, skipping visible locations update.');
+      return;
+    }
+
     const visibleLocationIds = locations
-      .filter(location => bounds.contains(location.coordinates))
+      .filter(location => {
+        const pixel = map.current!.project(location.coordinates);
+        return pixel.x >= 0 && pixel.x <= mapWidth && pixel.y >= 0 && pixel.y <= mapHeight;
+      })
       .map(location => location.id);
 
-    console.log('Checking visible locations:', visibleLocationIds.length, 'of', locations.length);
+    // Detailed logging for debugging
+    console.log('[checkVisibleLocations] bounds:', bounds.toArray());
+    console.log(`[checkVisibleLocations] map size: ${mapWidth}x${mapHeight}`);
+    locations.forEach(location => {
+      const pixel = map.current!.project(location.coordinates);
+      const inViewport = pixel.x >= 0 && pixel.x <= mapWidth && pixel.y >= 0 && pixel.y <= mapHeight;
+      console.log(`Location ${location.name} (${location.coordinates}) | pixel: (${pixel.x.toFixed(1)}, ${pixel.y.toFixed(1)}) | inViewport: ${inViewport}`);
+    });
+    console.log('[checkVisibleLocations] visible count:', visibleLocationIds.length, 'of', locations.length, 'ids:', visibleLocationIds);
     onVisibleLocationsChange(visibleLocationIds);
   };
 
@@ -60,12 +88,15 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
     // Add event listeners for map movement
     map.current.on('moveend', checkVisibleLocations);
     map.current.on('zoomend', checkVisibleLocations);
+    map.current.on('resize', checkVisibleLocations);
 
     // Initial check when map loads - ensure this happens after the map is fully loaded
     map.current.on('load', () => {
-      console.log('Map loaded, checking initial visible locations');
-      // Add a small delay to ensure bounds are properly set
-      setTimeout(checkVisibleLocations, 100);
+      console.log('Map loaded, forcing resize and checking initial visible locations');
+      setTimeout(() => {
+        map.current && map.current.resize();
+        checkVisibleLocations();
+      }, 700);
     });
 
     // Clean up on unmount
@@ -205,9 +236,12 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
       markers.current.push(marker);
     });
 
-    // Check visible locations after adding markers and map is ready
+    // Force resize and check visible locations after markers are added
     if (map.current.loaded()) {
-      setTimeout(checkVisibleLocations, 100);
+      setTimeout(() => {
+        map.current && map.current.resize();
+        checkVisibleLocations();
+      }, 200);
     }
   }, [locations]);
 

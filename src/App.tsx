@@ -17,7 +17,7 @@ const App = () => (
     <BrowserRouter>
       <TooltipProvider>
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/" element={<MapPage />} />
           <Route path="/map" element={<MapPage />} />
           <Route path="/property/:slug" element={<PropertyProfile />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

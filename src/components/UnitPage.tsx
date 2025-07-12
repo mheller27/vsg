@@ -377,18 +377,18 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
 
         {hasVideo && (
   <TabsContent value="video" className="m-0">
-    <div className="bg-gray-50 rounded-lg border border-gray-200 p-6">
+    <div className="bg-gray-50 rounded-lg border border-gray-200 p-0 sm:p-6">
       {(() => {
         const youtubeId = extractYouTubeID(unit.video);
         return youtubeId ? (
-          <div className="relative mx-auto" style={{ width: '80%', paddingBottom: '45%', height: 0 }}>
+          <div className="relative mx-auto w-full sm:w-[95%] md:w-[85%] lg:w-[75%] xl:w-[65%] aspect-video px-0 sm:px-4">
             <iframe
               src={`https://www.youtube.com/embed/${youtubeId}`}
               title={`Video Tour for ${unit.residence} Unit ${unit.unit}`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              className="absolute top-0 left-0 w-full h-full rounded-lg"
+              className="w-full h-full rounded-none sm:rounded-lg"
             />
           </div>
         ) : (

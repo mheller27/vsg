@@ -418,8 +418,10 @@ const getFloorplanImage = (floor: string) => {
   );
 }
 
+  const hasVideo = !!propertyMetadata?.property_video;
+
   return (
-    <div className="container mx-auto px-4 py-3 sm:px-4 sm:py-3">
+    <div className="container mx-auto px-4 py-6 sm:px-4 sm:py-2">
       <style>{styles}</style>
       
       {/* Unit Hover Popup */}
@@ -488,11 +490,11 @@ const getFloorplanImage = (floor: string) => {
 
       
      <Tabs defaultValue="sitemap" className="w-full">
-   <TabsList className="grid w-full grid-cols-4">
+   <TabsList className={`grid w-full ${hasVideo ? 'grid-cols-4' : 'grid-cols-3'}`}>
           <TabsTrigger value="sitemap">Floorplans</TabsTrigger>
           <TabsTrigger value="details">Details</TabsTrigger>
           <TabsTrigger value="gallery">Gallery</TabsTrigger>
-          <TabsTrigger value="video">Video</TabsTrigger>
+          {hasVideo && <TabsTrigger value="video">Video</TabsTrigger>}
         </TabsList>
 
   {/* Tab content sections below (leave as-is, or conditionally wrap like you did earlier) */}
@@ -694,37 +696,39 @@ const getFloorplanImage = (floor: string) => {
           </div>
         </TabsContent>
 
-        <TabsContent value="video" className="mt-6">
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">Property Video</h2>
-            <div className="bg-gray-50 rounded-lg border border-gray-200 p-6">
-              {(() => {
-                const videoUrl = propertyMetadata?.property_video;
-                const youtubeId = videoUrl?.split('v=')[1]?.split('&')[0];
-        
-                return youtubeId ? (
-                  <div className="mx-auto w-full sm:w-[95%] md:w-[85%] lg:w-[75%] xl:w-[65%] aspect-video">
-                    <iframe
-                      src={`https://www.youtube.com/embed/${youtubeId}`}
-                      title="Property Video"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-full rounded-lg"
-                    />
-                  </div>
-                ) : (
-                  <div className="h-96 flex items-center justify-center">
-                    <div className="text-center text-gray-500">
-                      <div className="text-lg font-medium mb-2">Video not available</div>
-                      <div className="text-sm">The provided video URL is invalid or missing a YouTube ID.</div>
+        {hasVideo && (
+          <TabsContent value="video" className="mt-6">
+            <div>
+              <h2 className="text-2xl font-semibold mb-4">Property Video</h2>
+              <div className="bg-gray-50 rounded-lg border border-gray-200 p-6">
+                {(() => {
+                  const videoUrl = propertyMetadata?.property_video;
+                  const youtubeId = videoUrl?.split('v=')[1]?.split('&')[0];
+          
+                  return youtubeId ? (
+                    <div className="mx-auto w-full sm:w-[95%] md:w-[85%] lg:w-[75%] xl:w-[65%] aspect-video">
+                      <iframe
+                        src={`https://www.youtube.com/embed/${youtubeId}`}
+                        title="Property Video"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        className="w-full h-full rounded-lg"
+                      />
                     </div>
-                  </div>
-                );
-              })()}
+                  ) : (
+                    <div className="h-96 flex items-center justify-center">
+                      <div className="text-center text-gray-500">
+                        <div className="text-lg font-medium mb-2">Video not available</div>
+                        <div className="text-sm">The provided video URL is invalid or missing a YouTube ID.</div>
+                      </div>
+                    </div>
+                  );
+                })()}
+              </div>
             </div>
-          </div>
-        </TabsContent>
+          </TabsContent>
+        )}
       </Tabs>
     </div>
   );

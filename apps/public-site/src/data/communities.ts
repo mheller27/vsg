@@ -1,4 +1,4 @@
-import { EnhancedLocation } from '../types';
+import { EnhancedLocation } from '@shared-types';
 
 export const locationDetails: Record<string, { price: string; bedrooms: string; sqft: string }> = {
   '1': { // Ritz Carlton Sarasota Bay

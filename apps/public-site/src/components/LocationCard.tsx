@@ -2,7 +2,7 @@
 import { Card, CardContent } from "./ui/card";
 import LocationDetails from "./LocationDetails";
 import LocationImageDisplay from "./LocationImageDisplay";
-import { EnhancedLocation } from "../types";
+import { EnhancedLocation } from '@shared-types';
 import { Link } from "react-router-dom";
 
 interface LocationCardProps {

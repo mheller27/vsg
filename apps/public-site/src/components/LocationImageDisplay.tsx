@@ -1,6 +1,6 @@
 
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
-import { EnhancedLocation } from '../types';
+import { EnhancedLocation } from '@shared-types';
 
 interface LocationImageDisplayProps {
   location: EnhancedLocation;

@@ -1,5 +1,5 @@
 
-import { EnhancedLocation } from '../types';
+import { EnhancedLocation } from '@shared-types';
 import { locationDetails } from '../data/communities';
 
 interface LocationDetailsProps {

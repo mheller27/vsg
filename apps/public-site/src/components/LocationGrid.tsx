@@ -1,7 +1,7 @@
 
 import { ScrollArea } from "./ui/scroll-area";
 import LocationCard from './LocationCard';
-import { EnhancedLocation } from '../types';
+import { EnhancedLocation } from '@shared-types';
 
 interface LocationGridProps {
   locations: EnhancedLocation[];

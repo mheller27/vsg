@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Map, { Location } from '../components/Map';
 import LocationGrid from '../components/LocationGrid';
 import { locations } from '../data/communities';
-import { Button } from '../components/ui/button';
+import { Button } from '@shared-ui/button';
 
 const MapPage = () => {
   const [visibleLocationIds, setVisibleLocationIds] = useState<string[]>([]);

@@ -1,5 +1,4 @@
-
-import { Card, CardContent } from "./ui/card";
+import { Card, CardContent } from "@shared-ui/card";
 import LocationDetails from "./LocationDetails";
 import LocationImageDisplay from "./LocationImageDisplay";
 import { EnhancedLocation } from '@shared-types';

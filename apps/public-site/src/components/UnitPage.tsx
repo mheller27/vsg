@@ -1,8 +1,8 @@
 import '@/pdfWorker';
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { X, ArrowLeft, Phone, MessageSquare, Video } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Button } from '@shared-ui/button';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@shared-ui/tabs';
 import { useIsMobile } from '@shared-hooks/use-mobile';
 import { Document, Page } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';

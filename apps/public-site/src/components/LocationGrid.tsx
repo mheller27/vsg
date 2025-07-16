@@ -1,5 +1,4 @@
-
-import { ScrollArea } from "./ui/scroll-area";
+import { ScrollArea } from "@shared-ui/scroll-area";
 import LocationCard from './LocationCard';
 import { EnhancedLocation } from '@shared-types';
 

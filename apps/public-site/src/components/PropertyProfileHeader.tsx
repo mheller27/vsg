@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button';
+import { Button } from '@shared-ui/button';
 import { Phone, Video, Bell, Bed, Ruler } from 'lucide-react';
 
 interface PropertyHeaderProps {

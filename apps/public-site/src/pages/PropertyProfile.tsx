@@ -1,9 +1,9 @@
 import { useParams, Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Button } from '@shared-ui/button';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@shared-ui/tabs';
 import { ArrowLeft, Plus, Minus, RotateCcw, Phone, Video, Heart, Bell } from 'lucide-react';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@shared-ui/select';
 import { useState, useEffect, useMemo, useRef } from 'react';
 import UnitPage from '../components/UnitPage';
 import { getSafeImageSrc } from '@shared-lib/fallbackImage'; // or the correct relative path

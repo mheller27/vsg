@@ -1,6 +1,6 @@
 import React from 'react';
-import { getSafeImageSrc } from '../lib/fallbackImage';
-import { getPriceColorClass } from '@/lib/utils';
+import { getSafeImageSrc } from '@shared-lib/fallbackImage';
+import { getPriceColorClass } from '@shared-lib/utils';
 
 interface UnitListProps {
   units: any[];

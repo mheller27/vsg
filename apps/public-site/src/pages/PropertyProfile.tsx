@@ -6,7 +6,7 @@ import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useState, useEffect, useMemo, useRef } from 'react';
 import UnitPage from '../components/UnitPage';
-import { getSafeImageSrc } from '../lib/fallbackImage'; // or the correct relative path
+import { getSafeImageSrc } from '@shared-lib/fallbackImage'; // or the correct relative path
 import PropertyHeader from '../components/PropertyProfileHeader';
 import UnitHoverCard from '../components/UnitHoverCard';
 import FloorplateUnitList from '../components/FloorplateUnitList';

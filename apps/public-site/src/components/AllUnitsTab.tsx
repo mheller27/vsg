@@ -1,5 +1,5 @@
 import React from 'react';
-import { getPriceColorClass } from '@/lib/utils';
+import { getPriceColorClass } from '@shared-lib/utils';
 
 interface Unit {
   unit_id: string;

@@ -7,7 +7,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["apps/public-site/src/*"],
+      "@shared-ui/*": ["packages/shared-ui/*"],
+      "@shared-lib/*": ["packages/shared-lib/*"],
+      "@shared-hooks/*": ["packages/shared-hooks/*"],
+      "@shared-types/*": ["packages/shared-types/*"]
     },
     "noImplicitAny": false,
     "noUnusedParameters": false,

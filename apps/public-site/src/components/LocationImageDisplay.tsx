@@ -15,8 +15,6 @@ interface LocationImageDisplayProps {
 const LocationImageDisplay = ({ location }: LocationImageDisplayProps) => {
   const [filteredThumbnails, setFilteredThumbnails] = useState<string[]>([]);
 
-  const getSlug = (name: string) =>
-    name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
   const getFullImagePath = (slug: string, folder: string, index: number) =>
     `/assets/${slug}/${folder}/${String(index + 1).padStart(2, "0")}.jpg`;
@@ -29,7 +27,7 @@ const LocationImageDisplay = ({ location }: LocationImageDisplayProps) => {
   };
 
   useEffect(() => {
-    const slug = getSlug(location.name);
+    const slug = location.id;
   
     const fetchImageFolders = async () => {
       try {
@@ -76,7 +74,7 @@ const LocationImageDisplay = ({ location }: LocationImageDisplayProps) => {
     };
   
     fetchImageFolders();
-  }, [location]);
+  }, [location.id]);
 
   if (filteredThumbnails.length > 1) {
     return (
@@ -88,7 +86,7 @@ const LocationImageDisplay = ({ location }: LocationImageDisplayProps) => {
                 <div className="relative h-40 w-full">
                   <img
                     src={imageUrl}
-                    alt={`${location.name} - Image ${index + 1}`}
+                    alt={`${location.title} - Image ${index + 1}`}
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
@@ -105,7 +103,7 @@ const LocationImageDisplay = ({ location }: LocationImageDisplayProps) => {
       <div className="relative h-40 w-full">
         <img
           src={filteredThumbnails[0]}
-          alt={location.name}
+          alt={location.title}
           className="absolute inset-0 w-full h-full object-cover"
         />
       </div>

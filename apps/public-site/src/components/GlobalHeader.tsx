@@ -38,14 +38,14 @@ const GlobalHeader = () => {
   return (
     <>
       {/* Desktop Header */}
-      <header className="hidden md:flex w-full h-[60px] bg-white shadow-sm border-b border-gray-200 items-center justify-between px-6 overflow-hidden">
+      <header className="hidden md:flex w-full h-[60px] bg-white shadow-sm border-b border-gray-200 items-center px-6 overflow-hidden relative">
         {/* Left: Back Button */}
-            <div className="flex items-center">
-            <BackButton />
-            </div>
+        <div className="flex items-center">
+          <BackButton />
+        </div>
 
-        {/* Center: Logo */}
-        <div className="flex items-center justify-center flex-1">
+        {/* Center: Logo - absolutely positioned for perfect centering */}
+        <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <Link to="/" className="hover:opacity-80 transition-opacity">
             <img
               src="/assets/brand-assets/logo/01.svg"
@@ -56,7 +56,7 @@ const GlobalHeader = () => {
         </div>
 
         {/* Right: Sign Up / Sign In and Hamburger Menu */}
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 ml-auto">
           <button className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
             Sign Up / Sign In
           </button>

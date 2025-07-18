@@ -23,8 +23,7 @@ interface PropertyInfo {
 const LocationDetails = ({ location }: LocationDetailsProps) => {
   const [propertyInfo, setPropertyInfo] = useState<PropertyInfo | null>(null);
 
-  const getSlug = (name: string) =>
-    name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
 
   const getPriceRange = (units: Unit[]) => {
     const validPrices = units
@@ -60,7 +59,7 @@ const LocationDetails = ({ location }: LocationDetailsProps) => {
   };
 
   useEffect(() => {
-    const slug = getSlug(location.name);
+    const slug = location.id;
     fetch(`/data/properties/${slug}/property-info.json`)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load property info');
@@ -68,7 +67,8 @@ const LocationDetails = ({ location }: LocationDetailsProps) => {
       })
       .then((data) => setPropertyInfo(data))
       .catch(() => setPropertyInfo(null));
-  }, [location.name]);
+  }, [location.id]);
+
 
   if (propertyInfo?.metadata || propertyInfo?.units) {
     const { metadata, units = [] } = propertyInfo;

@@ -3,18 +3,10 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { locationDetails } from '../data/communities';
 import debounce from 'lodash.debounce';
-
-export interface Location {
-  id: string;
-  name: string;
-  coordinates: [number, number]; // [longitude, latitude]
-  description?: string;
-  imageUrl?: string;
-  imageUrls?: string[];
-}
+import { EnhancedLocation } from '@shared-types';
 
 interface MapProps {
-  locations: Location[];
+  locations: EnhancedLocation[];
   center?: [number, number]; // [longitude, latitude]
   zoom?: number;
   onVisibleLocationsChange?: (visibleLocationIds: string[]) => void;
@@ -26,9 +18,10 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
   const markers = useRef<mapboxgl.Marker[]>([]);
   const initialVisibleLocationsSet = useRef(false);
 
-  const getPropertySlug = (locationName: string) => {
-    return locationName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  const getPropertySlug = (locationId: string) => {
+    return locationId.toLowerCase(); // You could keep the slug cleanup if needed
   };
+  
 
   // Wrap the callback in a debounce (e.g., 200ms)
   const debouncedOnVisibleLocationsChange = useRef(
@@ -62,7 +55,7 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
     locations.forEach(location => {
       const pixel = map.current!.project(location.coordinates);
       const inViewport = pixel.x >= 0 && pixel.x <= mapWidth && pixel.y >= 0 && pixel.y <= mapHeight;
-      console.log(`Location ${location.name} (${location.coordinates}) | pixel: (${pixel.x.toFixed(1)}, ${pixel.y.toFixed(1)}) | inViewport: ${inViewport}`);
+      console.log(`Location ${location.title} (${location.coordinates}) | pixel: (${pixel.x.toFixed(1)}, ${pixel.y.toFixed(1)}) | inViewport: ${inViewport}`);
     });
     console.log('[checkVisibleLocations] visible count:', visibleLocationIds.length, 'of', locations.length, 'ids:', visibleLocationIds);
     onVisibleLocationsChange(visibleLocationIds);
@@ -95,7 +88,10 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
       console.log('Map loaded, forcing resize and checking initial visible locations');
       setTimeout(() => {
         map.current && map.current.resize();
-        checkVisibleLocations();
+        // Only check visible locations if we have locations data
+        if (locations.length > 0) {
+          checkVisibleLocations();
+        }
       }, 700);
     });
 
@@ -106,11 +102,13 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
         map.current = null;
       }
     };
-  }, []);
+  }, [locations]); // Add locations as dependency
 
   // Add or update markers when locations change
   useEffect(() => {
     if (!map.current) return;
+
+    console.log(`Adding ${locations.length} markers to map`);
 
     // Clear any existing markers
     markers.current.forEach(marker => marker.remove());
@@ -120,7 +118,8 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
     locations.forEach(location => {
       const details = locationDetails[location.id];
       const mainImage = location.imageUrls?.[0] || location.imageUrl;
-      const propertySlug = getPropertySlug(location.name);
+      const propertySlug = getPropertySlug(location.id); // slug should come from id
+
       
       // Create enhanced popup HTML with responsive mobile design
       const popupHTML = `
@@ -144,7 +143,7 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
           ">
             <img 
               src="${mainImage}" 
-              alt="${location.name}"
+              alt="${location.title}"
               style="
                 width: 100%;
                 height: 100%;
@@ -170,7 +169,7 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
                 margin: 0 0 6px 0;
                 color: #1f2937;
                 box-sizing: border-box;
-              ">${location.name}</h3>
+              ">${location.title}</h3>
               ${details ? `
                 <div style="margin-bottom: 6px; box-sizing: border-box;">
                   <div style="color: #6b7280; font-size: 12px; margin-bottom: 1px; box-sizing: border-box;">${details.price}</div>
@@ -242,6 +241,16 @@ const Map = ({ locations, center = [-82.548444, 27.340194], zoom = 13, onVisible
         map.current && map.current.resize();
         checkVisibleLocations();
       }, 200);
+    }
+  }, [locations]);
+
+  // Check visible locations when locations change
+  useEffect(() => {
+    if (map.current && map.current.loaded() && locations.length > 0) {
+      console.log('Locations changed, checking visible locations...');
+      setTimeout(() => {
+        checkVisibleLocations();
+      }, 100);
     }
   }, [locations]);
 

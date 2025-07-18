@@ -1,21 +1,39 @@
 
-import { useState } from 'react';
-import Map, { Location } from '../components/Map';
+import { useEffect, useState } from 'react';
+import Map from '../components/Map';
 import LocationGrid from '../components/LocationGrid';
-import { locations } from '../data/communities';
 import { Button } from '@shared-ui/button';
+import { loadCoordinates } from '@shared-lib/loadCoordinates';
+import { EnhancedLocation } from '@shared-types';
 
 const MapPage = () => {
+  const [locations, setLocations] = useState<EnhancedLocation[]>([]);
   const [visibleLocationIds, setVisibleLocationIds] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<'map' | 'list'>('map');
 
+  useEffect(() => {
+    console.log('MapPage: Starting to load coordinates...');
+    loadCoordinates()
+      .then((loadedLocations) => {
+        console.log('MapPage: Received locations:', loadedLocations);
+        setLocations(loadedLocations);
+      })
+      .catch((error) => {
+        console.error('MapPage: Error loading coordinates:', error);
+      });
+  }, []);
+  
+
   const handleVisibleLocationsChange = (ids: string[]) => {
+    console.log('MapPage: Visible locations changed:', ids);
     setVisibleLocationIds(ids);
   };
 
   const visibleLocations = locations.filter(location =>
     visibleLocationIds.includes(location.id)
   );
+
+  console.log('MapPage: Current state - locations:', locations.length, 'visible:', visibleLocations.length);
 
   const toggleView = () => {
     setViewMode(viewMode === 'map' ? 'list' : 'map');

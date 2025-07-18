@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.app.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@shared-ui/*": ["../../packages/shared-ui/*"],
+      "@shared-lib/*": ["../../packages/shared-lib/*"],
+      "@shared-hooks/*": ["../../packages/shared-hooks/*"],
+      "@shared-types/*": ["../../packages/shared-types/*"]
+    }
+  },
+  "include": ["src"]
+} 

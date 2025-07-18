@@ -45,10 +45,10 @@ const GlobalHeader = () => {
         </div>
       </header>
 
-      {/* Mobile Header - logo centered, hamburger left, no sign up/sign in */}
+      {/* Mobile Header - logo centered, hamburger right, no sign up/sign in */}
       <header className="md:hidden w-full h-[60px] bg-white shadow-sm border-b border-gray-200 flex items-center px-4 overflow-hidden relative">
-        {/* Hamburger Icon - absolutely left */}
-        <div className="absolute left-0 flex items-center h-full pl-4">
+        {/* Hamburger Icon - absolutely right */}
+        <div className="absolute right-0 flex items-center h-full pr-4">
           <button className="py-2 hover:bg-gray-100 rounded-md transition-colors">
             <svg
               className="w-6 h-6 text-gray-700"

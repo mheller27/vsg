@@ -451,7 +451,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
                 src={thumbnailPath}
                 alt={`${title} - Photo ${idx + 1}`}
                 loading="lazy"
-                className="rounded-lg shadow-sm object-cover w-full cursor-pointer hover:opacity-90 transition-opacity"
+                className="rounded-lg shadow-sm object-cover w-full cursor-pointer transition-opacity"
                 onClick={() => {
                   setSwiperIndex(globalIndex);
                   setSwiperModalOpen(true);

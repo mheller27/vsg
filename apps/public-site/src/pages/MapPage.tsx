@@ -23,74 +23,10 @@ const MapPage = () => {
 
   return (
     <div className="relative">
-      {/* Mobile Header - Fixed at top on mobile only */}
-      <div className="md:hidden fixed top-0 left-0 right-0 z-20 bg-white border-b border-gray-200 px-4 py-3">
-        <div className="flex items-center justify-between">
-          <h2 className="text-lg font-semibold">
-            Featured Locations ({visibleLocations.length})
-          </h2>
-          <Button 
-            onClick={toggleView}
-            variant="outline"
-            size="sm"
-            className="flex items-center gap-2"
-          >
-            {viewMode === 'map' ? (
-              <>
-                <svg 
-                  width="20" 
-                  height="20" 
-                  viewBox="0 0 24 24" 
-                  fill="none" 
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path 
-                    d="M3 6h18M3 12h18M3 18h18" 
-                    stroke="currentColor" 
-                    strokeWidth="2" 
-                    strokeLinecap="round"
-                  />
-                </svg>
-                <span>List</span>
-              </>
-            ) : (
-              <>
-                <svg 
-                  width="20" 
-                  height="20" 
-                  viewBox="0 0 24 24" 
-                  fill="none" 
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path 
-                    d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" 
-                    stroke="currentColor" 
-                    strokeWidth="2"
-                    fill="none"
-                  />
-                  <circle 
-                    cx="12" 
-                    cy="10" 
-                    r="3" 
-                    stroke="currentColor" 
-                    strokeWidth="2"
-                    fill="none"
-                  />
-                </svg>
-                <span>Map</span>
-              </>
-            )}
-          </Button>
-        </div>
-      </div>
-
       {/* Desktop Layout */}
       <div className="hidden md:block">
-        <div className="container mx-auto px-4 py-8">
-          <h1 className="text-3xl font-bold mb-6">Sarasota, Florida</h1>
-          <div className="flex flex-col lg:flex-row gap-8 h-[calc(100vh-200px)]">
+        <div className="container mx-auto px-1 py-8">
+          <div className="flex flex-col lg:flex-row gap-8 h-[calc(100vh-100px)]">
             <div className="w-full lg:w-1/2 h-1/2 lg:h-full">
               <div className="h-full w-full rounded-lg overflow-hidden">
                 <Map
@@ -114,45 +50,47 @@ const MapPage = () => {
 
       {/* Mobile Layout */}
       <div className="md:hidden">
-        {/* Mobile Header with toggle */}
-        <div className="fixed top-0 left-0 right-0 z-20 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
-          <div></div> {/* Leave this space blank for now */}
-          <Button
-            onClick={toggleView}
-            variant="outline"
-            size="sm"
-            className="flex items-center gap-2"
-          >
-            {viewMode === 'map' ? (
-              <>
-                {/* List icon */}
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/></svg>
-                <span>List</span>
-              </>
-            ) : (
-              <>
-                {/* Map icon */}
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" strokeWidth="2" fill="none"/><circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="2" fill="none"/></svg>
-                <span>Map</span>
-              </>
-            )}
-          </Button>
-        </div>
-
         {/* Map View */}
         <div className={viewMode === 'map' ? '' : 'hidden'}>
-          <div className="w-full h-[66.66vh] pt-16">
+          <div className="px-4 h-[55vh]">
             <Map
               locations={locations}
               zoom={14}
               onVisibleLocationsChange={handleVisibleLocationsChange}
             />
           </div>
-          {/* Headline below map, above list */}
-          <h2 className="text-lg font-semibold px-4 pt-4 pb-2 bg-white">
-            Featured Properties ({visibleLocations.length})
-          </h2>
-          <div className="w-full h-[calc(66.66vh-3.5rem)] bg-white border-t border-gray-200">
+          {/* Toggle button and headline below map */}
+          <div className="bg-white border-t border-gray-200 px-4 py-3">
+            <div className="flex items-center justify-between">
+              <h2 className="text-lg font-semibold">
+                Featured Properties ({visibleLocations.length})
+              </h2>
+              <Button
+                onClick={toggleView}
+                variant="outline"
+                size="sm"
+                className="flex items-center gap-2"
+              >
+                {viewMode === 'map' ? (
+                  <>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                    </svg>
+                    <span>List</span>
+                  </>
+                ) : (
+                  <>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" strokeWidth="2" fill="none"/>
+                      <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="2" fill="none"/>
+                    </svg>
+                    <span>Map</span>
+                  </>
+                )}
+              </Button>
+            </div>
+          </div>
+          <div className="w-full h-[calc(66.66vh-3.5rem)] bg-white">
             <div className="overflow-y-auto h-full px-4 pb-4">
               <LocationGrid locations={visibleLocations} />
             </div>

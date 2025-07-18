@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import MapPage from "./pages/MapPage";
 import PropertyProfile from "./pages/PropertyProfile";
+import GlobalHeader from "./components/GlobalHeader";
 
 
 const queryClient = new QueryClient();
@@ -16,6 +17,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <BrowserRouter>
       <TooltipProvider>
+        <GlobalHeader />
         <Routes>
           <Route path="/" element={<MapPage />} />
           <Route path="/map" element={<MapPage />} />

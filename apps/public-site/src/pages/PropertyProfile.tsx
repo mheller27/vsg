@@ -442,29 +442,7 @@ const getFloorplanImage = (floor: string) => {
         onClose={closeUnitPage}
       />
 
-      <div className="mb-6">
-        {/* Mobile: truly small button */}
-        <div className="block sm:hidden px-2 pt-2">
-          <Link to="/map">
-            <Button
-              className="inline-flex items-center gap-1 text-xs px-2 py-1 h-7 min-h-0 bg-gray-100 text-gray-700 border border-gray-300 rounded-md"
-              style={{ transform: 'scale(0.8)', transformOrigin: 'left' }}
-            >
-              <ArrowLeft className="h-3 w-3" />
-              Back to Map
-            </Button>
-          </Link>
-        </div>
-        {/* Desktop: original style */}
-        <Link to="/map">
-          <Button variant="outline" className="hidden sm:inline-flex">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Map
-          </Button>
-        </Link>
-      </div>
-
-       {/* Property Profile Header */}
+      {/* Property Profile Header */}
         {propertyMetadata && (
           <PropertyHeader
             propertyMetadata={propertyMetadata}

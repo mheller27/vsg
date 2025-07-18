@@ -1,13 +1,65 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useSmartBack } from "@/components/useSmartBack";
+import { useLocation } from "react-router-dom";
+
+const BackButton = () => {
+  const goBack = useSmartBack("/map");
+  const location = useLocation();
+
+  // Disable the button if you're on the home or map route
+  const isHome = location.pathname === "/" || location.pathname === "/map";
+
+  return (
+    <button
+      onClick={() => {
+        if (!isHome) goBack();
+      }}
+      disabled={isHome}
+      aria-disabled={isHome}
+      className={`p-2 rounded-md transition-colors ${
+        isHome ? "cursor-default opacity-30" : "hover:bg-gray-100"
+      }`}
+    >
+      <svg
+        className="w-5 h-5 text-gray-700"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={2}
+        viewBox="0 0 24 24"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+    </button>
+  );
+};
 
 const GlobalHeader = () => {
   return (
     <>
       {/* Desktop Header */}
       <header className="hidden md:flex w-full h-[60px] bg-white shadow-sm border-b border-gray-200 items-center justify-between px-6 overflow-hidden">
-        {/* Left: Hamburger Menu */}
-        <div className="flex items-center">
+        {/* Left: Back Button */}
+            <div className="flex items-center">
+            <BackButton />
+            </div>
+
+        {/* Center: Logo */}
+        <div className="flex items-center justify-center flex-1">
+          <Link to="/" className="hover:opacity-80 transition-opacity">
+            <img
+              src="/assets/brand-assets/logo/01.svg"
+              alt="Virgally Logo"
+              className="h-10 w-auto max-h-[50px]"
+            />
+          </Link>
+        </div>
+
+        {/* Right: Sign Up / Sign In and Hamburger Menu */}
+        <div className="flex items-center space-x-2">
+          <button className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+            Sign Up / Sign In
+          </button>
           <button className="p-2 hover:bg-gray-100 rounded-md transition-colors">
             <svg
               className="w-6 h-6 text-gray-700"
@@ -25,58 +77,46 @@ const GlobalHeader = () => {
             </svg>
           </button>
         </div>
-
-        {/* Center: Logo */}
-        <div className="flex items-center justify-center flex-1">
-          <Link to="/" className="hover:opacity-80 transition-opacity">
-            <img
-              src="/assets/brand-assets/logo/01.svg"
-              alt="Virgally Logo"
-              className="h-10 w-auto max-h-[50px]"
-            />
-          </Link>
-        </div>
-
-        {/* Right: Sign Up / Sign In */}
-        <div className="flex items-center">
-          <button className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
-            Sign Up / Sign In
-          </button>
-        </div>
       </header>
 
-      {/* Mobile Header - logo centered, hamburger right, no sign up/sign in */}
-      <header className="md:hidden w-full h-[60px] bg-white shadow-sm border-b border-gray-200 flex items-center px-4 overflow-hidden relative">
+      {/* Mobile Header - logo centered, hamburger right, compact back button left */}
+        <header className="md:hidden w-full h-[60px] bg-white shadow-sm border-b border-gray-200 flex items-center px-4 overflow-hidden relative">
+        {/* Back Button - absolutely left */}
+        <div className="absolute left-0 flex items-center h-full pl-2">
+            <BackButton />
+        </div>
+
         {/* Hamburger Icon - absolutely right */}
         <div className="absolute right-0 flex items-center h-full pr-4">
-          <button className="py-2 hover:bg-gray-100 rounded-md transition-colors">
+            <button className="py-2 hover:bg-gray-100 rounded-md transition-colors">
             <svg
-              className="w-6 h-6 text-gray-700"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+                className="w-6 h-6 text-gray-700"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
             >
-              <path
+                <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
                 d="M4 6h16M4 12h16M4 18h16"
-              />
+                />
             </svg>
-          </button>
+            </button>
         </div>
+
         {/* Centered Logo */}
         <div className="flex-1 flex items-center justify-center">
-          <Link to="/" className="hover:opacity-80 transition-opacity">
+            <Link to="/" className="hover:opacity-80 transition-opacity">
             <img
-              src="/assets/brand-assets/logo/01.svg"
-              alt="Virgally Logo"
-              className="h-8 w-auto max-h-[50px]"
+                src="/assets/brand-assets/logo/01.svg"
+                alt="Virgally Logo"
+                className="h-8 w-auto max-h-[50px]"
             />
-          </Link>
+            </Link>
         </div>
-      </header>
+        </header>
     </>
   );
 };

@@ -39,16 +39,16 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
           )}
 
           <div className="flex flex-col h-20 flex-1 gap-1">
-            <h1 className="text-lg font-semibold text-gray-900 leading-tight truncate">
+            <h1 className="text-lg font-semibold text-gray-900 dark:text-white leading-tight truncate transition-colors duration-200">
               {propertyMetadata.property_name}
             </h1>
-            <p className="text-base font-medium text-blue-600 leading-tight truncate">
+            <p className="text-base font-medium text-blue-600 dark:text-blue-400 leading-tight truncate transition-colors duration-200">
               {getPriceRange(unitData)}
             </p>
-            <p className="text-base text-gray-600 leading-tight truncate">
-              <Bed className="inline-block mr-1 mb-0.5 w-4 h-4 text-gray-500" />
+            <p className="text-base text-gray-600 dark:text-gray-400 leading-tight truncate transition-colors duration-200">
+              <Bed className="inline-block mr-1 mb-0.5 w-4 h-4 text-gray-500 dark:text-gray-400 transition-colors duration-200" />
               {getBedroomRange(unitData)}
-              <Ruler className="inline-block ml-2 mr-1 mb-0.5 w-4 h-4 text-gray-500" />
+              <Ruler className="inline-block ml-2 mr-1 mb-0.5 w-4 h-4 text-gray-500 dark:text-gray-400 transition-colors duration-200" />
               {getSqftRange(unitData)}
             </p>
           </div>
@@ -56,15 +56,15 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
 
         {/* Section 2: Button Row */}
         <div className="flex gap-1 mt-3 w-full px-4">
-          <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7">
+          <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7 transition-colors duration-200">
             <Phone className="h-3 w-3" />
             Contact
           </Button>
-          <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7">
+          <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7 transition-colors duration-200">
             <Video className="h-3 w-3" />
             Tour
           </Button>
-          <Button className="flex-1 bg-white border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7">
+          <Button className="flex-1 bg-white dark:bg-gray-800 border border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7 transition-colors duration-200">
             <Bell className="h-3 w-3" />
             Follow
           </Button>
@@ -90,28 +90,28 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
 
           {/* Details/Rows */}
           <div className="flex flex-col justify-between w-full">
-            <h1 className="text-2xl font-semibold text-gray-900 leading-tight truncate">
+            <h1 className="text-2xl font-semibold text-gray-900 dark:text-white leading-tight truncate transition-colors duration-200">
               {propertyMetadata.property_name}
             </h1>
-            <p className="text-xl font-medium text-blue-600 leading-tight truncate">
+            <p className="text-xl font-medium text-blue-600 dark:text-blue-400 leading-tight truncate transition-colors duration-200">
               {getPriceRange(unitData)}
             </p>
-            <p className="text-base text-gray-600 leading-tight truncate">
-              <Bed className="inline-block mr-1 mb-0.5 w-4 h-4 text-gray-500" />
+            <p className="text-base text-gray-600 dark:text-gray-400 leading-tight truncate transition-colors duration-200">
+              <Bed className="inline-block mr-1 mb-0.5 w-4 h-4 text-gray-500 dark:text-gray-400 transition-colors duration-200" />
               {getBedroomRange(unitData)}
-              <Ruler className="inline-block ml-2 mr-1 mb-0.5 w-4 h-4 text-gray-500" />
+              <Ruler className="inline-block ml-2 mr-1 mb-0.5 w-4 h-4 text-gray-500 dark:text-gray-400 transition-colors duration-200" />
               {getSqftRange(unitData)} Sqft
             </p>
             <div className="flex gap-2">
-              <Button className="bg-blue-600 text-white hover:bg-blue-700 text-sm px-4 py-2 rounded-md flex items-center gap-2">
+              <Button className="bg-blue-600 text-white hover:bg-blue-700 text-sm px-4 py-2 rounded-md flex items-center gap-2 transition-colors duration-200">
                 <Phone className="h-4 w-4" />
                 Contact
               </Button>
-              <Button className="bg-blue-600 text-white hover:bg-blue-700 text-sm px-4 py-2 rounded-md flex items-center gap-2">
+              <Button className="bg-blue-600 text-white hover:bg-blue-700 text-sm px-4 py-2 rounded-md flex items-center gap-2 transition-colors duration-200">
                 <Video className="h-4 w-4" />
                 Tour
               </Button>
-              <Button className="bg-white border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-sm px-4 py-2 rounded-md flex items-center gap-2">
+              <Button className="bg-white dark:bg-gray-800 border border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white text-sm px-4 py-2 rounded-md flex items-center gap-2 transition-colors duration-200">
                 <Bell className="h-4 w-4" />
                 Follow
               </Button>
@@ -124,7 +124,7 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
               <img
                 src={propertyMetadata.profile_logo}
                 alt={`${propertyMetadata.property_name} logo`}
-                className="h-40 w-auto object-contain"
+                className="h-40 w-auto object-contain filter dark:invert transition-all duration-200"
               />
             </div>
           )}

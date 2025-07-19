@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useSmartBack } from "@/components/useSmartBack";
 import { useLocation } from "react-router-dom";
+import ThemeToggle from "./ThemeToggle";
+import Logo from "./Logo";
+import { useTheme } from "../contexts/ThemeContext";
 
 const BackButton = () => {
   const goBack = useSmartBack("/map");
@@ -18,11 +21,11 @@ const BackButton = () => {
       disabled={isHome}
       aria-disabled={isHome}
       className={`p-2 rounded-md transition-colors ${
-        isHome ? "cursor-default opacity-30" : "hover:bg-gray-100"
+        isHome ? "cursor-default opacity-30" : "hover:bg-gray-100 dark:hover:bg-gray-800"
       }`}
     >
       <svg
-        className="w-5 h-5 text-gray-700"
+        className="w-5 h-5 text-gray-700 dark:text-gray-300"
         fill="none"
         stroke="currentColor"
         strokeWidth={2}
@@ -35,10 +38,16 @@ const BackButton = () => {
 };
 
 const GlobalHeader = () => {
+  const { theme } = useTheme();
+  
+  // Debug: Log the current theme
+  console.log('GlobalHeader - Current theme:', theme);
+  console.log('GlobalHeader - Document has dark class:', document.documentElement.classList.contains('dark'));
+  
   return (
     <>
       {/* Desktop Header */}
-      <header className="hidden md:flex w-full h-[60px] bg-white shadow-sm border-b border-gray-200 items-center px-6 overflow-hidden relative">
+      <header className="hidden md:flex w-full h-[60px] bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 items-center px-6 overflow-hidden relative">
         {/* Left: Back Button */}
         <div className="flex items-center">
           <BackButton />
@@ -47,22 +56,23 @@ const GlobalHeader = () => {
         {/* Center: Logo - absolutely positioned for perfect centering */}
         <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <Link to="/" className="hover:opacity-80 transition-opacity">
-            <img
-              src="/assets/brand-assets/logo/01.svg"
-              alt="Virgally Logo"
-              className="h-10 w-auto max-h-[50px]"
-            />
+            <Logo className="h-10 w-auto max-h-[50px]" />
           </Link>
         </div>
 
         {/* Right: Sign Up / Sign In and Hamburger Menu */}
         <div className="flex items-center space-x-2 ml-auto">
-          <button className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+          {/* Debug: Theme indicator */}
+          <div className="text-xs px-2 py-1 rounded bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
+            Theme: {theme}
+          </div>
+          <button className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white font-medium transition-colors">
             Sign Up / Sign In
           </button>
-          <button className="p-2 hover:bg-gray-100 rounded-md transition-colors">
+          <ThemeToggle />
+          <button className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors">
             <svg
-              className="w-6 h-6 text-gray-700"
+              className="w-6 h-6 text-gray-700 dark:text-gray-300"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -80,17 +90,22 @@ const GlobalHeader = () => {
       </header>
 
       {/* Mobile Header - logo centered, hamburger right, compact back button left */}
-        <header className="md:hidden w-full h-[60px] bg-white shadow-sm border-b border-gray-200 flex items-center px-4 overflow-hidden relative">
+        <header className="md:hidden w-full h-[60px] bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 flex items-center px-4 overflow-hidden relative">
         {/* Back Button - absolutely left */}
         <div className="absolute left-0 flex items-center h-full pl-2">
             <BackButton />
         </div>
 
-        {/* Hamburger Icon - absolutely right */}
-        <div className="absolute right-0 flex items-center h-full pr-4">
-            <button className="py-2 hover:bg-gray-100 rounded-md transition-colors">
+        {/* Theme Toggle and Hamburger Icon - absolutely right */}
+        <div className="absolute right-0 flex items-center h-full pr-4 space-x-2">
+            {/* Debug: Theme indicator */}
+            <div className="text-xs px-1 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
+                {theme}
+            </div>
+            <ThemeToggle />
+            <button className="py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors">
             <svg
-                className="w-6 h-6 text-gray-700"
+                className="w-6 h-6 text-gray-700 dark:text-gray-300"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -109,11 +124,7 @@ const GlobalHeader = () => {
         {/* Centered Logo */}
         <div className="flex-1 flex items-center justify-center">
             <Link to="/" className="hover:opacity-80 transition-opacity">
-            <img
-                src="/assets/brand-assets/logo/01.svg"
-                alt="Virgally Logo"
-                className="h-8 w-auto max-h-[50px]"
-            />
+            <Logo className="h-8 w-auto max-h-[50px]" />
             </Link>
         </div>
         </header>

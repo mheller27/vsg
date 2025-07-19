@@ -1,4 +1,4 @@
-
+import { useTheme } from "./contexts/ThemeContext";
 import { Toaster } from '@shared-ui/toaster';
 import { Toaster as Sonner } from '@shared-ui/sonner';
 import { TooltipProvider } from '@shared-ui/tooltip';
@@ -11,26 +11,38 @@ import PropertyProfile from "./pages/PropertyProfile";
 import GlobalHeader from "./components/GlobalHeader";
 import { ThemeProvider } from "./contexts/ThemeContext";
 
-
+// Query client
 const queryClient = new QueryClient();
+
+// AppContent moved out so we can use useTheme inside
+const AppContent = () => {
+  const { theme } = useTheme();
+
+  return (
+    <div className={theme === "dark" ? "dark" : ""}>
+      <div className="bg-white text-black dark:bg-gray-900 dark:text-white min-h-screen transition-colors duration-300">
+        <BrowserRouter>
+          <TooltipProvider>
+            <GlobalHeader />
+            <Routes>
+              <Route path="/" element={<MapPage />} />
+              <Route path="/map" element={<MapPage />} />
+              <Route path="/property/:slug" element={<PropertyProfile />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Toaster />
+            <Sonner />
+          </TooltipProvider>
+        </BrowserRouter>
+      </div>
+    </div>
+  );
+};
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <ThemeProvider>
-      <BrowserRouter>
-        <TooltipProvider>
-          <GlobalHeader />
-          <Routes>
-            <Route path="/" element={<MapPage />} />
-            <Route path="/map" element={<MapPage />} />
-            <Route path="/property/:slug" element={<PropertyProfile />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-          <Toaster />
-          <Sonner />
-        </TooltipProvider>
-      </BrowserRouter>
+      <AppContent />
     </ThemeProvider>
   </QueryClientProvider>
 );

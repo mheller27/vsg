@@ -20,7 +20,7 @@ const BackButton = () => {
       disabled={isHome}
       aria-disabled={isHome}
       className={`p-2 rounded-md transition-colors ${
-        isHome ? "cursor-default opacity-30" : "hover:bg-gray-100 dark:hover:bg-gray-800"
+        isHome ? "cursor-default opacity-30" : "hover:bg-gray-100 dark:hover:bg-neutral-800"
       }`}
     >
       <svg
@@ -40,7 +40,7 @@ const GlobalHeader = () => {
   return (
     <>
       {/* Desktop Header */}
-      <header className="hidden md:flex w-full h-[60px] bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 items-center px-6 overflow-hidden relative">
+      <header className="hidden md:flex w-full h-[60px] bg-white dark:bg-neutral-900 shadow-sm border-b border-gray-200 dark:border-neutral-700 items-center px-6 overflow-hidden relative">
         {/* Left: Back Button */}
         <div className="flex items-center">
           <BackButton />
@@ -59,7 +59,7 @@ const GlobalHeader = () => {
             Sign Up / Sign In
           </button>
           <ThemeToggle />
-          <button className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors">
+          <button className="p-2 hover:bg-gray-100 dark:hover:bg-neutral-800 rounded-md transition-colors">
             <svg
               className="w-6 h-6 text-gray-700 dark:text-gray-300"
               fill="none"
@@ -79,40 +79,40 @@ const GlobalHeader = () => {
       </header>
 
       {/* Mobile Header - logo centered, hamburger right, compact back button left */}
-        <header className="md:hidden w-full h-[60px] bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 flex items-center px-4 overflow-hidden relative">
+      <header className="md:hidden w-full h-[60px] bg-white dark:bg-neutral-900 shadow-sm border-b border-gray-200 dark:border-neutral-700 flex items-center px-4 overflow-hidden relative">
         {/* Back Button - absolutely left */}
         <div className="absolute left-0 flex items-center h-full pl-2">
-            <BackButton />
+          <BackButton />
         </div>
 
         {/* Theme Toggle and Hamburger Icon - absolutely right */}
         <div className="absolute right-0 flex items-center h-full pr-4 space-x-2">
-            <ThemeToggle />
-            <button className="py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors">
+          <ThemeToggle />
+          <button className="py-2 hover:bg-gray-100 dark:hover:bg-neutral-800 rounded-md transition-colors">
             <svg
-                className="w-6 h-6 text-gray-700 dark:text-gray-300"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+              className="w-6 h-6 text-gray-700 dark:text-gray-300"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-                <path
+              <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
                 d="M4 6h16M4 12h16M4 18h16"
-                />
+              />
             </svg>
-            </button>
+          </button>
         </div>
 
         {/* Centered Logo */}
         <div className="flex-1 flex items-center justify-center">
-            <Link to="/" className="hover:opacity-80 transition-opacity">
+          <Link to="/" className="hover:opacity-80 transition-opacity">
             <Logo className="h-8 w-auto max-h-[50px]" />
-            </Link>
+          </Link>
         </div>
-        </header>
+      </header>
     </>
   );
 };

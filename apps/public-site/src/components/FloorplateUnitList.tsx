@@ -23,11 +23,11 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
         <div
           key={unit.unit_id}
           onClick={() => onUnitClick(unit)}
-          className="cursor-pointer border border-gray-200 dark:border-gray-600 rounded-lg shadow-sm dark:shadow-gray-900/50 p-4 hover:shadow-md dark:hover:shadow-lg dark:hover:shadow-gray-900/50 transition-all duration-200 bg-white dark:bg-gray-700 flex flex-col justify-between h-full"
+          className="cursor-pointer border border-gray-200 dark:border-neutral-600 rounded-lg shadow-sm dark:shadow-neutral-900/50 p-4 hover:shadow-md dark:hover:shadow-lg dark:hover:shadow-neutral-900/50 transition-all duration-200 bg-white dark:bg-neutral-700 flex flex-col justify-between h-full"
         >
           <div className="space-y-3">
             {/* Header */}
-            <div className="border-b border-gray-200 dark:border-gray-600 pb-2">
+            <div className="border-b border-gray-200 dark:border-neutral-600 pb-2">
               <div className="flex items-center gap-2">
                 <span className="font-bold text-gray-900 dark:text-white transition-colors duration-200">
                   {unit.residence}
@@ -81,7 +81,7 @@ const FloorplateUnitList: React.FC<UnitListProps> = ({ units, onUnitClick, forma
               <img
                 src={getSafeImageSrc(unit.floorplan_thumbnail)}
                 alt={`Floorplan for ${unit.residence} Unit ${unit.unit}`}
-                className="w-full h-32 object-contain rounded border border-gray-200 dark:border-gray-600 transition-colors duration-200"
+                className="w-full h-32 object-contain rounded border border-gray-200 dark:border-neutral-600 transition-colors duration-200"
                 onError={(e) => (e.currentTarget.src = '/placeholder.svg')}
               />
             </div>

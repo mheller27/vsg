@@ -52,18 +52,18 @@ const FloorplanViewer = ({ file }: { file: string }) => {
 
   if (isMobile) {
     return (
-      <div ref={containerRef} className="bg-gray-50 rounded-lg border border-gray-200 p-4">
+      <div ref={containerRef} className="bg-gray-50 dark:bg-neutral-800 rounded-lg border border-gray-200 dark:border-neutral-700 p-4">
         <div className="flex justify-between items-center mb-4">
-          <span className="font-semibold text-gray-800">Zoom</span>
+          <span className="font-semibold text-gray-800 dark:text-gray-200">Zoom</span>
           <div className="flex gap-2 items-center">
             <button
-              className="border border-gray-300 rounded px-3 py-1 text-sm"
+              className="border border-gray-300 dark:border-neutral-600 rounded px-3 py-1 text-sm bg-white dark:bg-neutral-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-neutral-600 transition-colors"
               onClick={() => setScale((s) => Math.max(0.2, s - 0.2))}
             >
               -
             </button>
             <button
-              className="border border-gray-300 rounded px-3 py-1 text-sm"
+              className="border border-gray-300 dark:border-neutral-600 rounded px-3 py-1 text-sm bg-white dark:bg-neutral-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-neutral-600 transition-colors"
               onClick={() => setScale((s) => Math.min(3.0, s + 0.2))}
             >
               +
@@ -71,7 +71,7 @@ const FloorplanViewer = ({ file }: { file: string }) => {
             <a
               href={file}
               download
-              className="ml-2 border border-blue-600 bg-white text-blue-600 rounded px-3 py-1 text-sm hover:bg-blue-50 hover:text-blue-700 hover:border-blue-700 transition"
+              className="ml-2 border border-blue-600 dark:border-blue-400 bg-white dark:bg-neutral-700 text-blue-600 dark:text-blue-400 rounded px-3 py-1 text-sm hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:text-blue-700 dark:hover:text-blue-300 hover:border-blue-700 dark:hover:border-blue-300 transition-colors"
               style={{ textDecoration: 'none' }}
             >
               Download
@@ -80,13 +80,13 @@ const FloorplanViewer = ({ file }: { file: string }) => {
         </div>
 
         {error ? (
-          <div className="text-red-500 p-4 text-center">Error loading PDF: {error}</div>
+          <div className="text-red-500 dark:text-red-400 p-4 text-center">Error loading PDF: {error}</div>
         ) : (
           <Document
             file={file}
             onLoadSuccess={handleLoadSuccess}
             onLoadError={handleLoadError}
-            loading={<div className="text-center p-4">Loading PDF...</div>}
+            loading={<div className="text-center p-4 text-gray-600 dark:text-gray-400">Loading PDF...</div>}
           >
             {Array.from({ length: numPages || 0 }, (_, i) => (
               <Page
@@ -105,7 +105,7 @@ const FloorplanViewer = ({ file }: { file: string }) => {
 
   // 🖥️ Desktop: use iframe
   return (
-    <div className="bg-gray-50 rounded-lg border border-gray-200">
+    <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg border border-gray-200 dark:border-neutral-700">
       <iframe
         src={`${file}#toolbar=1&navpanes=0`}
         title="Floorplan PDF"
@@ -243,26 +243,26 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   };
 
   const InfoSectionMobile = () => (
-    <div className="bg-white border-b border-gray-200 p-4 space-y-3">
+    <div className="bg-white dark:bg-neutral-900 border-b border-gray-200 dark:border-neutral-700 p-4 space-y-3">
       {/* First 3 rows in column */}
       <div className="flex flex-col gap-2">
         <div className="flex items-center gap-2">
-          <h1 className="text-lg font-bold text-gray-900">{unit.residence}</h1>
-          {unit.unit && <div className="text-gray-600">Unit {unit.unit}</div>}
+          <h1 className="text-lg font-bold text-gray-900 dark:text-white">{unit.residence}</h1>
+          {unit.unit && <div className="text-gray-600 dark:text-gray-400">Unit {unit.unit}</div>}
         </div>
         <div className={`font-bold ${
           unit.availability === "Sold"
-            ? "text-red-600"
+            ? "text-red-600 dark:text-red-400"
             : typeof unit.price === "string" && /^\$\d/.test(unit.price)
-            ? "text-green-700"
-            : "text-blue-700"
+            ? "text-green-700 dark:text-green-400"
+            : "text-blue-700 dark:text-blue-400"
         }`}>
           {getPriceDisplay()}
         </div>
         {getBedroomBathroomDisplay() && (
-          <div className="text-sm text-gray-600">{getBedroomBathroomDisplay()}</div>
+          <div className="text-sm text-gray-600 dark:text-gray-400">{getBedroomBathroomDisplay()}</div>
         )}
-        <div className="text-sm text-gray-600 flex flex-wrap gap-4">
+        <div className="text-sm text-gray-600 dark:text-gray-400 flex flex-wrap gap-4">
           {unit.interior_sqft && <span>Interior: {formatSqft(unit.interior_sqft)} SF</span>}
           {typeof unit.exterior_sqft === 'number' && unit.exterior_sqft > 0 && (
             <span>Exterior: {formatSqft(unit.exterior_sqft)} SF</span>
@@ -272,11 +272,11 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   
       {/* Row 4: Buttons span full width */}
       <div className="flex justify-between gap-2">
-        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 h-8">
+        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 h-8">
           <MessageSquare className="h-4 w-4 mr-1" />
           {unit.price === "Unreleased" ? "Request Price" : "Contact"}
         </Button>
-        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 h-8">
+        <Button className="flex-1 bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 h-8">
           <Video className="h-4 w-4 mr-1" />
           Tour
         </Button>
@@ -285,26 +285,26 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   );
   
   const InfoSectionDesktop = () => (
-    <div className="bg-white border-b border-gray-200 p-6 space-y-2">
+    <div className="bg-white dark:bg-neutral-900 border-b border-gray-200 dark:border-neutral-700 p-6 space-y-2">
       <div className="flex items-center gap-4">
-        <h1 className="text-2xl font-bold text-gray-900">{unit.residence}</h1>
-        {unit.unit && <div className="text-lg text-gray-600">Unit {unit.unit}</div>}
+        <h1 className="text-2xl font-bold text-gray-900 dark:text-white">{unit.residence}</h1>
+        {unit.unit && <div className="text-lg text-gray-600 dark:text-gray-400">Unit {unit.unit}</div>}
       </div>
       <div className={`text-2xl font-bold ${
         unit.availability === "Sold"
-          ? "text-red-600"
+          ? "text-red-600 dark:text-red-400"
           : typeof unit.price === "string" && /^\$\d/.test(unit.price)
-          ? "text-green-700"
-          : "text-blue-700"
+          ? "text-green-700 dark:text-green-400"
+          : "text-blue-700 dark:text-blue-400"
       }`}>
         {getPriceDisplay()}
       </div>
   
       {getBedroomBathroomDisplay() && (
-        <div className="text-base text-gray-600">{getBedroomBathroomDisplay()}</div>
+        <div className="text-base text-gray-600 dark:text-gray-400">{getBedroomBathroomDisplay()}</div>
       )}
   
-      <div className="flex flex-wrap gap-4 text-base text-gray-600">
+      <div className="flex flex-wrap gap-4 text-base text-gray-600 dark:text-gray-400">
         {unit.interior_sqft && <span>Interior: {formatSqft(unit.interior_sqft)} SF</span>}
         {typeof unit.exterior_sqft === 'number' && unit.exterior_sqft > 0 && (
           <span>Exterior: {formatSqft(unit.exterior_sqft)} SF</span>
@@ -313,11 +313,11 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
       </div>
   
       <div className="flex gap-3 pt-2">
-        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-8">
+        <Button className="bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 flex items-center gap-2 px-8">
           <MessageSquare className="h-4 w-4" />
           {unit.price === "Unreleased" ? "Request Price" : "Contact"}
         </Button>
-        <Button className="bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2 px-8">
+        <Button className="bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 flex items-center gap-2 px-8">
           <Video className="h-4 w-4" />
           Tour
         </Button>
@@ -327,7 +327,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
 
   // Tabbed content section
   const TabsSection = () => (
-    <div className="p-4 md:p-6">
+    <div className="p-4 md:p-6 bg-white dark:bg-neutral-900">
       <Tabs value={activeTab} onValueChange={setActiveTab}>
         <TabsList
           className={`grid w-full mb-6 ${
@@ -345,14 +345,14 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
 
         {hasFloorplan && (
           <TabsContent value="floorplan" className="m-0">
-            <div className="bg-gray-50 rounded-lg border border-gray-200">
+            <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg border border-gray-200 dark:border-neutral-700">
               {unit.floorplan_pdf ? (
                 <div className="overflow-auto">
                   <FloorplanViewer file={unit.floorplan_pdf} />
                 </div>
               ) : (
                 <div className="h-96 flex items-center justify-center">
-                  <div className="text-center text-gray-500">
+                  <div className="text-center text-gray-500 dark:text-gray-400">
                     <div className="text-lg font-medium mb-2">Floorplan PDF not available</div>
                     <div className="text-sm">No floorplan document found for this unit</div>
                   </div>
@@ -377,7 +377,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
 
         {hasVideo && (
   <TabsContent value="video" className="m-0">
-    <div className="bg-gray-50 rounded-lg border border-gray-200 p-0 sm:p-6">
+    <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg border border-gray-200 dark:border-neutral-700 p-0 sm:p-6">
       {(() => {
         const youtubeId = extractYouTubeID(unit.video);
         return youtubeId ? (
@@ -393,7 +393,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
           </div>
         ) : (
           <div className="h-96 flex items-center justify-center">
-            <div className="text-center text-gray-500">
+            <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="text-lg font-medium mb-2">Video not available</div>
               <div className="text-sm">The provided video URL is invalid or missing a YouTube ID.</div>
             </div>
@@ -405,8 +405,8 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
 )}
         {/* Optional fallback if no tabs are available */}
         {availableTabs.length === 0 && (
-          <div className="bg-gray-50 rounded-lg border border-gray-200 h-96 flex items-center justify-center">
-            <div className="text-center text-gray-500">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg border border-gray-200 dark:border-neutral-700 h-96 flex items-center justify-center">
+            <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="text-lg font-medium mb-2">No Content Available</div>
               <div className="text-sm">No floorplan, photos, or video available for this unit</div>
             </div>
@@ -440,7 +440,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
     if (!photos || photos.length === 0) return null;
     return (
       <div className="mb-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">{title}</h3>
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">{title}</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 overflow-y-auto max-h-[80vh]">
           {photos.map((src, idx) => {
             const thumbnailPath = getThumbnailPath(src);
@@ -451,7 +451,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
                 src={thumbnailPath}
                 alt={`${title} - Photo ${idx + 1}`}
                 loading="lazy"
-                className="rounded-lg shadow-sm object-cover w-full cursor-pointer transition-opacity"
+                className="rounded-lg shadow-sm object-cover w-full cursor-pointer transition-opacity hover:opacity-80"
                 onClick={() => {
                   setSwiperIndex(globalIndex);
                   setSwiperModalOpen(true);
@@ -469,11 +469,11 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
             onKeyDown={e => { if (e.key === 'Escape') setSwiperModalOpen(false); }}
           >
             <div
-              className="relative w-full max-w-4xl h-[80vh] bg-white rounded-lg shadow-lg flex items-center justify-center"
+              className="relative w-full max-w-4xl h-[80vh] bg-white dark:bg-neutral-900 rounded-lg shadow-lg flex items-center justify-center"
               onClick={e => e.stopPropagation()}
             >
               <button
-                className="absolute top-4 right-4 z-10 bg-white rounded-full p-2 shadow hover:bg-gray-100"
+                className="absolute top-4 right-4 z-10 bg-white dark:bg-neutral-800 rounded-full p-2 shadow hover:bg-gray-100 dark:hover:bg-neutral-700 text-gray-700 dark:text-gray-300 transition-colors"
                 onClick={() => setSwiperModalOpen(false)}
                 aria-label="Close gallery"
               >
@@ -495,7 +495,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
               >
                 {unitPhotos.map((src, idx) => (
                   <SwiperSlide key={`modal-slide-${idx}`}>
-                    <div className="w-full h-full flex items-center justify-center bg-white">
+                    <div className="w-full h-full flex items-center justify-center bg-white dark:bg-neutral-900">
                       <img
                         src={src}
                         alt={`${title} - Photo ${idx + 1}`}
@@ -514,7 +514,7 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
   
   if (isMobile) {
     return (
-      <div className="fixed inset-0 z-50 flex items-center justify-center bg-white">
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-white dark:bg-neutral-900">
         {/* Modal Backdrop */}
         <div 
           className="absolute inset-0 bg-black bg-opacity-50"
@@ -522,13 +522,13 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
         />
         
         {/* Modal Content - Mobile Friendly */}
-        <div className="relative bg-white rounded-lg shadow-xl w-full h-full overflow-y-auto">
+        <div className="relative bg-white dark:bg-neutral-900 rounded-lg shadow-xl w-full h-full overflow-y-auto">
           {/* Header */}
-          <div className="bg-white border-b border-gray-200 p-4 flex items-center sticky top-0 z-10">
-            <Button variant="ghost" size="icon" onClick={onClose} className="mr-3">
+          <div className="bg-white dark:bg-neutral-900 border-b border-gray-200 dark:border-neutral-700 p-4 flex items-center sticky top-0 z-10">
+            <Button variant="ghost" size="icon" onClick={onClose} className="mr-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-neutral-800">
               <ArrowLeft className="h-5 w-5" />
             </Button>
-            <h1 className="text-lg font-semibold">Unit Details</h1>
+            <h1 className="text-lg font-semibold text-gray-900 dark:text-white">Unit Details</h1>
           </div>
   
           {/* Scrollable Content */}
@@ -562,14 +562,15 @@ const UnitPage: React.FC<UnitPageProps> = ({ unit, isOpen, onClose }) => {
       />
       
       {/* Modal Content - Scrollable */}
-      <div className="relative bg-white rounded-lg shadow-xl w-full max-w-6xl max-h-[90vh] mx-4 overflow-y-auto">
+      <div className="relative bg-white dark:bg-neutral-900 rounded-lg shadow-xl w-full max-w-6xl max-h-[90vh] mx-4 overflow-y-auto">
         {/* Desktop Header - Sticky */}
-        <div className="bg-white border-b border-gray-200 p-4 flex items-center justify-between sticky top-0 z-10">
-          <h1 className="text-xl font-semibold">Unit Details</h1>
+        <div className="bg-white dark:bg-neutral-900 border-b border-gray-200 dark:border-neutral-700 p-4 flex items-center justify-between sticky top-0 z-10">
+          <h1 className="text-xl font-semibold text-gray-900 dark:text-white">Unit Details</h1>
           <Button
             variant="ghost"
             size="icon"
             onClick={onClose}
+            className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-neutral-800"
           >
             <X className="h-5 w-5" />
           </Button>

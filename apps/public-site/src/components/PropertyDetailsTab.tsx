@@ -22,27 +22,27 @@ const PropertyDetailsTab: React.FC<PropertyDetailsTabProps> = ({
       <div>
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-200">Quick Facts</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-700 dark:text-gray-300 transition-colors duration-200">
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-4 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-4 flex flex-col transition-colors duration-200">
             <span className="font-bold text-sm text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-200">Price Range</span>
             <span className="text-lg text-gray-900 dark:text-white transition-colors duration-200">{getPriceRange(unitData)}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-4 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-4 flex flex-col transition-colors duration-200">
             <span className="font-bold text-sm text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-200">Bedrooms</span>
             <span className="text-lg text-gray-900 dark:text-white transition-colors duration-200">{getBedroomRange(unitData)}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-4 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-4 flex flex-col transition-colors duration-200">
             <span className="font-bold text-sm text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-200">SQFT Range</span>
             <span className="text-lg text-gray-900 dark:text-white transition-colors duration-200">{getSqftRange(unitData)}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-4 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-4 flex flex-col transition-colors duration-200">
             <span className="font-bold text-sm text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-200">Developer</span>
             <span className="text-lg text-gray-900 dark:text-white transition-colors duration-200">{propertyMetadata?.developer || 'N/A'}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-4 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-4 flex flex-col transition-colors duration-200">
             <span className="font-bold text-sm text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-200">Unit Total</span>
             <span className="text-lg text-gray-900 dark:text-white transition-colors duration-200">{unitData.length}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-4 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-4 flex flex-col transition-colors duration-200">
             <span className="font-bold text-sm text-gray-700 dark:text-gray-300 mb-1 transition-colors duration-200">Estimated Completion Date</span>
             <span className="text-lg text-gray-900 dark:text-white transition-colors duration-200">{propertyMetadata?.estimated_completion_date || 'N/A'}</span>
           </div>
@@ -58,27 +58,27 @@ const PropertyDetailsTab: React.FC<PropertyDetailsTabProps> = ({
       <div className="mb-6">
         <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 transition-colors duration-200">Quick Facts</h2>
         <div className="grid grid-cols-2 gap-2 text-gray-700 dark:text-gray-300 transition-colors duration-200">
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-2 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-2 flex flex-col transition-colors duration-200">
             <span className="font-bold text-xs text-gray-700 dark:text-gray-300 mb-0.5 transition-colors duration-200">Price Range</span>
             <span className="text-xs text-gray-900 dark:text-white transition-colors duration-200">{getPriceRange(unitData)}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-2 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-2 flex flex-col transition-colors duration-200">
             <span className="font-bold text-xs text-gray-700 dark:text-gray-300 mb-0.5 transition-colors duration-200">Bedrooms</span>
             <span className="text-xs text-gray-900 dark:text-white transition-colors duration-200">{getBedroomRange(unitData)}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-2 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-2 flex flex-col transition-colors duration-200">
             <span className="font-bold text-xs text-gray-700 dark:text-gray-300 mb-0.5 transition-colors duration-200">SQFT Range</span>
             <span className="text-xs text-gray-900 dark:text-white transition-colors duration-200">{getSqftRange(unitData)}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-2 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-2 flex flex-col transition-colors duration-200">
             <span className="font-bold text-xs text-gray-700 dark:text-gray-300 mb-0.5 transition-colors duration-200">Developer</span>
             <span className="text-xs text-gray-900 dark:text-white transition-colors duration-200">{propertyMetadata?.developer || 'N/A'}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-2 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-2 flex flex-col transition-colors duration-200">
             <span className="font-bold text-xs text-gray-700 dark:text-gray-300 mb-0.5 transition-colors duration-200">Unit Total</span>
             <span className="text-xs text-gray-900 dark:text-white transition-colors duration-200">{unitData.length}</span>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-2 flex flex-col transition-colors duration-200">
+          <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-2 flex flex-col transition-colors duration-200">
             <span className="font-bold text-xs text-gray-700 dark:text-gray-300 mb-0.5 transition-colors duration-200">Completion Date</span>
             <span className="text-xs text-gray-900 dark:text-white transition-colors duration-200">{propertyMetadata?.estimated_completion_date || 'N/A'}</span>
           </div>
@@ -103,7 +103,7 @@ const PropertyDetailsTab: React.FC<PropertyDetailsTabProps> = ({
           { title: "Designer Details", items: propertyMetadata.designer_details },
         ].map(({ title, items }) => (
           Array.isArray(items) && items.length > 0 ? (
-            <div key={title} className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow dark:shadow-gray-900/50 p-6 transition-colors duration-200">
+            <div key={title} className="bg-gray-50 dark:bg-neutral-800 rounded-lg shadow dark:shadow-neutral-900/50 p-6 transition-colors duration-200">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 transition-colors duration-200">{title}</h3>
               <div className="space-y-2">
                 {items.map((item: string, index: number) => (

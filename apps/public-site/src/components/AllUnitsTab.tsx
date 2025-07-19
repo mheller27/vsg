@@ -38,14 +38,14 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
   formatSquareFootage
 }) => {
   return (
-    <div className="bg-gray-100 dark:bg-gray-800 px-4 py-6 rounded-md transition-colors duration-200">
+          <div className="bg-gray-100 dark:bg-neutral-800 px-4 py-6 rounded-md transition-colors duration-200">
       {/* Bedroom Filter */}
       <div className="flex flex-wrap gap-2 mb-4">
         <button
           className={`px-3 py-1 text-sm rounded border transition-colors duration-200 ${
             selectedBedrooms === null 
               ? 'bg-blue-600 text-white border-blue-600' 
-              : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
+              : 'bg-white dark:bg-neutral-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-neutral-600 hover:bg-gray-50 dark:hover:bg-neutral-600'
           }`}
           onClick={() => setSelectedBedrooms(null)}
         >
@@ -57,7 +57,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
             className={`px-3 py-1 text-sm rounded border transition-colors duration-200 ${
               selectedBedrooms === count 
                 ? 'bg-blue-600 text-white border-blue-600' 
-                : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
+                : 'bg-white dark:bg-neutral-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-neutral-600 hover:bg-gray-50 dark:hover:bg-neutral-600'
             }`}
             onClick={() => setSelectedBedrooms(count)}
           >
@@ -72,7 +72,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
           className={`px-3 py-1 text-sm rounded border transition-colors duration-200 ${
             selectedPriceStatus === null 
               ? 'bg-blue-600 text-white border-blue-600' 
-              : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
+              : 'bg-white dark:bg-neutral-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-neutral-600 hover:bg-gray-50 dark:hover:bg-neutral-600'
           }`}
           onClick={() => setSelectedPriceStatus(null)}
         >
@@ -82,7 +82,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
           className={`px-3 py-1 text-sm rounded border transition-colors duration-200 ${
             selectedPriceStatus === 'listed' 
               ? 'bg-blue-600 text-white border-blue-600' 
-              : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
+              : 'bg-white dark:bg-neutral-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-neutral-600 hover:bg-gray-50 dark:hover:bg-neutral-600'
           }`}
           onClick={() => setSelectedPriceStatus('listed')}
         >
@@ -92,7 +92,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
           className={`px-3 py-1 text-sm rounded border transition-colors duration-200 ${
             selectedPriceStatus === 'unreleased' 
               ? 'bg-blue-600 text-white border-blue-600' 
-              : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
+              : 'bg-white dark:bg-neutral-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-neutral-600 hover:bg-gray-50 dark:hover:bg-neutral-600'
           }`}
           onClick={() => setSelectedPriceStatus('unreleased')}
         >
@@ -105,11 +105,11 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
           <div
             key={unit.unit_id}
             onClick={() => handleUnitClick(unit.unit_id)}
-            className="cursor-pointer border border-gray-200 dark:border-gray-600 rounded-lg shadow-sm dark:shadow-gray-900/50 p-4 hover:shadow-md dark:hover:shadow-lg dark:hover:shadow-gray-900/50 transition-all duration-200 bg-white dark:bg-gray-700 flex flex-col justify-between h-full"
+            className="cursor-pointer border border-gray-200 dark:border-neutral-600 rounded-lg shadow-sm dark:shadow-neutral-900/50 p-4 hover:shadow-md dark:hover:shadow-lg dark:hover:shadow-neutral-900/50 transition-all duration-200 bg-white dark:bg-neutral-700 flex flex-col justify-between h-full"
           >
             <div className="space-y-3">
               {/* Header */}
-              <div className="border-b border-gray-200 dark:border-gray-600 pb-2">
+                              <div className="border-b border-gray-200 dark:border-neutral-600 pb-2">
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-lg text-gray-900 dark:text-white transition-colors duration-200">{unit.residence || 'Unit Information'}</span>
                   {unit.unit && <span className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-200">| {unit.unit}</span>}
@@ -160,7 +160,7 @@ const AllUnitsTab: React.FC<AllUnitsTabProps> = ({
                 <img
                   src={unit.floorplan_thumbnail}
                   alt={`Floorplan for ${unit.residence} Unit ${unit.unit}`}
-                  className="w-full h-32 object-contain rounded border border-gray-200 dark:border-gray-600 transition-colors duration-200"
+                  className="w-full h-32 object-contain rounded border border-gray-200 dark:border-neutral-600 transition-colors duration-200"
                 />
               </div>
             )}

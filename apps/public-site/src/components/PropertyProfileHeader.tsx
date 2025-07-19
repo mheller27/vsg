@@ -64,7 +64,7 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
             <Video className="h-3 w-3" />
             Tour
           </Button>
-          <Button className="flex-1 bg-white dark:bg-gray-800 border border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7 transition-colors duration-200">
+          <Button className="flex-1 bg-white dark:bg-neutral-800 border border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white text-[11px] px-3 py-1 rounded-md flex items-center justify-center gap-1 min-h-0 h-7 transition-colors duration-200">
             <Bell className="h-3 w-3" />
             Follow
           </Button>
@@ -111,7 +111,7 @@ const PropertyHeader: React.FC<PropertyHeaderProps> = ({
                 <Video className="h-4 w-4" />
                 Tour
               </Button>
-              <Button className="bg-white dark:bg-gray-800 border border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white text-sm px-4 py-2 rounded-md flex items-center gap-2 transition-colors duration-200">
+              <Button className="bg-white dark:bg-neutral-800 border border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white text-sm px-4 py-2 rounded-md flex items-center gap-2 transition-colors duration-200">
                 <Bell className="h-4 w-4" />
                 Follow
               </Button>

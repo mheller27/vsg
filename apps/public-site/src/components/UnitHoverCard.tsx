@@ -16,17 +16,17 @@ const UnitHoverCard: React.FC<UnitHoverCardProps> = ({ unit, x, y, hoverCardRef,
   return (
     <div
       ref={hoverCardRef}
-      className="fixed z-50 bg-white border border-gray-200 rounded-lg shadow-lg p-4 max-w-sm pointer-events-none"
+      className="fixed z-50 bg-white dark:bg-neutral-900 border border-gray-200 dark:border-neutral-700 rounded-lg shadow-lg p-4 max-w-sm pointer-events-none"
       style={{ left: x, top: y }}
     >
       <div className="space-y-3">
         {/* Header */}
-        <div className="border-b border-gray-100 pb-2">
-          <h3 className="font-bold text-lg text-gray-900">
+        <div className="border-b border-gray-100 dark:border-neutral-700 pb-2">
+          <h3 className="font-bold text-lg text-gray-900 dark:text-white">
             {unit.residence || 'Unit Information'}
           </h3>
           {unit.unit && (
-            <p className="text-sm text-gray-600">Unit {unit.unit}</p>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Unit {unit.unit}</p>
           )}
         </div>
 
@@ -42,7 +42,7 @@ const UnitHoverCard: React.FC<UnitHoverCardProps> = ({ unit, x, y, hoverCardRef,
         )}
 
         {/* Unit Details */}
-        <div className="space-y-2 text-sm text-gray-700">
+        <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
           <div className="flex items-center gap-4">
             {unit.beds && <span>{unit.beds} Beds</span>}
             {unit.baths && <span>{unit.baths} Baths</span>}
@@ -58,31 +58,31 @@ const UnitHoverCard: React.FC<UnitHoverCardProps> = ({ unit, x, y, hoverCardRef,
           <div className="space-y-1">
             {unit.interior_sqft && (
               <div className="flex justify-between">
-                <span className="text-gray-600">Interior:</span>
+                <span className="text-gray-600 dark:text-gray-400">Interior:</span>
                 <span>{formatSquareFootage(unit.interior_sqft)}</span>
               </div>
             )}
             {unit.exterior_sqft && (
               <div className="flex justify-between">
-                <span className="text-gray-600">Exterior:</span>
+                <span className="text-gray-600 dark:text-gray-400">Exterior:</span>
                 <span>{formatSquareFootage(unit.exterior_sqft)}</span>
               </div>
             )}
             {unit.total_sqft && (
               <div className="flex justify-between font-medium">
-                <span className="text-gray-600">Total:</span>
+                <span className="text-gray-600 dark:text-gray-400">Total:</span>
                 <span>{formatSquareFootage(unit.total_sqft)}</span>
               </div>
             )}
           </div>
 
           {unit.floorplan_thumbnail && (
-            <div className="pt-2 border-t border-gray-100">
-              <div className="text-xs text-gray-500 mb-2">Floorplan</div>
+            <div className="pt-2 border-t border-gray-100 dark:border-neutral-700">
+              <div className="text-xs text-gray-500 dark:text-gray-400 mb-2">Floorplan</div>
               <img
                 src={getSafeImageSrc(unit.floorplan_thumbnail)}
                 alt={`Floorplan for ${unit.residence || 'Residence'} Unit ${unit.unit || ''}`}
-                className="w-full max-h-32 object-contain rounded border border-gray-200"
+                className="w-full max-h-32 object-contain rounded border border-gray-200 dark:border-neutral-600"
                 onError={(e) => (e.currentTarget.src = '/placeholder.svg')}
               />
             </div>

@@ -69,7 +69,7 @@ const MapPage = () => {
       {/* Mobile Layout */}
       <div className="md:hidden">
         {/* Compact Tab Navigation */}
-        <div className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700">
+        <div className="bg-white dark:bg-neutral-900 border-b border-gray-200 dark:border-neutral-700">
           <div className="flex">
             <button
               onClick={() => setViewMode('map')}
@@ -114,12 +114,12 @@ const MapPage = () => {
               onVisibleLocationsChange={handleVisibleLocationsChange}
             />
           </div>
-          <div className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 px-4 py-3">
+          <div className="bg-white dark:bg-neutral-900 border-t border-gray-200 dark:border-neutral-700 px-4 py-3">
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
               Featured Properties ({visibleLocations.length})
             </h2>
           </div>
-          <div className="w-full h-[calc(66.66vh-3.5rem)] bg-white dark:bg-gray-900">
+          <div className="w-full h-[calc(66.66vh-3.5rem)] bg-white dark:bg-neutral-900">
             <div className="overflow-y-auto h-full px-4 pb-4">
               <LocationGrid locations={visibleLocations} />
             </div>
@@ -128,7 +128,7 @@ const MapPage = () => {
 
         {/* List View */}
         <div className={viewMode === 'list' ? '' : 'hidden'}>
-          <div className="h-[calc(100vh-3rem)] w-full overflow-hidden bg-white dark:bg-gray-900">
+          <div className="h-[calc(100vh-3rem)] w-full overflow-hidden bg-white dark:bg-neutral-900">
             <div className="h-full px-4 py-4 overflow-y-auto">
               <LocationGrid locations={visibleLocations} />
             </div>

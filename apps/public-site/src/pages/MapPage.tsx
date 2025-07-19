@@ -5,13 +5,22 @@ import LocationGrid from '../components/LocationGrid';
 import { Button } from '@shared-ui/button';
 import { loadCoordinates } from '@shared-lib/loadCoordinates';
 import { EnhancedLocation } from '@shared-types';
+import MapBottomSheet from '../components/MapBottomSheet';
 
 const MapPage = () => {
   const [locations, setLocations] = useState<EnhancedLocation[]>([]);
   const [visibleLocationIds, setVisibleLocationIds] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<'map' | 'list'>('map');
+  const [isBottomSheetOpen, setIsBottomSheetOpen] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isClient) return;
+    
     console.log('MapPage: Starting to load coordinates...');
     loadCoordinates()
       .then((loadedLocations) => {
@@ -21,7 +30,7 @@ const MapPage = () => {
       .catch((error) => {
         console.error('MapPage: Error loading coordinates:', error);
       });
-  }, []);
+  }, [isClient]);
   
 
   const handleVisibleLocationsChange = (ids: string[]) => {
@@ -37,6 +46,31 @@ const MapPage = () => {
 
   const toggleView = () => {
     setViewMode(viewMode === 'map' ? 'list' : 'map');
+  };
+
+  // Bottom sheet configuration
+  const [viewportHeight, setViewportHeight] = useState(0);
+  
+  useEffect(() => {
+    if (!isClient) return;
+    
+    setViewportHeight(window.innerHeight);
+    
+    const handleResize = () => {
+      setViewportHeight(window.innerHeight);
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [isClient]);
+  
+  const mapHeight = Math.floor(viewportHeight * 0.55); // 55vh
+  const bottomSheetMaxHeight = viewportHeight - 48; // Full height minus tab bar
+  
+  const snapPoints = {
+    closed: bottomSheetMaxHeight - 120, // Flush with map bottom + gap
+    partial: Math.floor(viewportHeight * 0.5), // 50% of viewport
+    full: 48, // Just below tab bar
   };
 
   return (
@@ -114,16 +148,23 @@ const MapPage = () => {
               onVisibleLocationsChange={handleVisibleLocationsChange}
             />
           </div>
-          <div className="bg-white border-t border-gray-200 px-4 py-3">
-            <h2 className="text-lg font-semibold">
-              Featured Properties ({visibleLocations.length})
-            </h2>
-          </div>
-          <div className="w-full h-[calc(66.66vh-3.5rem)] bg-white">
-            <div className="overflow-y-auto h-full px-4 pb-4">
-              <LocationGrid locations={visibleLocations} />
-            </div>
-          </div>
+          
+          {/* Bottom Sheet */}
+          {isClient && viewportHeight > 0 && (
+            <MapBottomSheet
+              isOpen={viewMode === 'map'}
+              onClose={() => setViewMode('list')}
+              snapPoints={snapPoints}
+              maxHeight={bottomSheetMaxHeight}
+            >
+              <div className="px-4 py-3">
+                <h2 className="text-lg font-semibold mb-4">
+                  Featured Properties ({visibleLocations.length})
+                </h2>
+                <LocationGrid locations={visibleLocations} />
+              </div>
+            </MapBottomSheet>
+          )}
         </div>
 
         {/* List View */}

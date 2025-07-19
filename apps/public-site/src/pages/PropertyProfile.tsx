@@ -60,6 +60,19 @@ const styles = `
     opacity: 0.9;
     cursor: pointer;
   }
+  
+  /* Dark mode adjustments for better contrast */
+  .dark .unit-grey {
+    stroke: #6B7280;
+  }
+  .dark .unit-blue {
+    fill: #60A5FA;
+    stroke: #2563EB;
+  }
+  .dark .unit-green {
+    fill: #34D399;
+    stroke: #34D399;
+  }
 `;
 
 const PropertyProfile = () => {
@@ -512,7 +525,7 @@ const getFloorplanImage = (floor: string) => {
   
               <div className="flex flex-col lg:flex-row gap-8 min-h-[500px] lg:h-[calc(100vh-200px)]">
                 <div className="w-full lg:w-1/2 h-1/2 lg:h-full">
-                  <div className="bg-neutral-100 rounded-lg border border-gray-200 h-full relative p-4 flex flex-col justify-center">
+                  <div className="bg-neutral-100 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 h-full relative p-4 flex flex-col justify-center">
                     {propertyMetadata?.has_floorplate_viewer && (
                       <FloorplateViewer
                         selectedFloor={selectedFloor}
@@ -529,8 +542,8 @@ const getFloorplanImage = (floor: string) => {
                 </div>
   
                 <div className="w-full lg:w-1/2 h-1/2 lg:h-full flex flex-col">
-                  <div className="bg-gray-50 rounded-lg border border-gray-200 h-[70vh] lg:h-full flex flex-col">
-                    <h3 className="text-lg font-semibold mb-1 px-4 pt-4 pb-1">
+                  <div className="bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 h-[70vh] lg:h-full flex flex-col">
+                    <h3 className="text-lg font-semibold mb-1 px-4 pt-4 pb-1 text-gray-900 dark:text-white">
                       {floorOptions.find(option => option.value === selectedFloor)?.label || `Floor ${selectedFloor}`} Units
                     </h3>
                     <div className="overflow-y-auto p-4 space-y-4">
@@ -669,10 +682,10 @@ const getFloorplanImage = (floor: string) => {
                 )}
               </div>
             ) : (
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="text-gray-600 mb-4">No images available for this property.</p>
-                <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Gallery placeholder</span>
+              <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
+                <p className="text-gray-600 dark:text-gray-400 mb-4">No images available for this property.</p>
+                <div className="h-64 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
+                  <span className="text-gray-500 dark:text-gray-400">Gallery placeholder</span>
                 </div>
               </div>
             )}
@@ -682,8 +695,8 @@ const getFloorplanImage = (floor: string) => {
         {hasVideo && (
           <TabsContent value="video" className="mt-6">
             <div>
-              <h2 className="text-2xl font-semibold mb-4">Property Video</h2>
-              <div className="bg-gray-50 rounded-lg border border-gray-200 p-0 sm:p-6">
+              <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Property Video</h2>
+              <div className="bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 p-0 sm:p-6">
                 {(() => {
                   const videoUrl = propertyMetadata?.property_video;
                   const youtubeId = videoUrl?.split('v=')[1]?.split('&')[0];
@@ -701,7 +714,7 @@ const getFloorplanImage = (floor: string) => {
                     </div>
                   ) : (
                     <div className="h-96 flex items-center justify-center">
-                      <div className="text-center text-gray-500">
+                      <div className="text-center text-gray-500 dark:text-gray-400">
                         <div className="text-lg font-medium mb-2">Video not available</div>
                         <div className="text-sm">The provided video URL is invalid or missing a YouTube ID.</div>
                       </div>

@@ -79,15 +79,15 @@ const LocationDetails = ({ location }: LocationDetailsProps) => {
 
     return (
       <div className="flex flex-col gap-0.5">
-        <div className="text-gray-600 text-sm m-0 p-0">{price}</div>
-        <div className="text-gray-600 text-sm m-0 p-0">{bedrooms}</div>
-        <div className="text-gray-600 text-sm m-0 p-0">{sqft}</div>
+        <div className="text-gray-600 dark:text-gray-400 text-sm m-0 p-0">{price}</div>
+        <div className="text-gray-600 dark:text-gray-400 text-sm m-0 p-0">{bedrooms}</div>
+        <div className="text-gray-600 dark:text-gray-400 text-sm m-0 p-0">{sqft}</div>
       </div>
     );
   }
 
   return (
-    <p className="text-gray-600 mt-1">
+    <p className="text-gray-600 dark:text-gray-400 mt-1">
       {location.description}
     </p>
   );

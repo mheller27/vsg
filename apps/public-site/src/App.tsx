@@ -9,26 +9,29 @@ import NotFound from "./pages/NotFound";
 import MapPage from "./pages/MapPage";
 import PropertyProfile from "./pages/PropertyProfile";
 import GlobalHeader from "./components/GlobalHeader";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <BrowserRouter>
-      <TooltipProvider>
-        <GlobalHeader />
-        <Routes>
-          <Route path="/" element={<MapPage />} />
-          <Route path="/map" element={<MapPage />} />
-          <Route path="/property/:slug" element={<PropertyProfile />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Toaster />
-        <Sonner />
-      </TooltipProvider>
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
+        <TooltipProvider>
+          <GlobalHeader />
+          <Routes>
+            <Route path="/" element={<MapPage />} />
+            <Route path="/map" element={<MapPage />} />
+            <Route path="/property/:slug" element={<PropertyProfile />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <Toaster />
+          <Sonner />
+        </TooltipProvider>
+      </BrowserRouter>
+    </ThemeProvider>
   </QueryClientProvider>
 );
 

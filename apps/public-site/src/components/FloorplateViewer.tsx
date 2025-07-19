@@ -61,18 +61,18 @@ const FloorplateViewer: React.FC<FloorplateViewerProps> = ({
           </div>
 
           {/* Key/Legend */}
-          <div className="absolute top-4 left-4 z-20 flex flex-row gap-2 sm:gap-4 bg-white bg-opacity-80 rounded p-1 sm:p-2 shadow">
+          <div className="absolute top-4 left-4 z-20 flex flex-row gap-2 sm:gap-4 bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-90 rounded p-1 sm:p-2 shadow dark:shadow-lg">
             <div className="flex items-center gap-1 sm:gap-2">
-              <span className="inline-block w-3 h-3 sm:w-4 sm:h-4 rounded-sm bg-blue-500 border border-gray-300" />
-              <span className="text-[10px] sm:text-xs text-gray-700">Unreleased</span>
+              <span className="inline-block w-3 h-3 sm:w-4 sm:h-4 rounded-sm bg-blue-500 border border-gray-300 dark:border-gray-600" />
+              <span className="text-[10px] sm:text-xs text-gray-700 dark:text-gray-300">Unreleased</span>
             </div>
             <div className="flex items-center gap-1 sm:gap-2">
-              <span className="inline-block w-3 h-3 sm:w-4 sm:h-4 rounded-sm bg-emerald-400 border border-gray-300" />
-              <span className="text-[10px] sm:text-xs text-gray-700">For Sale</span>
+              <span className="inline-block w-3 h-3 sm:w-4 sm:h-4 rounded-sm bg-emerald-400 border border-gray-300 dark:border-gray-600" />
+              <span className="text-[10px] sm:text-xs text-gray-700 dark:text-gray-300">For Sale</span>
             </div>
             <div className="flex items-center gap-1 sm:gap-2">
-              <span className="inline-block w-3 h-3 sm:w-4 sm:h-4 rounded-sm bg-white border border-gray-300" />
-              <span className="text-[10px] sm:text-xs text-gray-700">Unavailable</span>
+              <span className="inline-block w-3 h-3 sm:w-4 sm:h-4 rounded-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600" />
+              <span className="text-[10px] sm:text-xs text-gray-700 dark:text-gray-300">Unavailable</span>
             </div>
           </div>
 

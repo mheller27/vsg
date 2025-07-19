@@ -14,10 +14,10 @@ const LocationCard = ({ location }: LocationCardProps) => {
   };
 
   return (
-    <Card className="overflow-hidden hover:shadow-md transition-shadow relative">
+    <Card className="overflow-hidden hover:shadow-md dark:hover:shadow-lg dark:hover:shadow-gray-900/50 transition-shadow relative">
       <LocationImageDisplay location={location} />
       <CardContent className="p-4 relative">
-        <h3 className="font-semibold text-lg">{location.title}</h3>
+        <h3 className="font-semibold text-lg text-gray-900 dark:text-white">{location.title}</h3>
         <LocationDetails location={location} />
         
         {/* View Details button positioned in bottom-right corner */}

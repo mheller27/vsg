@@ -68,6 +68,43 @@ const MapPage = () => {
 
       {/* Mobile Layout */}
       <div className="md:hidden">
+        {/* Compact Tab Navigation */}
+        <div className="bg-white border-b border-gray-200">
+          <div className="flex">
+            <button
+              onClick={() => setViewMode('map')}
+              className={`flex-1 py-2 px-4 text-sm font-medium border-b-2 transition-colors ${
+                viewMode === 'map'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              <div className="flex items-center justify-center gap-1">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" strokeWidth="2" fill="none"/>
+                  <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="2" fill="none"/>
+                </svg>
+                <span>Map</span>
+              </div>
+            </button>
+            <button
+              onClick={() => setViewMode('list')}
+              className={`flex-1 py-2 px-4 text-sm font-medium border-b-2 transition-colors ${
+                viewMode === 'list'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              <div className="flex items-center justify-center gap-1">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
+                <span>List</span>
+              </div>
+            </button>
+          </div>
+        </div>
+
         {/* Map View */}
         <div className={viewMode === 'map' ? '' : 'hidden'}>
           <div className="px-4 h-[55vh]">
@@ -77,36 +114,10 @@ const MapPage = () => {
               onVisibleLocationsChange={handleVisibleLocationsChange}
             />
           </div>
-          {/* Toggle button and headline below map */}
           <div className="bg-white border-t border-gray-200 px-4 py-3">
-            <div className="flex items-center justify-between">
-              <h2 className="text-lg font-semibold">
-                Featured Properties ({visibleLocations.length})
-              </h2>
-              <Button
-                onClick={toggleView}
-                variant="outline"
-                size="sm"
-                className="flex items-center gap-2"
-              >
-                {viewMode === 'map' ? (
-                  <>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                      <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                    <span>List</span>
-                  </>
-                ) : (
-                  <>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" strokeWidth="2" fill="none"/>
-                      <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="2" fill="none"/>
-                    </svg>
-                    <span>Map</span>
-                  </>
-                )}
-              </Button>
-            </div>
+            <h2 className="text-lg font-semibold">
+              Featured Properties ({visibleLocations.length})
+            </h2>
           </div>
           <div className="w-full h-[calc(66.66vh-3.5rem)] bg-white">
             <div className="overflow-y-auto h-full px-4 pb-4">
@@ -117,7 +128,7 @@ const MapPage = () => {
 
         {/* List View */}
         <div className={viewMode === 'list' ? '' : 'hidden'}>
-          <div className="h-screen w-full pt-16 overflow-hidden bg-white">
+          <div className="h-[calc(100vh-3rem)] w-full overflow-hidden bg-white">
             <div className="h-full px-4 py-4 overflow-y-auto">
               <LocationGrid locations={visibleLocations} />
             </div>

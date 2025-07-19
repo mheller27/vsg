@@ -86,6 +86,11 @@ const PropertyProfile = () => {
     }
   }, [propertyData, selectedFloor]);
 
+  // Ensure users land at the top of the page when navigating to property profile
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [slug]);
+
   
   const [filteredUnits, setFilteredUnits] = useState<Unit[]>([]);
   const [selectedBedrooms, setSelectedBedrooms] = useState<number | null>(null);
@@ -505,7 +510,7 @@ const getFloorplanImage = (floor: string) => {
                   )}
 
   
-              <div className="flex flex-col lg:flex-row gap-8 h-[calc(100vh-200px)]">
+              <div className="flex flex-col lg:flex-row gap-8 min-h-[500px] lg:h-[calc(100vh-200px)]">
                 <div className="w-full lg:w-1/2 h-1/2 lg:h-full">
                   <div className="bg-neutral-100 rounded-lg border border-gray-200 h-full relative p-4 flex flex-col justify-center">
                     {propertyMetadata?.has_floorplate_viewer && (
@@ -579,7 +584,7 @@ const getFloorplanImage = (floor: string) => {
                           <img
                             src={thumbnailPath}
                             alt={`Gallery image ${idx + 1}`}
-                            className="rounded-lg shadow-sm object-cover w-full cursor-pointer hover:opacity-90 transition-opacity"
+                            className="rounded-lg shadow-sm object-cover w-full cursor-pointer transition-opacity"
                             onClick={() => {
                               setSwiperIndex(idx);
                               setSwiperModalOpen(true);

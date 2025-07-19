@@ -4,7 +4,6 @@ import { useSmartBack } from "@/components/useSmartBack";
 import { useLocation } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import Logo from "./Logo";
-import { useTheme } from "../contexts/ThemeContext";
 
 const BackButton = () => {
   const goBack = useSmartBack("/map");
@@ -38,12 +37,6 @@ const BackButton = () => {
 };
 
 const GlobalHeader = () => {
-  const { theme } = useTheme();
-  
-  // Debug: Log the current theme
-  console.log('GlobalHeader - Current theme:', theme);
-  console.log('GlobalHeader - Document has dark class:', document.documentElement.classList.contains('dark'));
-  
   return (
     <>
       {/* Desktop Header */}
@@ -62,10 +55,6 @@ const GlobalHeader = () => {
 
         {/* Right: Sign Up / Sign In and Hamburger Menu */}
         <div className="flex items-center space-x-2 ml-auto">
-          {/* Debug: Theme indicator */}
-          <div className="text-xs px-2 py-1 rounded bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
-            Theme: {theme}
-          </div>
           <button className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white font-medium transition-colors">
             Sign Up / Sign In
           </button>
@@ -98,10 +87,6 @@ const GlobalHeader = () => {
 
         {/* Theme Toggle and Hamburger Icon - absolutely right */}
         <div className="absolute right-0 flex items-center h-full pr-4 space-x-2">
-            {/* Debug: Theme indicator */}
-            <div className="text-xs px-1 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
-                {theme}
-            </div>
             <ThemeToggle />
             <button className="py-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors">
             <svg
